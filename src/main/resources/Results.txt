@@ -1,0 +1,1286 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61395:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar:/Users/jonathanhinds/Desktop/enemyevolve/target/classes Simulator
+0: [2.0, 2.0, 2.0, 2.0, 4.0]
+1: [2.0, 1.0, 3.0, 1.0, 5.0]
+2: [3.0, 2.0, 5.0, 1.0, 1.0]
+3: [1.0, 1.0, 3.0, 1.0, 6.0]
+4: [1.0, 2.0, 2.0, 6.0, 1.0]
+5: [4.0, 2.0, 2.0, 2.0, 2.0]
+6: [1.0, 2.0, 1.0, 7.0, 1.0]
+7: [3.0, 1.0, 4.0, 3.0, 1.0]
+8: [2.0, 1.0, 2.0, 2.0, 5.0]
+9: [1.0, 1.0, 1.0, 1.0, 8.0]
+10: [1.0, 1.0, 2.0, 2.0, 6.0]
+11: [1.0, 1.0, 6.0, 2.0, 2.0]
+12: [1.0, 3.0, 5.0, 2.0, 1.0]
+13: [2.0, 2.0, 4.0, 2.0, 2.0]
+14: [8.0, 1.0, 1.0, 1.0, 1.0]
+15: [2.0, 1.0, 6.0, 1.0, 2.0]
+16: [1.0, 2.0, 1.0, 7.0, 1.0]
+17: [1.0, 1.0, 1.0, 1.0, 8.0]
+18: [1.0, 6.0, 3.0, 1.0, 1.0]
+19: [1.0, 3.0, 2.0, 5.0, 1.0]
+20: [6.0, 2.0, 1.0, 1.0, 2.0]
+21: [4.0, 4.0, 1.0, 1.0, 2.0]
+22: [1.0, 2.0, 1.0, 5.0, 3.0]
+23: [1.0, 5.0, 4.0, 1.0, 1.0]
+24: [1.0, 1.0, 3.0, 1.0, 6.0]
+25: [1.0, 2.0, 1.0, 3.0, 5.0]
+26: [1.0, 3.0, 2.0, 5.0, 1.0]
+27: [2.0, 2.0, 2.0, 2.0, 4.0]
+28: [3.0, 1.0, 1.0, 3.0, 4.0]
+29: [3.0, 4.0, 1.0, 2.0, 2.0]
+30: [1.0, 6.0, 2.0, 2.0, 1.0]
+31: [3.0, 1.0, 5.0, 2.0, 1.0]
+32: [1.0, 3.0, 1.0, 2.0, 5.0]
+33: [1.0, 2.0, 5.0, 1.0, 3.0]
+34: [7.0, 1.0, 1.0, 1.0, 2.0]
+35: [1.0, 3.0, 2.0, 4.0, 2.0]
+36: [2.0, 1.0, 7.0, 1.0, 1.0]
+37: [3.0, 6.0, 1.0, 1.0, 1.0]
+38: [1.0, 5.0, 1.0, 3.0, 2.0]
+39: [2.0, 1.0, 5.0, 1.0, 3.0]
+40: [4.0, 2.0, 1.0, 2.0, 3.0]
+41: [4.0, 1.0, 1.0, 4.0, 2.0]
+42: [5.0, 1.0, 1.0, 4.0, 1.0]
+43: [1.0, 2.0, 1.0, 1.0, 7.0]
+44: [8.0, 1.0, 1.0, 1.0, 1.0]
+45: [1.0, 4.0, 4.0, 2.0, 1.0]
+46: [2.0, 1.0, 1.0, 1.0, 7.0]
+47: [1.0, 5.0, 3.0, 2.0, 1.0]
+48: [1.0, 1.0, 1.0, 1.0, 8.0]
+49: [1.0, 1.0, 3.0, 6.0, 1.0]
+50: [1.0, 1.0, 8.0, 1.0, 1.0]
+51: [1.0, 1.0, 7.0, 2.0, 1.0]
+52: [2.0, 1.0, 1.0, 1.0, 7.0]
+53: [4.0, 1.0, 1.0, 3.0, 3.0]
+54: [1.0, 4.0, 3.0, 1.0, 3.0]
+55: [2.0, 7.0, 1.0, 1.0, 1.0]
+56: [7.0, 2.0, 1.0, 1.0, 1.0]
+57: [1.0, 1.0, 1.0, 1.0, 8.0]
+58: [2.0, 6.0, 1.0, 1.0, 2.0]
+59: [1.0, 1.0, 1.0, 4.0, 5.0]
+60: [6.0, 1.0, 2.0, 2.0, 1.0]
+61: [2.0, 1.0, 6.0, 1.0, 2.0]
+62: [3.0, 1.0, 2.0, 1.0, 5.0]
+63: [1.0, 8.0, 1.0, 1.0, 1.0]
+64: [1.0, 1.0, 4.0, 4.0, 2.0]
+65: [1.0, 2.0, 3.0, 3.0, 3.0]
+66: [1.0, 3.0, 1.0, 6.0, 1.0]
+67: [3.0, 1.0, 1.0, 6.0, 1.0]
+68: [1.0, 6.0, 3.0, 1.0, 1.0]
+69: [1.0, 8.0, 1.0, 1.0, 1.0]
+70: [2.0, 5.0, 2.0, 2.0, 1.0]
+71: [4.0, 3.0, 1.0, 3.0, 1.0]
+72: [1.0, 1.0, 8.0, 1.0, 1.0]
+73: [2.0, 1.0, 7.0, 1.0, 1.0]
+74: [2.0, 1.0, 1.0, 4.0, 4.0]
+75: [1.0, 3.0, 2.0, 4.0, 2.0]
+76: [3.0, 1.0, 1.0, 2.0, 5.0]
+77: [8.0, 1.0, 1.0, 1.0, 1.0]
+78: [1.0, 1.0, 8.0, 1.0, 1.0]
+79: [1.0, 5.0, 2.0, 2.0, 2.0]
+80: [2.0, 1.0, 7.0, 1.0, 1.0]
+81: [1.0, 2.0, 6.0, 1.0, 2.0]
+82: [2.0, 4.0, 1.0, 3.0, 2.0]
+83: [8.0, 1.0, 1.0, 1.0, 1.0]
+84: [2.0, 1.0, 6.0, 1.0, 2.0]
+85: [6.0, 3.0, 1.0, 1.0, 1.0]
+86: [4.0, 5.0, 1.0, 1.0, 1.0]
+87: [2.0, 1.0, 1.0, 1.0, 7.0]
+88: [2.0, 3.0, 1.0, 1.0, 5.0]
+89: [1.0, 5.0, 1.0, 4.0, 1.0]
+90: [1.0, 5.0, 1.0, 1.0, 4.0]
+91: [4.0, 1.0, 3.0, 2.0, 2.0]
+92: [1.0, 1.0, 8.0, 1.0, 1.0]
+93: [2.0, 1.0, 1.0, 1.0, 7.0]
+94: [1.0, 3.0, 6.0, 1.0, 1.0]
+95: [6.0, 1.0, 3.0, 1.0, 1.0]
+96: [1.0, 1.0, 1.0, 1.0, 8.0]
+97: [1.0, 1.0, 1.0, 3.0, 6.0]
+98: [1.0, 2.0, 3.0, 1.0, 5.0]
+99: [2.0, 1.0, 2.0, 1.0, 6.0]
+
+Player     has  16.00 HP.
+Enemy 0    has  16.00 HP.
+Player       has dealt  13.50, Enemy 0      HP:   2.50
+Enemy 0      has dealt   7.50, Player       HP:   8.50
+Player       has dealt  14.50, Enemy 0      HP: -12.00
+OUTCOME: Enemy 0 has been defeated, HP: -12.0
+
+Enemy 0 Fitness Score: 7.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 1    has  16.00 HP.
+Player       has dealt  11.25, Enemy 1      HP:   4.75
+Enemy 1      has dealt   4.25, Player       HP:  11.75
+Player       has dealt  13.25, Enemy 1      HP:  -8.50
+OUTCOME: Enemy 1 has been defeated, HP: -8.5
+
+Enemy 1 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 2    has  24.00 HP.
+Enemy 2      has dealt   8.25, Player       HP:   7.75
+Player       has dealt  12.25, Enemy 2      HP:  11.75
+Enemy 2      has dealt   8.25, Player       HP:  -0.50
+OUTCOME: Player has been defeated, HP: -0.5
+
+Enemy 2 Fitness Score: 16.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 3    has   8.00 HP.
+Player       has dealt  10.00, Enemy 3      HP:  -2.00
+OUTCOME: Enemy 3 has been defeated, HP: -2.0
+
+Enemy 3 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 4    has   8.00 HP.
+Enemy 4      has dealt  27.25, Player       HP: -11.25
+OUTCOME: Player has been defeated, HP: -11.25
+
+Enemy 4 Fitness Score: 27.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 5    has  32.00 HP.
+Player       has dealt  17.00, Enemy 5      HP:  15.00
+Enemy 5      has dealt   7.00, Player       HP:   9.00
+Player       has dealt  14.00, Enemy 5      HP:   1.00
+Enemy 5      has dealt  10.00, Player       HP:  -1.00
+OUTCOME: Player has been defeated, HP: -1.0
+
+Enemy 5 Fitness Score: 17.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 6    has   8.00 HP.
+Enemy 6      has dealt  26.25, Player       HP: -10.25
+OUTCOME: Player has been defeated, HP: -10.25
+
+Enemy 6 Fitness Score: 26.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 7    has  24.00 HP.
+Enemy 7      has dealt   8.25, Player       HP:   7.75
+Player       has dealt   8.25, Enemy 7      HP:  15.75
+Enemy 7      has dealt   9.25, Player       HP:  -1.50
+OUTCOME: Player has been defeated, HP: -1.5
+
+Enemy 7 Fitness Score: 17.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 8    has  16.00 HP.
+Player       has dealt  14.25, Enemy 8      HP:   1.75
+Enemy 8      has dealt   4.25, Player       HP:  11.75
+Player       has dealt  10.25, Enemy 8      HP:  -8.50
+OUTCOME: Enemy 8 has been defeated, HP: -8.5
+
+Enemy 8 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 9    has   8.00 HP.
+Player       has dealt  10.50, Enemy 9      HP:  -2.50
+OUTCOME: Enemy 9 has been defeated, HP: -2.5
+
+Enemy 9 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 10   has   8.00 HP.
+Player       has dealt  15.00, Enemy 10     HP:  -7.00
+OUTCOME: Enemy 10 has been defeated, HP: -7.0
+
+Enemy 10 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 11   has   8.00 HP.
+Player       has dealt  17.00, Enemy 11     HP:  -9.00
+OUTCOME: Enemy 11 has been defeated, HP: -9.0
+
+Enemy 11 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 12   has   8.00 HP.
+Enemy 12     has dealt   7.25, Player       HP:   8.75
+Player       has dealt  13.25, Enemy 12     HP:  -5.25
+OUTCOME: Enemy 12 has been defeated, HP: -5.25
+
+Enemy 12 Fitness Score: 7.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 13   has  16.00 HP.
+Player       has dealt  10.00, Enemy 13     HP:   6.00
+Enemy 13     has dealt   7.00, Player       HP:   9.00
+Player       has dealt  14.00, Enemy 13     HP:  -8.00
+OUTCOME: Enemy 13 has been defeated, HP: -8.0
+Enemy 13     has dealt   7.00, Player       HP:   9.00
+
+Enemy 13 Fitness Score: 14.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 14   has  64.00 HP.
+Enemy 14     has dealt   3.25, Player       HP:  12.75
+Player       has dealt  11.25, Enemy 14     HP:  52.75
+Enemy 14     has dealt   4.25, Player       HP:   8.50
+Player       has dealt  10.25, Enemy 14     HP:  42.50
+Enemy 14     has dealt   4.25, Player       HP:   4.25
+Player       has dealt  12.25, Enemy 14     HP:  30.25
+Enemy 14     has dealt   4.25, Player       HP:   0.00
+OUTCOME: Player has been defeated, HP: 0.0
+
+Enemy 14 Fitness Score: 16.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 15   has  16.00 HP.
+Player       has dealt  17.00, Enemy 15     HP:  -1.00
+OUTCOME: Enemy 15 has been defeated, HP: -1.0
+
+Enemy 15 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 16   has   8.00 HP.
+Enemy 16     has dealt  27.25, Player       HP: -11.25
+OUTCOME: Player has been defeated, HP: -11.25
+
+Enemy 16 Fitness Score: 27.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 17   has   8.00 HP.
+Player       has dealt  16.50, Enemy 17     HP:  -8.50
+OUTCOME: Enemy 17 has been defeated, HP: -8.5
+
+Enemy 17 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 18   has   8.00 HP.
+Enemy 18     has dealt   4.25, Player       HP:  11.75
+Player       has dealt  13.25, Enemy 18     HP:  -5.25
+OUTCOME: Enemy 18 has been defeated, HP: -5.25
+
+Enemy 18 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 19   has   8.00 HP.
+Enemy 19     has dealt  17.25, Player       HP:  -1.25
+OUTCOME: Player has been defeated, HP: -1.25
+
+Enemy 19 Fitness Score: 17.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 20   has  48.00 HP.
+Enemy 20     has dealt   2.00, Player       HP:  14.00
+Player       has dealt  14.00, Enemy 20     HP:  34.00
+Player       has dealt  18.00, Enemy 20     HP:  16.00
+Enemy 20     has dealt   5.00, Player       HP:   9.00
+Enemy 20     has dealt   3.00, Player       HP:   6.00
+Player       has dealt  14.00, Enemy 20     HP:   2.00
+Enemy 20     has dealt   5.00, Player       HP:   1.00
+Player       has dealt  19.00, Enemy 20     HP: -17.00
+OUTCOME: Enemy 20 has been defeated, HP: -17.0
+
+Enemy 20 Fitness Score: 15.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 21   has  32.00 HP.
+Enemy 21     has dealt   4.00, Player       HP:  12.00
+Player       has dealt  19.00, Enemy 21     HP:  13.00
+Enemy 21     has dealt   2.00, Player       HP:  10.00
+Player       has dealt   9.00, Enemy 21     HP:   4.00
+Enemy 21     has dealt   2.00, Player       HP:   8.00
+Player       has dealt   8.00, Enemy 21     HP:  -4.00
+OUTCOME: Enemy 21 has been defeated, HP: -4.0
+
+Enemy 21 Fitness Score: 8.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 22   has   8.00 HP.
+Player       has dealt  15.75, Enemy 22     HP:  -7.75
+OUTCOME: Enemy 22 has been defeated, HP: -7.75
+
+Enemy 22 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 23   has   8.00 HP.
+Enemy 23     has dealt  10.25, Player       HP:   5.75
+Player       has dealt  16.25, Enemy 23     HP:  -8.25
+OUTCOME: Enemy 23 has been defeated, HP: -8.25
+
+Enemy 23 Fitness Score: 10.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 24   has   8.00 HP.
+Player       has dealt   8.00, Enemy 24     HP:   0.00
+OUTCOME: Enemy 24 has been defeated, HP: 0.0
+
+Enemy 24 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 25   has   8.00 HP.
+Player       has dealt  15.25, Enemy 25     HP:  -7.25
+OUTCOME: Enemy 25 has been defeated, HP: -7.25
+
+Enemy 25 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 26   has   8.00 HP.
+Enemy 26     has dealt  10.25, Player       HP:   5.75
+Player       has dealt  10.25, Enemy 26     HP:  -2.25
+OUTCOME: Enemy 26 has been defeated, HP: -2.25
+
+Enemy 26 Fitness Score: 10.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 27   has  16.00 HP.
+Player       has dealt  15.50, Enemy 27     HP:   0.50
+Enemy 27     has dealt   5.50, Player       HP:  10.50
+Player       has dealt  13.50, Enemy 27     HP: -13.00
+OUTCOME: Enemy 27 has been defeated, HP: -13.0
+
+Enemy 27 Fitness Score: 5.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 28   has  24.00 HP.
+Player       has dealt   9.50, Enemy 28     HP:  14.50
+Enemy 28     has dealt   6.50, Player       HP:   9.50
+Player       has dealt  13.50, Enemy 28     HP:   1.00
+Enemy 28     has dealt   7.50, Player       HP:   2.00
+Player       has dealt  12.50, Enemy 28     HP: -11.50
+OUTCOME: Enemy 28 has been defeated, HP: -11.5
+
+Enemy 28 Fitness Score: 14.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 29   has  24.00 HP.
+Enemy 29     has dealt  10.00, Player       HP:   6.00
+Player       has dealt  17.00, Enemy 29     HP:   7.00
+Enemy 29     has dealt   9.00, Player       HP:  -3.00
+OUTCOME: Player has been defeated, HP: -3.0
+
+Enemy 29 Fitness Score: 19.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 30   has   8.00 HP.
+Enemy 30     has dealt   4.25, Player       HP:  11.75
+Player       has dealt  14.25, Enemy 30     HP:  -6.25
+OUTCOME: Enemy 30 has been defeated, HP: -6.25
+
+Enemy 30 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 31   has  24.00 HP.
+Enemy 31     has dealt   8.25, Player       HP:   7.75
+Player       has dealt  16.25, Enemy 31     HP:   7.75
+Enemy 31     has dealt  13.25, Player       HP:  -5.50
+OUTCOME: Player has been defeated, HP: -5.5
+
+Enemy 31 Fitness Score: 21.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 32   has   8.00 HP.
+Player       has dealt  14.25, Enemy 32     HP:  -6.25
+OUTCOME: Enemy 32 has been defeated, HP: -6.25
+
+Enemy 32 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 33   has   8.00 HP.
+Player       has dealt  10.75, Enemy 33     HP:  -2.75
+OUTCOME: Enemy 33 has been defeated, HP: -2.75
+
+Enemy 33 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 34   has  56.00 HP.
+Player       has dealt  17.00, Enemy 34     HP:  39.00
+Enemy 34     has dealt   3.00, Player       HP:  13.00
+Player       has dealt  16.00, Enemy 34     HP:  23.00
+Enemy 34     has dealt   3.00, Player       HP:  10.00
+Player       has dealt  10.00, Enemy 34     HP:  13.00
+Enemy 34     has dealt   4.00, Player       HP:   6.00
+Player       has dealt  18.00, Enemy 34     HP:  -5.00
+OUTCOME: Enemy 34 has been defeated, HP: -5.0
+
+Enemy 34 Fitness Score: 10.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 35   has   8.00 HP.
+Enemy 35     has dealt   8.00, Player       HP:   8.00
+Player       has dealt  12.00, Enemy 35     HP:  -4.00
+OUTCOME: Enemy 35 has been defeated, HP: -4.0
+
+Enemy 35 Fitness Score: 8.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 36   has  16.00 HP.
+Enemy 36     has dealt  10.25, Player       HP:   5.75
+Player       has dealt  18.25, Enemy 36     HP:  -2.25
+OUTCOME: Enemy 36 has been defeated, HP: -2.25
+
+Enemy 36 Fitness Score: 10.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 37   has  24.00 HP.
+Enemy 37     has dealt   6.25, Player       HP:   9.75
+Player       has dealt  16.25, Enemy 37     HP:   7.75
+Enemy 37     has dealt   9.25, Player       HP:   0.50
+Player       has dealt  12.25, Enemy 37     HP:  -4.50
+OUTCOME: Enemy 37 has been defeated, HP: -4.5
+
+Enemy 37 Fitness Score: 15.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 38   has   8.00 HP.
+Enemy 38     has dealt   8.00, Player       HP:   8.00
+Player       has dealt  12.00, Enemy 38     HP:  -4.00
+OUTCOME: Enemy 38 has been defeated, HP: -4.0
+
+Enemy 38 Fitness Score: 8.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 39   has  16.00 HP.
+Player       has dealt  16.75, Enemy 39     HP:  -0.75
+OUTCOME: Enemy 39 has been defeated, HP: -0.75
+
+Enemy 39 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 40   has  32.00 HP.
+Player       has dealt  16.75, Enemy 40     HP:  15.25
+Enemy 40     has dealt   7.75, Player       HP:   8.25
+Player       has dealt  17.75, Enemy 40     HP:  -2.50
+OUTCOME: Enemy 40 has been defeated, HP: -2.5
+
+Enemy 40 Fitness Score: 7.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 41   has  32.00 HP.
+Player       has dealt  12.00, Enemy 41     HP:  20.00
+Enemy 41     has dealt  14.00, Player       HP:   2.00
+Player       has dealt  10.00, Enemy 41     HP:  10.00
+Enemy 41     has dealt  13.00, Player       HP: -11.00
+OUTCOME: Player has been defeated, HP: -11.0
+
+Enemy 41 Fitness Score: 27.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 42   has  40.00 HP.
+Enemy 42     has dealt  10.25, Player       HP:   5.75
+Player       has dealt   8.25, Enemy 42     HP:  31.75
+Enemy 42     has dealt  16.25, Player       HP: -10.50
+OUTCOME: Player has been defeated, HP: -10.5
+
+Enemy 42 Fitness Score: 26.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 43   has   8.00 HP.
+Player       has dealt   8.75, Enemy 43     HP:  -0.75
+OUTCOME: Enemy 43 has been defeated, HP: -0.75
+
+Enemy 43 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 44   has  64.00 HP.
+Enemy 44     has dealt   3.25, Player       HP:  12.75
+Player       has dealt  17.25, Enemy 44     HP:  46.75
+Enemy 44     has dealt   4.25, Player       HP:   8.50
+Player       has dealt   9.25, Enemy 44     HP:  37.50
+Enemy 44     has dealt   3.25, Player       HP:   5.25
+Player       has dealt  13.25, Enemy 44     HP:  24.25
+Enemy 44     has dealt   3.25, Player       HP:   2.00
+Player       has dealt  16.25, Enemy 44     HP:   8.00
+Enemy 44     has dealt   3.25, Player       HP:  -1.25
+OUTCOME: Player has been defeated, HP: -1.25
+
+Enemy 44 Fitness Score: 17.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 45   has   8.00 HP.
+Enemy 45     has dealt   4.25, Player       HP:  11.75
+Player       has dealt  17.25, Enemy 45     HP:  -9.25
+OUTCOME: Enemy 45 has been defeated, HP: -9.25
+
+Enemy 45 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 46   has  16.00 HP.
+Player       has dealt  11.75, Enemy 46     HP:   4.25
+Enemy 46     has dealt   2.75, Player       HP:  13.25
+Player       has dealt  16.75, Enemy 46     HP: -12.50
+OUTCOME: Enemy 46 has been defeated, HP: -12.5
+
+Enemy 46 Fitness Score: 2.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 47   has   8.00 HP.
+Enemy 47     has dealt   8.25, Player       HP:   7.75
+Player       has dealt  13.25, Enemy 47     HP:  -5.25
+OUTCOME: Enemy 47 has been defeated, HP: -5.25
+
+Enemy 47 Fitness Score: 8.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 48   has   8.00 HP.
+Player       has dealt  16.50, Enemy 48     HP:  -8.50
+OUTCOME: Enemy 48 has been defeated, HP: -8.5
+
+Enemy 48 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 49   has   8.00 HP.
+Enemy 49     has dealt  18.25, Player       HP:  -2.25
+OUTCOME: Player has been defeated, HP: -2.25
+
+Enemy 49 Fitness Score: 18.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 50   has   8.00 HP.
+Enemy 50     has dealt   5.25, Player       HP:  10.75
+Player       has dealt  17.25, Enemy 50     HP:  -9.25
+OUTCOME: Enemy 50 has been defeated, HP: -9.25
+
+Enemy 50 Fitness Score: 5.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 51   has   8.00 HP.
+Enemy 51     has dealt  13.25, Player       HP:   2.75
+Player       has dealt  13.25, Enemy 51     HP:  -5.25
+OUTCOME: Enemy 51 has been defeated, HP: -5.25
+
+Enemy 51 Fitness Score: 13.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 52   has  16.00 HP.
+Player       has dealt  12.75, Enemy 52     HP:   3.25
+Enemy 52     has dealt   0.75, Player       HP:  15.25
+Player       has dealt  16.75, Enemy 52     HP: -13.50
+OUTCOME: Enemy 52 has been defeated, HP: -13.5
+
+Enemy 52 Fitness Score: 0.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 53   has  32.00 HP.
+Player       has dealt  16.75, Enemy 53     HP:  15.25
+Enemy 53     has dealt   7.75, Player       HP:   8.25
+Player       has dealt   9.75, Enemy 53     HP:   5.50
+Enemy 53     has dealt  12.75, Player       HP:  -4.50
+OUTCOME: Player has been defeated, HP: -4.5
+
+Enemy 53 Fitness Score: 20.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 54   has   8.00 HP.
+Player       has dealt   8.75, Enemy 54     HP:  -0.75
+OUTCOME: Enemy 54 has been defeated, HP: -0.75
+
+Enemy 54 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 55   has  16.00 HP.
+Enemy 55     has dealt  11.25, Player       HP:   4.75
+Player       has dealt  12.25, Enemy 55     HP:   3.75
+Enemy 55     has dealt  11.25, Player       HP:  -6.50
+OUTCOME: Player has been defeated, HP: -6.5
+
+Enemy 55 Fitness Score: 22.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 56   has  56.00 HP.
+Enemy 56     has dealt   4.25, Player       HP:  11.75
+Player       has dealt   8.25, Enemy 56     HP:  47.75
+Enemy 56     has dealt   5.25, Player       HP:   6.50
+Player       has dealt  15.25, Enemy 56     HP:  32.50
+Enemy 56     has dealt   5.25, Player       HP:   1.25
+Player       has dealt   8.25, Enemy 56     HP:  24.25
+Enemy 56     has dealt   5.25, Player       HP:  -4.00
+OUTCOME: Player has been defeated, HP: -4.0
+
+Enemy 56 Fitness Score: 20.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 57   has   8.00 HP.
+Player       has dealt   8.50, Enemy 57     HP:  -0.50
+OUTCOME: Enemy 57 has been defeated, HP: -0.5
+
+Enemy 57 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 58   has  16.00 HP.
+Enemy 58     has dealt   3.00, Player       HP:  13.00
+Player       has dealt  15.00, Enemy 58     HP:   1.00
+Enemy 58     has dealt   3.00, Player       HP:  10.00
+Player       has dealt  11.00, Enemy 58     HP: -10.00
+OUTCOME: Enemy 58 has been defeated, HP: -10.0
+
+Enemy 58 Fitness Score: 6.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 59   has   8.00 HP.
+Player       has dealt   8.25, Enemy 59     HP:  -0.25
+OUTCOME: Enemy 59 has been defeated, HP: -0.25
+
+Enemy 59 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 60   has  48.00 HP.
+Enemy 60     has dealt   8.25, Player       HP:   7.75
+Player       has dealt  12.25, Enemy 60     HP:  35.75
+Enemy 60     has dealt   4.25, Player       HP:   3.50
+Player       has dealt  14.25, Enemy 60     HP:  21.50
+Enemy 60     has dealt   8.25, Player       HP:  -4.75
+OUTCOME: Player has been defeated, HP: -4.75
+
+Enemy 60 Fitness Score: 20.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 61   has  16.00 HP.
+Player       has dealt  19.00, Enemy 61     HP:  -3.00
+OUTCOME: Enemy 61 has been defeated, HP: -3.0
+
+Enemy 61 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 62   has  24.00 HP.
+Player       has dealt  11.25, Enemy 62     HP:  12.75
+Enemy 62     has dealt   3.25, Player       HP:  12.75
+Player       has dealt  17.25, Enemy 62     HP:  -4.50
+OUTCOME: Enemy 62 has been defeated, HP: -4.5
+
+Enemy 62 Fitness Score: 3.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 63   has   8.00 HP.
+Enemy 63     has dealt   2.25, Player       HP:  13.75
+Player       has dealt   8.25, Enemy 63     HP:  -0.25
+OUTCOME: Enemy 63 has been defeated, HP: -0.25
+
+Enemy 63 Fitness Score: 2.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 64   has   8.00 HP.
+Player       has dealt  14.00, Enemy 64     HP:  -6.00
+OUTCOME: Enemy 64 has been defeated, HP: -6.0
+
+Enemy 64 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 65   has   8.00 HP.
+Player       has dealt   7.75, Enemy 65     HP:   0.25
+Enemy 65     has dealt  12.75, Player       HP:   3.25
+Player       has dealt  12.75, Enemy 65     HP: -12.50
+OUTCOME: Enemy 65 has been defeated, HP: -12.5
+
+Enemy 65 Fitness Score: 12.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 66   has   8.00 HP.
+Enemy 66     has dealt  13.25, Player       HP:   2.75
+Player       has dealt  14.25, Enemy 66     HP:  -6.25
+OUTCOME: Enemy 66 has been defeated, HP: -6.25
+
+Enemy 66 Fitness Score: 13.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 67   has  24.00 HP.
+Enemy 67     has dealt  16.25, Player       HP:  -0.25
+OUTCOME: Player has been defeated, HP: -0.25
+
+Enemy 67 Fitness Score: 16.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 68   has   8.00 HP.
+Enemy 68     has dealt   4.25, Player       HP:  11.75
+Player       has dealt   9.25, Enemy 68     HP:  -1.25
+OUTCOME: Enemy 68 has been defeated, HP: -1.25
+
+Enemy 68 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 69   has   8.00 HP.
+Enemy 69     has dealt   9.25, Player       HP:   6.75
+Player       has dealt  17.25, Enemy 69     HP:  -9.25
+OUTCOME: Enemy 69 has been defeated, HP: -9.25
+
+Enemy 69 Fitness Score: 9.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 70   has  16.00 HP.
+Enemy 70     has dealt  10.25, Player       HP:   5.75
+Player       has dealt  10.25, Enemy 70     HP:   5.75
+Enemy 70     has dealt   7.25, Player       HP:  -1.50
+OUTCOME: Player has been defeated, HP: -1.5
+
+Enemy 70 Fitness Score: 17.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 71   has  32.00 HP.
+Enemy 71     has dealt   6.25, Player       HP:   9.75
+Player       has dealt  16.25, Enemy 71     HP:  15.75
+Enemy 71     has dealt   8.25, Player       HP:   1.50
+Player       has dealt  13.25, Enemy 71     HP:   2.50
+Enemy 71     has dealt  10.25, Player       HP:  -8.75
+OUTCOME: Player has been defeated, HP: -8.75
+
+Enemy 71 Fitness Score: 24.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 72   has   8.00 HP.
+Enemy 72     has dealt   8.25, Player       HP:   7.75
+Player       has dealt   8.25, Enemy 72     HP:  -0.25
+OUTCOME: Enemy 72 has been defeated, HP: -0.25
+
+Enemy 72 Fitness Score: 8.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 73   has  16.00 HP.
+Enemy 73     has dealt  11.25, Player       HP:   4.75
+Player       has dealt  14.25, Enemy 73     HP:   1.75
+Enemy 73     has dealt   5.25, Player       HP:  -0.50
+OUTCOME: Player has been defeated, HP: -0.5
+
+Enemy 73 Fitness Score: 16.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 74   has  16.00 HP.
+Player       has dealt  13.50, Enemy 74     HP:   2.50
+Enemy 74     has dealt   9.50, Player       HP:   6.50
+Player       has dealt  10.50, Enemy 74     HP:  -8.00
+OUTCOME: Enemy 74 has been defeated, HP: -8.0
+
+Enemy 74 Fitness Score: 9.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 75   has   8.00 HP.
+Enemy 75     has dealt   9.00, Player       HP:   7.00
+Player       has dealt  12.00, Enemy 75     HP:  -4.00
+OUTCOME: Enemy 75 has been defeated, HP: -4.0
+
+Enemy 75 Fitness Score: 9.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 76   has  24.00 HP.
+Player       has dealt  14.25, Enemy 76     HP:   9.75
+Enemy 76     has dealt   4.25, Player       HP:  11.75
+Player       has dealt  11.25, Enemy 76     HP:  -1.50
+OUTCOME: Enemy 76 has been defeated, HP: -1.5
+
+Enemy 76 Fitness Score: 4.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 77   has  64.00 HP.
+Enemy 77     has dealt   3.25, Player       HP:  12.75
+Player       has dealt  18.25, Enemy 77     HP:  45.75
+Enemy 77     has dealt   2.25, Player       HP:  10.50
+Player       has dealt  16.25, Enemy 77     HP:  29.50
+Enemy 77     has dealt   2.25, Player       HP:   8.25
+Player       has dealt   8.25, Enemy 77     HP:  21.25
+Enemy 77     has dealt   4.25, Player       HP:   4.00
+Player       has dealt  19.25, Enemy 77     HP:   2.00
+Enemy 77     has dealt   3.25, Player       HP:   0.75
+Player       has dealt   9.25, Enemy 77     HP:  -7.25
+OUTCOME: Enemy 77 has been defeated, HP: -7.25
+
+Enemy 77 Fitness Score: 15.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 78   has   8.00 HP.
+Enemy 78     has dealt  11.25, Player       HP:   4.75
+Player       has dealt  17.25, Enemy 78     HP:  -9.25
+OUTCOME: Enemy 78 has been defeated, HP: -9.25
+
+Enemy 78 Fitness Score: 11.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 79   has   8.00 HP.
+Enemy 79     has dealt  11.00, Player       HP:   5.00
+Player       has dealt  17.00, Enemy 79     HP:  -9.00
+OUTCOME: Enemy 79 has been defeated, HP: -9.0
+
+Enemy 79 Fitness Score: 11.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 80   has  16.00 HP.
+Enemy 80     has dealt   8.25, Player       HP:   7.75
+Player       has dealt   9.25, Enemy 80     HP:   6.75
+Enemy 80     has dealt   3.25, Player       HP:   4.50
+Player       has dealt  16.25, Enemy 80     HP:  -9.50
+OUTCOME: Enemy 80 has been defeated, HP: -9.5
+
+Enemy 80 Fitness Score: 11.5
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 81   has   8.00 HP.
+Player       has dealt   9.00, Enemy 81     HP:  -1.00
+OUTCOME: Enemy 81 has been defeated, HP: -1.0
+
+Enemy 81 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 82   has  16.00 HP.
+Enemy 82     has dealt  13.00, Player       HP:   3.00
+Player       has dealt  15.00, Enemy 82     HP:   1.00
+Enemy 82     has dealt  11.00, Player       HP:  -8.00
+OUTCOME: Player has been defeated, HP: -8.0
+
+Enemy 82 Fitness Score: 24.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 83   has  64.00 HP.
+Enemy 83     has dealt   2.25, Player       HP:  13.75
+Player       has dealt  18.25, Enemy 83     HP:  45.75
+Enemy 83     has dealt   2.25, Player       HP:  11.50
+Player       has dealt  10.25, Enemy 83     HP:  35.50
+Enemy 83     has dealt   2.25, Player       HP:   9.25
+Player       has dealt  14.25, Enemy 83     HP:  21.25
+Enemy 83     has dealt   4.25, Player       HP:   5.00
+Player       has dealt  15.25, Enemy 83     HP:   6.00
+Enemy 83     has dealt   4.25, Player       HP:   0.75
+Player       has dealt  11.25, Enemy 83     HP:  -5.25
+OUTCOME: Enemy 83 has been defeated, HP: -5.25
+
+Enemy 83 Fitness Score: 15.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 84   has  16.00 HP.
+Player       has dealt  13.00, Enemy 84     HP:   3.00
+Enemy 84     has dealt   7.00, Player       HP:   9.00
+Player       has dealt  12.00, Enemy 84     HP:  -9.00
+OUTCOME: Enemy 84 has been defeated, HP: -9.0
+
+Enemy 84 Fitness Score: 7.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 85   has  48.00 HP.
+Enemy 85     has dealt   4.25, Player       HP:  11.75
+Player       has dealt  13.25, Enemy 85     HP:  34.75
+Enemy 85     has dealt   6.25, Player       HP:   5.50
+Player       has dealt  16.25, Enemy 85     HP:  18.50
+Enemy 85     has dealt   3.25, Player       HP:   2.25
+Player       has dealt  15.25, Enemy 85     HP:   3.25
+Enemy 85     has dealt   4.25, Player       HP:  -2.00
+OUTCOME: Player has been defeated, HP: -2.0
+
+Enemy 85 Fitness Score: 18.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 86   has  32.00 HP.
+Enemy 86     has dealt   3.25, Player       HP:  12.75
+Player       has dealt  10.25, Enemy 86     HP:  21.75
+Enemy 86     has dealt   8.25, Player       HP:   4.50
+Player       has dealt  11.25, Enemy 86     HP:  10.50
+Enemy 86     has dealt   2.25, Player       HP:   2.25
+Player       has dealt  14.25, Enemy 86     HP:  -3.75
+OUTCOME: Enemy 86 has been defeated, HP: -3.75
+
+Enemy 86 Fitness Score: 13.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 87   has  16.00 HP.
+Player       has dealt  11.75, Enemy 87     HP:   4.25
+Enemy 87     has dealt   1.75, Player       HP:  14.25
+Player       has dealt  16.75, Enemy 87     HP: -12.50
+OUTCOME: Enemy 87 has been defeated, HP: -12.5
+
+Enemy 87 Fitness Score: 1.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 88   has  16.00 HP.
+Player       has dealt  16.25, Enemy 88     HP:  -0.25
+OUTCOME: Enemy 88 has been defeated, HP: -0.25
+
+Enemy 88 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 89   has   8.00 HP.
+Enemy 89     has dealt  19.25, Player       HP:  -3.25
+OUTCOME: Player has been defeated, HP: -3.25
+
+Enemy 89 Fitness Score: 19.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 90   has   8.00 HP.
+Player       has dealt  14.50, Enemy 90     HP:  -6.50
+OUTCOME: Enemy 90 has been defeated, HP: -6.5
+
+Enemy 90 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 91   has  32.00 HP.
+Player       has dealt  15.00, Enemy 91     HP:  17.00
+Enemy 91     has dealt   5.00, Player       HP:  11.00
+Player       has dealt  12.00, Enemy 91     HP:   5.00
+Enemy 91     has dealt   6.00, Player       HP:   5.00
+Player       has dealt  12.00, Enemy 91     HP:  -7.00
+OUTCOME: Enemy 91 has been defeated, HP: -7.0
+
+Enemy 91 Fitness Score: 11.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 92   has   8.00 HP.
+Enemy 92     has dealt   7.25, Player       HP:   8.75
+Player       has dealt  10.25, Enemy 92     HP:  -2.25
+OUTCOME: Enemy 92 has been defeated, HP: -2.25
+
+Enemy 92 Fitness Score: 7.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 93   has  16.00 HP.
+Player       has dealt  10.75, Enemy 93     HP:   5.25
+Enemy 93     has dealt   1.75, Player       HP:  14.25
+Player       has dealt  13.75, Enemy 93     HP:  -8.50
+OUTCOME: Enemy 93 has been defeated, HP: -8.5
+
+Enemy 93 Fitness Score: 1.75
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 94   has   8.00 HP.
+Enemy 94     has dealt   9.25, Player       HP:   6.75
+Player       has dealt   9.25, Enemy 94     HP:  -1.25
+OUTCOME: Enemy 94 has been defeated, HP: -1.25
+
+Enemy 94 Fitness Score: 9.25
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 95   has  48.00 HP.
+Enemy 95     has dealt   6.25, Player       HP:   9.75
+Player       has dealt  15.25, Enemy 95     HP:  32.75
+Enemy 95     has dealt   2.25, Player       HP:   7.50
+Player       has dealt  13.25, Enemy 95     HP:  19.50
+Enemy 95     has dealt   5.25, Player       HP:   2.25
+Player       has dealt   9.25, Enemy 95     HP:  10.25
+Enemy 95     has dealt   7.25, Player       HP:  -5.00
+OUTCOME: Player has been defeated, HP: -5.0
+
+Enemy 95 Fitness Score: 21.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 96   has   8.00 HP.
+Player       has dealt  13.50, Enemy 96     HP:  -5.50
+OUTCOME: Enemy 96 has been defeated, HP: -5.5
+
+Enemy 96 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 97   has   8.00 HP.
+Player       has dealt  12.00, Enemy 97     HP:  -4.00
+OUTCOME: Enemy 97 has been defeated, HP: -4.0
+
+Enemy 97 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 98   has   8.00 HP.
+Player       has dealt  12.25, Enemy 98     HP:  -4.25
+OUTCOME: Enemy 98 has been defeated, HP: -4.25
+
+Enemy 98 Fitness Score: 0.0
+Fighting is done
+
+Player     has  16.00 HP.
+Enemy 99   has  16.00 HP.
+Player       has dealt  10.00, Enemy 99     HP:   6.00
+Enemy 99     has dealt   2.00, Player       HP:  14.00
+Player       has dealt  17.00, Enemy 99     HP: -11.00
+OUTCOME: Enemy 99 has been defeated, HP: -11.0
+
+Enemy 99 Fitness Score: 2.0
+Fighting is done
+
+Enemy 0,   Fitness Score:   7.50
+Enemy 1,   Fitness Score:   4.25
+Enemy 2,   Fitness Score:  16.50
+Enemy 3,   Fitness Score:   0.00
+Enemy 4,   Fitness Score:  27.25
+Enemy 5,   Fitness Score:  17.00
+Enemy 6,   Fitness Score:  26.25
+Enemy 7,   Fitness Score:  17.50
+Enemy 8,   Fitness Score:   4.25
+Enemy 9,   Fitness Score:   0.00
+Enemy 10,  Fitness Score:   0.00
+Enemy 11,  Fitness Score:   0.00
+Enemy 12,  Fitness Score:   7.25
+Enemy 13,  Fitness Score:  14.00
+Enemy 14,  Fitness Score:  16.00
+Enemy 15,  Fitness Score:   0.00
+Enemy 16,  Fitness Score:  27.25
+Enemy 17,  Fitness Score:   0.00
+Enemy 18,  Fitness Score:   4.25
+Enemy 19,  Fitness Score:  17.25
+Enemy 20,  Fitness Score:  15.00
+Enemy 21,  Fitness Score:   8.00
+Enemy 22,  Fitness Score:   0.00
+Enemy 23,  Fitness Score:  10.25
+Enemy 24,  Fitness Score:   0.00
+Enemy 25,  Fitness Score:   0.00
+Enemy 26,  Fitness Score:  10.25
+Enemy 27,  Fitness Score:   5.50
+Enemy 28,  Fitness Score:  14.00
+Enemy 29,  Fitness Score:  19.00
+Enemy 30,  Fitness Score:   4.25
+Enemy 31,  Fitness Score:  21.50
+Enemy 32,  Fitness Score:   0.00
+Enemy 33,  Fitness Score:   0.00
+Enemy 34,  Fitness Score:  10.00
+Enemy 35,  Fitness Score:   8.00
+Enemy 36,  Fitness Score:  10.25
+Enemy 37,  Fitness Score:  15.50
+Enemy 38,  Fitness Score:   8.00
+Enemy 39,  Fitness Score:   0.00
+Enemy 40,  Fitness Score:   7.75
+Enemy 41,  Fitness Score:  27.00
+Enemy 42,  Fitness Score:  26.50
+Enemy 43,  Fitness Score:   0.00
+Enemy 44,  Fitness Score:  17.25
+Enemy 45,  Fitness Score:   4.25
+Enemy 46,  Fitness Score:   2.75
+Enemy 47,  Fitness Score:   8.25
+Enemy 48,  Fitness Score:   0.00
+Enemy 49,  Fitness Score:  18.25
+Enemy 50,  Fitness Score:   5.25
+Enemy 51,  Fitness Score:  13.25
+Enemy 52,  Fitness Score:   0.75
+Enemy 53,  Fitness Score:  20.50
+Enemy 54,  Fitness Score:   0.00
+Enemy 55,  Fitness Score:  22.50
+Enemy 56,  Fitness Score:  20.00
+Enemy 57,  Fitness Score:   0.00
+Enemy 58,  Fitness Score:   6.00
+Enemy 59,  Fitness Score:   0.00
+Enemy 60,  Fitness Score:  20.75
+Enemy 61,  Fitness Score:   0.00
+Enemy 62,  Fitness Score:   3.25
+Enemy 63,  Fitness Score:   2.25
+Enemy 64,  Fitness Score:   0.00
+Enemy 65,  Fitness Score:  12.75
+Enemy 66,  Fitness Score:  13.25
+Enemy 67,  Fitness Score:  16.25
+Enemy 68,  Fitness Score:   4.25
+Enemy 69,  Fitness Score:   9.25
+Enemy 70,  Fitness Score:  17.50
+Enemy 71,  Fitness Score:  24.75
+Enemy 72,  Fitness Score:   8.25
+Enemy 73,  Fitness Score:  16.50
+Enemy 74,  Fitness Score:   9.50
+Enemy 75,  Fitness Score:   9.00
+Enemy 76,  Fitness Score:   4.25
+Enemy 77,  Fitness Score:  15.25
+Enemy 78,  Fitness Score:  11.25
+Enemy 79,  Fitness Score:  11.00
+Enemy 80,  Fitness Score:  11.50
+Enemy 81,  Fitness Score:   0.00
+Enemy 82,  Fitness Score:  24.00
+Enemy 83,  Fitness Score:  15.25
+Enemy 84,  Fitness Score:   7.00
+Enemy 85,  Fitness Score:  18.00
+Enemy 86,  Fitness Score:  13.75
+Enemy 87,  Fitness Score:   1.75
+Enemy 88,  Fitness Score:   0.00
+Enemy 89,  Fitness Score:  19.25
+Enemy 90,  Fitness Score:   0.00
+Enemy 91,  Fitness Score:  11.00
+Enemy 92,  Fitness Score:   7.25
+Enemy 93,  Fitness Score:   1.75
+Enemy 94,  Fitness Score:   9.25
+Enemy 95,  Fitness Score:  21.00
+Enemy 96,  Fitness Score:   0.00
+Enemy 97,  Fitness Score:   0.00
+Enemy 98,  Fitness Score:   0.00
+Enemy 99,  Fitness Score:   2.00
+Running Fitness: 938.25
+
+ParentA: Enemy 74   | ParentB: Enemy 6
+ParentA: Enemy 51   | ParentB: Enemy 71
+ParentA: Enemy 60   | ParentB: Enemy 20
+ParentA: Enemy 56   | ParentB: Enemy 85
+ParentA: Enemy 71   | ParentB: Enemy 19
+ParentA: Enemy 6    | ParentB: Enemy 70
+ParentA: Enemy 73   | ParentB: Enemy 2
+ParentA: Enemy 83   | ParentB: Enemy 72
+ParentA: Enemy 79   | ParentB: Enemy 0
+ParentA: Enemy 82   | ParentB: Enemy 78
+ParentA: Enemy 92   | ParentB: Enemy 41
+ParentA: Enemy 83   | ParentB: Enemy 47
+ParentA: Enemy 67   | ParentB: Enemy 62
+ParentA: Enemy 55   | ParentB: Enemy 53
+ParentA: Enemy 60   | ParentB: Enemy 89
+ParentA: Enemy 16   | ParentB: Enemy 58
+ParentA: Enemy 29   | ParentB: Enemy 55
+ParentA: Enemy 44   | ParentB: Enemy 79
+ParentA: Enemy 72   | ParentB: Enemy 42
+ParentA: Enemy 82   | ParentB: Enemy 29
+ParentA: Enemy 69   | ParentB: Enemy 35
+ParentA: Enemy 28   | ParentB: Enemy 4
+ParentA: Enemy 5    | ParentB: Enemy 73
+ParentA: Enemy 71   | ParentB: Enemy 49
+ParentA: Enemy 7    | ParentB: Enemy 37
+ParentA: Enemy 35   | ParentB: Enemy 89
+ParentA: Enemy 47   | ParentB: Enemy 71
+ParentA: Enemy 37   | ParentB: Enemy 34
+ParentA: Enemy 65   | ParentB: Enemy 37
+ParentA: Enemy 41   | ParentB: Enemy 82
+ParentA: Enemy 26   | ParentB: Enemy 73
+ParentA: Enemy 73   | ParentB: Enemy 14
+ParentA: Enemy 78   | ParentB: Enemy 67
+ParentA: Enemy 38   | ParentB: Enemy 19
+ParentA: Enemy 71   | ParentB: Enemy 45
+ParentA: Enemy 8    | ParentB: Enemy 51
+ParentA: Enemy 55   | ParentB: Enemy 19
+ParentA: Enemy 67   | ParentB: Enemy 86
+ParentA: Enemy 82   | ParentB: Enemy 35
+ParentA: Enemy 28   | ParentB: Enemy 71
+ParentA: Enemy 86   | ParentB: Enemy 4
+ParentA: Enemy 51   | ParentB: Enemy 26
+ParentA: Enemy 8    | ParentB: Enemy 20
+ParentA: Enemy 67   | ParentB: Enemy 85
+ParentA: Enemy 84   | ParentB: Enemy 50
+ParentA: Enemy 67   | ParentB: Enemy 55
+ParentA: Enemy 55   | ParentB: Enemy 20
+ParentA: Enemy 71   | ParentB: Enemy 41
+ParentA: Enemy 69   | ParentB: Enemy 65
+ParentA: Enemy 16   | ParentB: Enemy 36
+ParentA: Enemy 82   | ParentB: Enemy 35
+ParentA: Enemy 34   | ParentB: Enemy 37
+ParentA: Enemy 31   | ParentB: Enemy 28
+ParentA: Enemy 5    | ParentB: Enemy 31
+ParentA: Enemy 89   | ParentB: Enemy 74
+ParentA: Enemy 71   | ParentB: Enemy 56
+ParentA: Enemy 82   | ParentB: Enemy 2
+ParentA: Enemy 53   | ParentB: Enemy 69
+ParentA: Enemy 41   | ParentB: Enemy 79
+ParentA: Enemy 55   | ParentB: Enemy 82
+ParentA: Enemy 14   | ParentB: Enemy 5
+ParentA: Enemy 55   | ParentB: Enemy 23
+ParentA: Enemy 82   | ParentB: Enemy 86
+ParentA: Enemy 60   | ParentB: Enemy 83
+ParentA: Enemy 89   | ParentB: Enemy 31
+ParentA: Enemy 6    | ParentB: Enemy 16
+ParentA: Enemy 56   | ParentB: Enemy 0
+ParentA: Enemy 6    | ParentB: Enemy 83
+ParentA: Enemy 7    | ParentB: Enemy 70
+ParentA: Enemy 55   | ParentB: Enemy 89
+ParentA: Enemy 70   | ParentB: Enemy 37
+ParentA: Enemy 14   | ParentB: Enemy 72
+ParentA: Enemy 31   | ParentB: Enemy 12
+ParentA: Enemy 92   | ParentB: Enemy 41
+ParentA: Enemy 26   | ParentB: Enemy 74
+ParentA: Enemy 78   | ParentB: Enemy 65
+ParentA: Enemy 51   | ParentB: Enemy 95
+ParentA: Enemy 85   | ParentB: Enemy 82
+ParentA: Enemy 16   | ParentB: Enemy 29
+ParentA: Enemy 76   | ParentB: Enemy 82
+ParentA: Enemy 20   | ParentB: Enemy 70
+ParentA: Enemy 51   | ParentB: Enemy 14
+ParentA: Enemy 91   | ParentB: Enemy 45
+ParentA: Enemy 19   | ParentB: Enemy 60
+ParentA: Enemy 21   | ParentB: Enemy 1
+ParentA: Enemy 95   | ParentB: Enemy 70
+ParentA: Enemy 42   | ParentB: Enemy 29
+ParentA: Enemy 14   | ParentB: Enemy 16
+ParentA: Enemy 89   | ParentB: Enemy 91
+ParentA: Enemy 84   | ParentB: Enemy 28
+ParentA: Enemy 44   | ParentB: Enemy 47
+ParentA: Enemy 41   | ParentB: Enemy 77
+ParentA: Enemy 42   | ParentB: Enemy 21
+ParentA: Enemy 77   | ParentB: Enemy 38
+ParentA: Enemy 85   | ParentB: Enemy 36
+ParentA: Enemy 69   | ParentB: Enemy 41
+ParentA: Enemy 56   | ParentB: Enemy 83
+ParentA: Enemy 87   | ParentB: Enemy 36
+ParentA: Enemy 27   | ParentB: Enemy 53
+ParentA: Enemy 37   | ParentB: Enemy 28
+
+Process finished with exit code 0
