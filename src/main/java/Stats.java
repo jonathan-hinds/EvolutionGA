@@ -1,6 +1,9 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Stats {
+
+    private List<Double> chromosome = new ArrayList<>();
 
     //base stats
     private Double stamina;
@@ -18,6 +21,7 @@ public class Stats {
     private Double maxHealth;
 
     public Stats(List<Double> chromosome) {
+        this.chromosome = chromosome;
         this.stamina = chromosome.get(0);
         this.agility = chromosome.get(1);
         this.crit = chromosome.get(2);
@@ -159,5 +163,13 @@ public class Stats {
 
     public void setMaxHealth(Double maxHealth) {
         this.maxHealth = maxHealth;
+    }
+
+    public List<Double> getChromosome() {
+        return chromosome;
+    }
+
+    public void setChromosome(List<Double> chromosome) {
+        this.chromosome = chromosome;
     }
 }

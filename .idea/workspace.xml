@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eacc49db-ea04-4a0e-b0cd-59b62d848f65" name="Default Changelist" comment="" />
+    <list default="true" id="eacc49db-ea04-4a0e-b0cd-59b62d848f65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Population.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Simulator.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,48 +19,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1865268250">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="35" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="35" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="23386" />
-          <entry key="txt" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="23386" />
-          <entry key="PLAIN_TEXT" value="17" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="165">
               <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
@@ -71,8 +45,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="246">
+              <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4116#4117#0" expanded="true" />
+                <element signature="e#4174#4175#0" expanded="true" />
+                <element signature="e#4218#4219#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,17 +60,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="-53">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Population.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3799#3800#0" expanded="true" />
+                <element signature="e#3838#3839#0" expanded="true" />
+                <element signature="e#8727#8728#0" expanded="true" />
+                <element signature="e#8830#8831#0" expanded="true" />
+                <element signature="e#8908#8909#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestSpeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -110,6 +119,9 @@
       <find>has been de</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,21 +132,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChromosomeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Population.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSpeed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Results.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Battle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Stats.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/Simulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Population.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -143,57 +149,52 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="303" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="717" />
+    <option name="height" value="723" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enemyevolve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enemyevolve" type="462c0819:PsiDirectoryNode" />
+              <item name="EvolutionGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvolutionGA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -203,13 +204,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547235166545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547363028238" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -230,43 +231,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Simulator">
+  <component name="RunManager" selected="JUnit.TestSpeed.testcrossover">
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Simulator" />
-      <module name="enemyevolve" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="enemyevolve" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="TestSpeed" />
-      <module name="enemyevolve" />
+      <module name="enemy.evolve" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChromosomeTest.testShuffleSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="enemyevolve" />
+    <configuration name="TestSpeed.testAdjustment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enemy.evolve" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChromosomeTest" />
-      <option name="METHOD_NAME" value="testShuffleSchema" />
+      <option name="MAIN_CLASS_NAME" value="TestSpeed" />
+      <option name="METHOD_NAME" value="testAdjustment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpeed.testSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="enemyevolve" />
+    <configuration name="TestSpeed.testAdjustmentSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enemy.evolve" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSpeed" />
-      <option name="METHOD_NAME" value="testSpeed" />
+      <option name="METHOD_NAME" value="testAdjustmentSmall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpeed.testcrossover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enemy.evolve" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpeed" />
+      <option name="METHOD_NAME" value="testcrossover" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,18 +280,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Simulator" />
-      <item itemvalue="JUnit.ChromosomeTest.testShuffleSchema" />
-      <item itemvalue="JUnit.TestSpeed.testSpeed" />
       <item itemvalue="Application.TestSpeed" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.TestSpeed.testAdjustment" />
+      <item itemvalue="JUnit.TestSpeed.testAdjustmentSmall" />
+      <item itemvalue="JUnit.TestSpeed.testcrossover" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Simulator" />
+        <item itemvalue="JUnit.TestSpeed.testcrossover" />
+        <item itemvalue="JUnit.TestSpeed.testAdjustmentSmall" />
+        <item itemvalue="JUnit.TestSpeed.testAdjustment" />
         <item itemvalue="Application.TestSpeed" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.TestSpeed.testSpeed" />
-        <item itemvalue="JUnit.ChromosomeTest.testShuffleSchema" />
+        <item itemvalue="Application.Simulator" />
       </list>
     </recent_temporary>
   </component>
@@ -301,43 +307,44 @@
       <updated>1546814577120</updated>
       <workItem from="1546814580673" duration="50186000" />
       <workItem from="1547049084596" duration="20249000" />
+      <workItem from="1547242314520" duration="8298000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 01m 44s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 52m 17s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 01m 46s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 52m 21s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 01m 48s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 52m 58s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 01m 51s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 54m 54s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 02m 22s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 55m 52s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 02m 26s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 56m 25s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.07 at 12h 02m 28s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 56m 45s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromosomeTest_testShuffleSchema - 2019.01.07 at 12h 16m 54s.xml">
-      <configuration name="ChromosomeTest.testShuffleSchema" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 01h 57m 26s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.08 at 18h 54m 45s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 02h 00m 07s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpeed_testSpeed - 2019.01.08 at 18h 55m 17s.xml">
-      <configuration name="TestSpeed.testSpeed" configurationId="JUnit" />
+    <history-entry file="TestSpeed_testcrossover - 2019.01.13 at 02h 03m 51s.xml">
+      <configuration name="TestSpeed.testcrossover" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70435000" />
+    <option name="totallyTimeSpent" value="78733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,27 +356,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.6693679" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.3771791" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2029703" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32646593" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32852563" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32852563" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,9 +393,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -428,16 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ChromosomeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -455,33 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -489,41 +460,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+        <state relative-caret-position="246">
+          <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4116#4117#0" expanded="true" />
+            <element signature="e#4174#4175#0" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        <state relative-caret-position="-53">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Results.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="174">
+          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="true" />
+            <element signature="e#8727#8728#0" expanded="true" />
+            <element signature="e#8830#8831#0" expanded="true" />
+            <element signature="e#8908#8909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

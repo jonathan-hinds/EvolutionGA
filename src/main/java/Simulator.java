@@ -14,15 +14,16 @@ public class Simulator {
      * in battle.
      *
      * -    Methods to consider:
-     *      todo - Crossover
      *      todo - Mutation
      *      todo - Reproduction
      *      todo - Eliminate Duplicates
      *      todo - 12:30AM 1/10/2019 - New Fitness Evaluation. See PDF
+     *      todo - Calculate Fitness
      *
      * -    Methods Completed:
      *      DONE: - calculateRunningFitness
      *      DONE: - findParents
+     *      DONE: - Crossover
      *
      * After the above is done, and parents can be found:
      *
