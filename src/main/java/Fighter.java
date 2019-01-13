@@ -58,12 +58,20 @@ public class Fighter {
      * @param fighter - the fighter that will be executing the attacks in timed intervals.
      * @param target - the target that will be attacked by the fighter whom is attacking.
      */
+    @SuppressWarnings("Duplicates")
     public void attackInTime(TimerTask task, Timer timer, Fighter fighter, Fighter target, CountDownLatch latch){
         if(target.isAlive()) {
             if(!fighter.isAlive()){
                 if(target instanceof Enemy) {
-                    System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
                     this.getStats().setHealth(this.getStats().getMaxHealth());
+                    //set target fitness scores once the battle is over.
+                    target.getStats().getFitnessOBJ().setStaminaFit(target.getStats().getHealth() / target.getStats().getMaxHealth());
+                    target.getStats().getFitnessOBJ().setAttackFit(target.getStats().getFitnessOBJ().getAttackFit() / target.getStats().getFitnessOBJ().getAgilityFit());
+                    target.getStats().getFitnessOBJ().setCriticalFit(target.getStats().getFitnessOBJ().getMaxDamage());
+                    target.getStats().getFitnessOBJ().getTotalFit();
+                    target.getStats().getFitnessOBJ().setTotalFit();
+                    target.getStats().setFitness(target.getStats().getFitnessOBJ().returnTotalFit());
+                    System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
                 }
                 task.cancel();
                 timer.cancel();
@@ -71,15 +79,27 @@ public class Fighter {
             } else {
                 Double damageDealt = attack(target);
                 if(this instanceof Enemy){
-                    stats.increaseFitness(damageDealt);
+                    //set target fitness scores once the battle is over.
+                    this.getStats().getFitnessOBJ().increaseAttackFittness(damageDealt);
+                    this.getStats().getFitnessOBJ().increaseAgilityFitness();
+                    this.getStats().getFitnessOBJ().increaseMaxDamage(damageDealt);
+                } else if(this instanceof Player) {
+                    target.getStats().getFitnessOBJ().increaseArmourFitness(target.getStats().getArmour() * .25);
                 }
                 System.out.printf("%-12s has dealt %6.2f, %-12s HP: %6.2f\n", fighter.getName(), fighter.getStats().getDamage(), target.name, target.getStats().getHealth());
             }
             if(!target.isAlive()){
                 System.out.println("OUTCOME: " + target.getName() + " has been defeated, HP: " + target.getStats().getHealth());
                 if(target instanceof Enemy) {
-                    System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
                     this.getStats().setHealth(this.getStats().getMaxHealth());
+                    //set target fitness scores once the battle is over.
+                    target.getStats().getFitnessOBJ().setStaminaFit(target.getStats().getHealth() / target.getStats().getMaxHealth());
+                    target.getStats().getFitnessOBJ().setAttackFit(target.getStats().getFitnessOBJ().getAttackFit() / target.getStats().getFitnessOBJ().getAgilityFit());
+                    target.getStats().getFitnessOBJ().setCriticalFit(target.getStats().getFitnessOBJ().getMaxDamage());
+                    target.getStats().getFitnessOBJ().getTotalFit();
+                    target.getStats().getFitnessOBJ().setTotalFit();
+                    target.getStats().setFitness(target.getStats().getFitnessOBJ().returnTotalFit());
+                    System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
                 }
                 task.cancel();
                 timer.cancel();
@@ -132,5 +152,16 @@ public class Fighter {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Fighter{" +
+                "level=" + level +
+                ", exp=" + exp +
+                ", maxExp=" + maxExp +
+                ", stats=" + stats +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

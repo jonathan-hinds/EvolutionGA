@@ -5,6 +5,9 @@ public class Stats {
 
     private List<Double> chromosome = new ArrayList<>();
 
+    private Fitness fitnessOBJ = new Fitness();
+    private Double fitness = 0.0;
+
     //base stats
     private Double stamina;
     private Double agility;
@@ -15,7 +18,6 @@ public class Stats {
     //calculated stats
     private Double speed;
     private Double health;
-    private Double fitness = 0.0;
     private Double baseSpeed = 2.0;
     private Double damage;
     private Double maxHealth;
@@ -50,7 +52,7 @@ public class Stats {
      */
     public Double calculateDamage(){
         double minDamage = (this.attack * 2) - (this.armour * .25);
-        double maxDamage = (this.attack * 2) - (this.armour * .25) + (this.agility + this.crit);
+        double maxDamage = (this.attack * 2) - (this.armour * .25) + (this.crit * 2);
         return Math.ceil(Math.random() * maxDamage) + minDamage;
     }
 
@@ -171,5 +173,32 @@ public class Stats {
 
     public void setChromosome(List<Double> chromosome) {
         this.chromosome = chromosome;
+    }
+
+    public Fitness getFitnessOBJ() {
+        return fitnessOBJ;
+    }
+
+    public void setFitnessOBJ(Fitness fitnessOBJ) {
+        this.fitnessOBJ = fitnessOBJ;
+    }
+
+    @Override
+    public String toString() {
+        return "Stats{" +
+                "chromosome=" + chromosome +
+                ", fitnessOBJ=" + fitnessOBJ +
+                ", fitness=" + fitness +
+                ", stamina=" + stamina +
+                ", agility=" + agility +
+                ", crit=" + crit +
+                ", armour=" + armour +
+                ", attack=" + attack +
+                ", speed=" + speed +
+                ", health=" + health +
+                ", baseSpeed=" + baseSpeed +
+                ", damage=" + damage +
+                ", maxHealth=" + maxHealth +
+                '}';
     }
 }

@@ -17,13 +17,12 @@ public class Simulator {
      *      todo - Mutation
      *      todo - Reproduction
      *      todo - Eliminate Duplicates
-     *      todo - 12:30AM 1/10/2019 - New Fitness Evaluation. See PDF
-     *      todo - Calculate Fitness
      *
      * -    Methods Completed:
      *      DONE: - calculateRunningFitness
      *      DONE: - findParents
      *      DONE: - Crossover
+     *      DONE: - 12:30AM 1/10/2019 - New Fitness Evaluation. See PDF
      *
      * After the above is done, and parents can be found:
      *
@@ -57,15 +56,13 @@ public class Simulator {
      * (elitsm)
      *
      * todo - damage can be negative, an enemy can heal player if its armour is too high.
-     * todo - seems damage is overpowered, if an enemy dumps all of its stats into attack, it is more likely to have a high fitness evaluation.
-     * todo - the above may change after implementing new fitness evaluation.
      */
 
     public static void main(String[] args) {
 
         //create the population
         ChromosomeUtil.setTotalAttributePoints(12.0);
-        ChromosomeUtil.initiatePopulation(10);
+        ChromosomeUtil.initiatePopulation(25);
         ChromosomeUtil.printChromosomes();
 
         //create the player
@@ -94,7 +91,12 @@ public class Simulator {
         //print parents selected
         for(int i = 0; i < ChromosomeUtil.getPopulationList().size(); i ++){
             Fighter[] parents = ChromosomeUtil.getPopulation().getParents();
-            System.out.printf("ParentA: %-10s | ParentB: %-10s\n", parents[0].getName(), parents[1].getName());
+
+            try {
+                System.out.printf("Parent A: %-10s | Parent B: %-10s\n", parents[0].getName(), parents[1].getName());
+            } catch (NullPointerException e) {
+                System.out.println(Arrays.toString(parents));
+            }
         }
 
     }

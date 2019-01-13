@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eacc49db-ea04-4a0e-b0cd-59b62d848f65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fitness.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Population.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Fighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fighter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Population.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Population.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Simulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Stats.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,21 +24,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="130">
               <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
@@ -39,13 +35,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
+            <state relative-caret-position="69">
+              <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4083#4084#0" expanded="true" />
                 <element signature="e#4116#4117#0" expanded="true" />
                 <element signature="e#4174#4175#0" expanded="true" />
                 <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#4305#4306#0" expanded="true" />
+                <element signature="e#4338#4339#0" expanded="true" />
+                <element signature="e#4391#4392#0" expanded="true" />
+                <element signature="e#4435#4436#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,27 +55,54 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="127">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Population.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="74" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+            <state relative-caret-position="-58">
+              <caret line="92" column="128" selection-start-line="92" selection-start-column="128" selection-end-line="92" selection-end-column="128" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#902#1002#0" />
-                <element signature="e#1173#1229#0" />
-                <element signature="e#1515#1634#0" />
-                <element signature="e#3799#3800#0" expanded="true" />
-                <element signature="e#3838#3839#0" expanded="true" />
-                <element signature="e#10022#10023#0" expanded="true" />
-                <element signature="e#10125#10126#0" expanded="true" />
-                <element signature="e#10203#10204#0" expanded="true" />
+                <element signature="e#1845#1876#0" expanded="true" />
+                <element signature="e#5928#5929#0" expanded="true" />
+                <element signature="e#5961#5962#0" expanded="true" />
+                <element signature="e#6776#6777#0" expanded="true" />
+                <element signature="e#6848#6849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fitness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+              <folding>
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1693#1694#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+                <element signature="e#2483#2484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,11 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ChromosomeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Results.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Battle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Stats.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestSpeed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Simulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Population.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fitness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Stats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Simulator.java" />
       </list>
     </option>
   </component>
@@ -206,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547407514943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547421212252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,11 +257,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSpeed.testcrossover">
+  <component name="RunManager" selected="Application.Simulator">
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Simulator" />
+      <module name="enemy.evolve" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,11 +314,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Simulator" />
         <item itemvalue="JUnit.TestSpeed.testcrossover" />
         <item itemvalue="JUnit.TestSpeed.testAdjustmentSmall" />
         <item itemvalue="JUnit.TestSpeed.testAdjustment" />
         <item itemvalue="Application.TestSpeed" />
-        <item itemvalue="Application.Simulator" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +334,7 @@
       <updated>1546814577120</updated>
       <workItem from="1546814580673" duration="50186000" />
       <workItem from="1547049084596" duration="20249000" />
-      <workItem from="1547242314520" duration="10016000" />
+      <workItem from="1547242314520" duration="18319000" />
     </task>
     <servers />
   </component>
@@ -341,7 +371,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80451000" />
+    <option name="totallyTimeSpent" value="88754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,6 +384,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,14 +396,14 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.3771791" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.5911252" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2029703" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32646593" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32646593" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32852563" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32852563" />
       <window_info anchor="right" id="Maven" />
@@ -456,40 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Results.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4174#4175#0" expanded="true" />
-            <element signature="e#4218#4219#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,10 +522,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fitness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding>
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4083#4084#0" expanded="true" />
+            <element signature="e#4116#4117#0" expanded="true" />
+            <element signature="e#4174#4175#0" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4305#4306#0" expanded="true" />
+            <element signature="e#4338#4339#0" expanded="true" />
+            <element signature="e#4391#4392#0" expanded="true" />
+            <element signature="e#4435#4436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="92" column="128" selection-start-line="92" selection-start-column="128" selection-end-line="92" selection-end-column="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1845#1876#0" expanded="true" />
+            <element signature="e#5928#5929#0" expanded="true" />
+            <element signature="e#5961#5962#0" expanded="true" />
+            <element signature="e#6776#6777#0" expanded="true" />
+            <element signature="e#6848#6849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="127">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
         </state>
       </provider>
     </entry>
