@@ -18,20 +18,16 @@ public class Population {
      * @return the two children produce from corssing over the chromsomes from both parents.
      */
     public Fighter[] crossOver(Fighter parent1, Fighter paren2){
-        Fighter[] fighter = new Fighter[2];
+        Fighter[] children = new Fighter[2];
         List<Double> chromosome1 = parent1.getStats().getChromosome();
         List<Double> chromosome2 = paren2.getStats().getChromosome();
-        // System.out.println("P1: " + chromosome1.toString() + " SUM: " + ChromosomeUtil.sum(chromosome1));
-        // System.out.println("P2: " + chromosome2.toString() + " SUM: " + ChromosomeUtil.sum(chromosome2));
         int crosspoint = (int)((Math.random() * 4));
-        // System.out.println("Crossed Over At: " + crosspoint);
-        //
         List<List<Double>> parent1sec = getSectionsOfChromosome(chromosome1, crosspoint);
         List<List<Double>> parent2sec = getSectionsOfChromosome(chromosome2, crosspoint);
         List<List<Double>> childrenChromosomes = getChildrenChromosomes(parent1sec, parent2sec);
-        // System.out.println("C1: " + childrenChromosomes.get(0) + " SUM: " + ChromosomeUtil.sum(childrenChromosomes.get(0)));
-        // System.out.println("C2: " + childrenChromosomes.get(1) + " SUM: " + ChromosomeUtil.sum(childrenChromosomes.get(1)) + "\n");
-        return null;
+        children[0] = new Enemy(childrenChromosomes.get(0));
+        children[1] = new Enemy(childrenChromosomes.get(1));
+        return children;
     }
 
     /**

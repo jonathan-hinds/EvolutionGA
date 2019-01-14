@@ -1,10 +1,15 @@
 public class Fitness {
 
     //fitness scores for each stat
+    //percentage of remaining health after battle.
     private Double staminaFit = 0.0;
+    //amount of attacks in a battle.
     private Double agilityFit = 0.0;
+    //highest attack damage dealt during battle.
     private Double criticalFit = 0.0;
+    //average attack damage dealt during battle.
     private Double attackFit = 0.0;
+    //damage resisted during battle.
     private Double armorFit = 0.0;
     private Double totalFit = 0.0;
 
