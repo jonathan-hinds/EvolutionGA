@@ -73,6 +73,8 @@ public class Fighter {
                     target.getStats().getFitnessOBJ().setTotalFit();
                     target.getStats().setFitness(target.getStats().getFitnessOBJ().returnTotalFit());
                     System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
+                    System.out.println(target.getStats().getFitnessOBJ().toString());
+
                 }
                 task.cancel();
                 timer.cancel();
@@ -101,6 +103,7 @@ public class Fighter {
                     target.getStats().getFitnessOBJ().setTotalFit();
                     target.getStats().setFitness(target.getStats().getFitnessOBJ().returnTotalFit());
                     System.out.println("\n" + target.getName() + " Fitness Score: " + target.getStats().getFitness());
+                    System.out.println(target.getStats().getFitnessOBJ().toString());
                 }
                 task.cancel();
                 timer.cancel();
