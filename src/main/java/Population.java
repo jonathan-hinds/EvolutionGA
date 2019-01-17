@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class Population {
 
@@ -192,7 +193,9 @@ public class Population {
      */
     public Fighter[] getParents(){
         Fighter[] parents = new Fighter[2];
-        parents[0] = getParent();
+        Fighter parentA = getParent();
+        parents[0] = parentA;
+        //System.out.println(parentA);
         parents[1] = getParent(parents[0]);
         return parents;
     }
@@ -200,11 +203,10 @@ public class Population {
     /**
      * @param parentA Parent A that has already been selected to be used in the reproduction process.
      * @return another fighter (parent B) that cannot be the same as parent A.
-     * todo - get someones input on if this is the best way to get a different parent.
      */
     public Fighter getParent(Fighter parentA){
         Fighter parentB = getParent();
-        while(parentA == (parentB)){
+        while(parentA.equals(parentB)){
             parentB = getParent();
         }
         return parentB;
@@ -215,13 +217,15 @@ public class Population {
      */
     public Fighter getParent(){
         double fitness = calculateRunningFitness();
-        double random = Math.round(Math.random() * fitness) + 1;
+        Random r = new Random();
+        double random = (fitness) * r.nextDouble();
         for(Fighter fighter: population){
             random -= fighter.getStats().getFitness();
-            if(random <= 0){
+            if(random <= 0.0){
                 return fighter;
             }
         }
+        System.out.println("Returned Null");
         return null;
     }
 

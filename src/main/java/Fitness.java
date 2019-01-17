@@ -40,6 +40,12 @@ public class Fitness {
         }
     }
 
+    public void setArmorFitness(Double damageTaken){
+        if(damageTaken > 0){
+            this.armorFit = this.armorFit / damageTaken;
+        }
+    }
+
     public void increaseAttackFittness(Double damageDealt){
         this.attackFit += damageDealt;
     }

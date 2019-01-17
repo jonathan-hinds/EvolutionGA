@@ -2,10 +2,10 @@ import java.util.*;
 
 public class Simulator {
 
-    //Chromosome order//
-    //stamina, agility, crit, attack, armour//
-
     /**
+     * CHROMOSOME ORDER:
+     * stamina, agility, crit, attack, armour
+     *
      * Notes to your future self regarding this project:
      * Remember the Goal:
      *
@@ -37,7 +37,7 @@ public class Simulator {
      * random.
      *
      * Create crossover operator
-     * ABSTRACT: Schema that contribute to this speciman being fit
+     * ABSTRACT: Schema that contribute to this specimen being fit
      * should have a higher chance of being mixed into the offspring.
      *
      * - Create a fitness score for each stat, which is assigned
@@ -57,9 +57,21 @@ public class Simulator {
      * Consider eliminating duplicates from a population.
      * (elitsm)
      *
-     * todo - normalize all values besides stamina.
+     * CHANGE:
+     *
+     *  todo - change SOUT's to print output to a text
+     *      document, this way larger populations can run for
+     *      more generations.
+     *
+     * REFACTOR:
+     *  todo - refactor fighter into a fightable interface implemented on enemy
+     *      player. Q: Should this be the case if they both implement the methods the same way?
+     *
+     *  todo - refactor Fitness into a scoreable interface which is implemented on the fitness class.
+     *
+     *  todo - refactor timedAttack into multiple methods. (follow single responsibility)
      */
-    @SuppressWarnings("Duplicates")
+
     public static void main(String[] args) {
         Population population = new Population();
         // create the population.
@@ -74,6 +86,7 @@ public class Simulator {
 
     public static void run(int generation, int endgeneration, Fighter environment){
         Population population = new Population();
+        //for each generation, until all generations are scored
         for(int i = generation; i <= endgeneration; i ++) {
             System.out.println("GENERATION: " + i + "\n");
             //battle to create fitness scores
