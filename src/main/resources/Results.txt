@@ -1,1286 +1,723 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61395:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar:/Users/jonathanhinds/Desktop/enemyevolve/target/classes Simulator
-0: [2.0, 2.0, 2.0, 2.0, 4.0]
-1: [2.0, 1.0, 3.0, 1.0, 5.0]
-2: [3.0, 2.0, 5.0, 1.0, 1.0]
-3: [1.0, 1.0, 3.0, 1.0, 6.0]
-4: [1.0, 2.0, 2.0, 6.0, 1.0]
-5: [4.0, 2.0, 2.0, 2.0, 2.0]
-6: [1.0, 2.0, 1.0, 7.0, 1.0]
-7: [3.0, 1.0, 4.0, 3.0, 1.0]
-8: [2.0, 1.0, 2.0, 2.0, 5.0]
-9: [1.0, 1.0, 1.0, 1.0, 8.0]
-10: [1.0, 1.0, 2.0, 2.0, 6.0]
-11: [1.0, 1.0, 6.0, 2.0, 2.0]
-12: [1.0, 3.0, 5.0, 2.0, 1.0]
-13: [2.0, 2.0, 4.0, 2.0, 2.0]
-14: [8.0, 1.0, 1.0, 1.0, 1.0]
-15: [2.0, 1.0, 6.0, 1.0, 2.0]
-16: [1.0, 2.0, 1.0, 7.0, 1.0]
-17: [1.0, 1.0, 1.0, 1.0, 8.0]
-18: [1.0, 6.0, 3.0, 1.0, 1.0]
-19: [1.0, 3.0, 2.0, 5.0, 1.0]
-20: [6.0, 2.0, 1.0, 1.0, 2.0]
-21: [4.0, 4.0, 1.0, 1.0, 2.0]
-22: [1.0, 2.0, 1.0, 5.0, 3.0]
-23: [1.0, 5.0, 4.0, 1.0, 1.0]
-24: [1.0, 1.0, 3.0, 1.0, 6.0]
-25: [1.0, 2.0, 1.0, 3.0, 5.0]
-26: [1.0, 3.0, 2.0, 5.0, 1.0]
-27: [2.0, 2.0, 2.0, 2.0, 4.0]
-28: [3.0, 1.0, 1.0, 3.0, 4.0]
-29: [3.0, 4.0, 1.0, 2.0, 2.0]
-30: [1.0, 6.0, 2.0, 2.0, 1.0]
-31: [3.0, 1.0, 5.0, 2.0, 1.0]
-32: [1.0, 3.0, 1.0, 2.0, 5.0]
-33: [1.0, 2.0, 5.0, 1.0, 3.0]
-34: [7.0, 1.0, 1.0, 1.0, 2.0]
-35: [1.0, 3.0, 2.0, 4.0, 2.0]
-36: [2.0, 1.0, 7.0, 1.0, 1.0]
-37: [3.0, 6.0, 1.0, 1.0, 1.0]
-38: [1.0, 5.0, 1.0, 3.0, 2.0]
-39: [2.0, 1.0, 5.0, 1.0, 3.0]
-40: [4.0, 2.0, 1.0, 2.0, 3.0]
-41: [4.0, 1.0, 1.0, 4.0, 2.0]
-42: [5.0, 1.0, 1.0, 4.0, 1.0]
-43: [1.0, 2.0, 1.0, 1.0, 7.0]
-44: [8.0, 1.0, 1.0, 1.0, 1.0]
-45: [1.0, 4.0, 4.0, 2.0, 1.0]
-46: [2.0, 1.0, 1.0, 1.0, 7.0]
-47: [1.0, 5.0, 3.0, 2.0, 1.0]
-48: [1.0, 1.0, 1.0, 1.0, 8.0]
-49: [1.0, 1.0, 3.0, 6.0, 1.0]
-50: [1.0, 1.0, 8.0, 1.0, 1.0]
-51: [1.0, 1.0, 7.0, 2.0, 1.0]
-52: [2.0, 1.0, 1.0, 1.0, 7.0]
-53: [4.0, 1.0, 1.0, 3.0, 3.0]
-54: [1.0, 4.0, 3.0, 1.0, 3.0]
-55: [2.0, 7.0, 1.0, 1.0, 1.0]
-56: [7.0, 2.0, 1.0, 1.0, 1.0]
-57: [1.0, 1.0, 1.0, 1.0, 8.0]
-58: [2.0, 6.0, 1.0, 1.0, 2.0]
-59: [1.0, 1.0, 1.0, 4.0, 5.0]
-60: [6.0, 1.0, 2.0, 2.0, 1.0]
-61: [2.0, 1.0, 6.0, 1.0, 2.0]
-62: [3.0, 1.0, 2.0, 1.0, 5.0]
-63: [1.0, 8.0, 1.0, 1.0, 1.0]
-64: [1.0, 1.0, 4.0, 4.0, 2.0]
-65: [1.0, 2.0, 3.0, 3.0, 3.0]
-66: [1.0, 3.0, 1.0, 6.0, 1.0]
-67: [3.0, 1.0, 1.0, 6.0, 1.0]
-68: [1.0, 6.0, 3.0, 1.0, 1.0]
-69: [1.0, 8.0, 1.0, 1.0, 1.0]
-70: [2.0, 5.0, 2.0, 2.0, 1.0]
-71: [4.0, 3.0, 1.0, 3.0, 1.0]
-72: [1.0, 1.0, 8.0, 1.0, 1.0]
-73: [2.0, 1.0, 7.0, 1.0, 1.0]
-74: [2.0, 1.0, 1.0, 4.0, 4.0]
-75: [1.0, 3.0, 2.0, 4.0, 2.0]
-76: [3.0, 1.0, 1.0, 2.0, 5.0]
-77: [8.0, 1.0, 1.0, 1.0, 1.0]
-78: [1.0, 1.0, 8.0, 1.0, 1.0]
-79: [1.0, 5.0, 2.0, 2.0, 2.0]
-80: [2.0, 1.0, 7.0, 1.0, 1.0]
-81: [1.0, 2.0, 6.0, 1.0, 2.0]
-82: [2.0, 4.0, 1.0, 3.0, 2.0]
-83: [8.0, 1.0, 1.0, 1.0, 1.0]
-84: [2.0, 1.0, 6.0, 1.0, 2.0]
-85: [6.0, 3.0, 1.0, 1.0, 1.0]
-86: [4.0, 5.0, 1.0, 1.0, 1.0]
-87: [2.0, 1.0, 1.0, 1.0, 7.0]
-88: [2.0, 3.0, 1.0, 1.0, 5.0]
-89: [1.0, 5.0, 1.0, 4.0, 1.0]
-90: [1.0, 5.0, 1.0, 1.0, 4.0]
-91: [4.0, 1.0, 3.0, 2.0, 2.0]
-92: [1.0, 1.0, 8.0, 1.0, 1.0]
-93: [2.0, 1.0, 1.0, 1.0, 7.0]
-94: [1.0, 3.0, 6.0, 1.0, 1.0]
-95: [6.0, 1.0, 3.0, 1.0, 1.0]
-96: [1.0, 1.0, 1.0, 1.0, 8.0]
-97: [1.0, 1.0, 1.0, 3.0, 6.0]
-98: [1.0, 2.0, 3.0, 1.0, 5.0]
-99: [2.0, 1.0, 2.0, 1.0, 6.0]
+GENERATION: 1
 
-Player     has  16.00 HP.
-Enemy 0    has  16.00 HP.
-Player       has dealt  13.50, Enemy 0      HP:   2.50
-Enemy 0      has dealt   7.50, Player       HP:   8.50
-Player       has dealt  14.50, Enemy 0      HP: -12.00
-OUTCOME: Enemy 0 has been defeated, HP: -12.0
+0: [6.0, 25.0, 1.0, 12.0, 6.0]
+1: [5.0, 4.0, 25.0, 1.0, 15.0]
+2: [1.0, 2.0, 44.0, 2.0, 1.0]
+3: [1.0, 35.0, 3.0, 5.0, 6.0]
+4: [7.0, 1.0, 1.0, 6.0, 35.0]
+5: [2.0, 1.0, 2.0, 1.0, 44.0]
+6: [3.0, 1.0, 1.0, 29.0, 16.0]
+7: [13.0, 1.0, 2.0, 32.0, 2.0]
+8: [15.0, 1.0, 7.0, 5.0, 22.0]
+9: [5.0, 3.0, 1.0, 31.0, 10.0]
+10: [5.0, 1.0, 21.0, 11.0, 12.0]
+11: [1.0, 1.0, 1.0, 1.0, 46.0]
+12: [43.0, 1.0, 1.0, 4.0, 1.0]
+13: [1.0, 40.0, 7.0, 1.0, 1.0]
+14: [3.0, 36.0, 8.0, 2.0, 1.0]
+15: [2.0, 32.0, 12.0, 3.0, 1.0]
+16: [3.0, 2.0, 37.0, 7.0, 1.0]
+17: [1.0, 39.0, 5.0, 4.0, 1.0]
+18: [4.0, 8.0, 4.0, 33.0, 1.0]
+19: [4.0, 20.0, 3.0, 1.0, 22.0]
+20: [38.0, 2.0, 3.0, 4.0, 3.0]
+21: [16.0, 7.0, 1.0, 22.0, 4.0]
+22: [1.0, 1.0, 9.0, 33.0, 6.0]
+23: [8.0, 18.0, 1.0, 1.0, 22.0]
+24: [19.0, 2.0, 3.0, 22.0, 4.0]
+25: [9.0, 9.0, 30.0, 1.0, 1.0]
+26: [1.0, 44.0, 2.0, 1.0, 2.0]
+27: [4.0, 25.0, 4.0, 12.0, 5.0]
+28: [5.0, 38.0, 2.0, 4.0, 1.0]
+29: [1.0, 42.0, 3.0, 2.0, 2.0]
+30: [3.0, 10.0, 1.0, 33.0, 3.0]
+31: [1.0, 5.0, 1.0, 8.0, 35.0]
+32: [11.0, 23.0, 2.0, 10.0, 4.0]
+33: [1.0, 10.0, 6.0, 2.0, 31.0]
+34: [6.0, 1.0, 10.0, 1.0, 32.0]
+35: [8.0, 7.0, 31.0, 2.0, 2.0]
+36: [13.0, 24.0, 4.0, 1.0, 8.0]
+37: [7.0, 24.0, 4.0, 8.0, 7.0]
+38: [1.0, 1.0, 1.0, 1.0, 46.0]
+39: [26.0, 8.0, 1.0, 1.0, 14.0]
+40: [2.0, 1.0, 2.0, 42.0, 3.0]
+41: [1.0, 1.0, 5.0, 41.0, 2.0]
+42: [17.0, 3.0, 25.0, 4.0, 1.0]
+43: [9.0, 25.0, 1.0, 3.0, 12.0]
+44: [24.0, 6.0, 6.0, 12.0, 2.0]
+45: [15.0, 11.0, 2.0, 12.0, 10.0]
+46: [12.0, 2.0, 29.0, 5.0, 2.0]
+47: [14.0, 5.0, 8.0, 4.0, 19.0]
+48: [1.0, 22.0, 12.0, 10.0, 5.0]
+49: [4.0, 5.0, 25.0, 8.0, 8.0]
+50: [34.0, 2.0, 1.0, 11.0, 2.0]
+51: [1.0, 2.0, 9.0, 9.0, 29.0]
+52: [2.0, 6.0, 6.0, 5.0, 31.0]
+53: [3.0, 8.0, 4.0, 17.0, 18.0]
+54: [6.0, 2.0, 1.0, 16.0, 25.0]
+55: [1.0, 12.0, 2.0, 34.0, 1.0]
+56: [18.0, 1.0, 2.0, 2.0, 27.0]
+57: [26.0, 4.0, 8.0, 2.0, 10.0]
+58: [3.0, 3.0, 13.0, 5.0, 26.0]
+59: [1.0, 4.0, 2.0, 42.0, 1.0]
+60: [14.0, 3.0, 2.0, 1.0, 30.0]
+61: [2.0, 2.0, 4.0, 3.0, 39.0]
+62: [6.0, 4.0, 7.0, 22.0, 11.0]
+63: [3.0, 2.0, 4.0, 10.0, 31.0]
+64: [2.0, 1.0, 1.0, 2.0, 44.0]
+65: [2.0, 1.0, 2.0, 43.0, 2.0]
+66: [10.0, 1.0, 1.0, 1.0, 37.0]
+67: [1.0, 10.0, 37.0, 1.0, 1.0]
+68: [1.0, 26.0, 1.0, 16.0, 6.0]
+69: [7.0, 15.0, 10.0, 14.0, 4.0]
+70: [1.0, 8.0, 26.0, 4.0, 11.0]
+71: [26.0, 2.0, 11.0, 2.0, 9.0]
+72: [1.0, 3.0, 44.0, 1.0, 1.0]
+73: [6.0, 1.0, 35.0, 1.0, 7.0]
+74: [1.0, 7.0, 1.0, 19.0, 22.0]
+75: [23.0, 7.0, 6.0, 2.0, 12.0]
+76: [14.0, 2.0, 2.0, 1.0, 31.0]
+77: [17.0, 27.0, 3.0, 1.0, 2.0]
+78: [4.0, 1.0, 5.0, 1.0, 39.0]
+79: [1.0, 45.0, 2.0, 1.0, 1.0]
+80: [4.0, 38.0, 3.0, 3.0, 2.0]
+81: [21.0, 1.0, 5.0, 7.0, 16.0]
+82: [1.0, 2.0, 1.0, 12.0, 34.0]
+83: [1.0, 2.0, 2.0, 43.0, 2.0]
+84: [7.0, 1.0, 5.0, 5.0, 32.0]
+85: [17.0, 1.0, 9.0, 1.0, 22.0]
+86: [31.0, 5.0, 2.0, 4.0, 8.0]
+87: [2.0, 3.0, 36.0, 4.0, 5.0]
+88: [1.0, 1.0, 1.0, 1.0, 46.0]
+89: [29.0, 1.0, 17.0, 1.0, 2.0]
+90: [11.0, 10.0, 16.0, 2.0, 11.0]
+91: [1.0, 4.0, 26.0, 3.0, 16.0]
+92: [6.0, 34.0, 4.0, 1.0, 5.0]
+93: [18.0, 5.0, 1.0, 25.0, 1.0]
+94: [42.0, 2.0, 2.0, 3.0, 1.0]
+95: [19.0, 10.0, 12.0, 8.0, 1.0]
+96: [4.0, 1.0, 1.0, 33.0, 11.0]
+97: [1.0, 1.0, 24.0, 23.0, 1.0]
+98: [20.0, 2.0, 1.0, 2.0, 25.0]
+99: [7.0, 12.0, 4.0, 5.0, 22.0]
 
-Enemy 0 Fitness Score: 7.5
+Player     has 112.00 HP.
+Enemy 0    has  48.00 HP.
+Enemy 0      has dealt  22.67, Player       HP:  89.33
+Player       has dealt  26.43, Enemy 0      HP:  21.57
+Enemy 0      has dealt  22.50, Player       HP:  66.82
+Player       has dealt  27.08, Enemy 0      HP:  -5.51
+
+OUTCOME: Enemy 0 has been defeated, HP: -5.509142758373876
+Fitness{staminaFit=0.0, agilityFit=0.24292481476982872, criticalFit=0.2024324088646133, attackFit=0.20168408655841236, armorFit=0.05606518522538874, totalFit=0.7031064954182431}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 1    has  16.00 HP.
-Player       has dealt  11.25, Enemy 1      HP:   4.75
-Enemy 1      has dealt   4.25, Player       HP:  11.75
-Player       has dealt  13.25, Enemy 1      HP:  -8.50
-OUTCOME: Enemy 1 has been defeated, HP: -8.5
+Player     has 112.00 HP.
+Enemy 1    has  40.00 HP.
+Player       has dealt  23.21, Enemy 1      HP:  16.79
+Enemy 1      has dealt  18.70, Player       HP:  93.30
+Player       has dealt  22.30, Enemy 1      HP:  -5.51
 
-Enemy 1 Fitness Score: 4.25
+OUTCOME: Enemy 1 has been defeated, HP: -5.513818449067404
+Fitness{staminaFit=0.0, agilityFit=0.08835483300936561, criticalFit=0.16697357744788874, attackFit=0.16697357744788874, armorFit=0.1647851192356654, totalFit=0.5870871071408085}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 2    has  24.00 HP.
-Enemy 2      has dealt   8.25, Player       HP:   7.75
-Player       has dealt  12.25, Enemy 2      HP:  11.75
-Enemy 2      has dealt   8.25, Player       HP:  -0.50
-OUTCOME: Player has been defeated, HP: -0.5
+Player     has 112.00 HP.
+Enemy 2    has   8.00 HP.
+Enemy 2      has dealt   5.88, Player       HP: 106.12
+Player       has dealt  27.47, Enemy 2      HP: -19.47
 
-Enemy 2 Fitness Score: 16.5
+OUTCOME: Enemy 2 has been defeated, HP: -19.47079279941199
+Fitness{staminaFit=0.0, agilityFit=0.22487069934787496, criticalFit=0.052482497113228166, attackFit=0.052482497113228166, armorFit=0.009100574629406081, totalFit=0.33893626820373735}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 3    has   8.00 HP.
-Player       has dealt  10.00, Enemy 3      HP:  -2.00
-OUTCOME: Enemy 3 has been defeated, HP: -2.0
+Enemy 3      has dealt   9.41, Player       HP: 102.59
+Player       has dealt  29.48, Enemy 3      HP: -21.48
 
-Enemy 3 Fitness Score: 0.0
+OUTCOME: Enemy 3 has been defeated, HP: -21.475484949454756
+Fitness{staminaFit=0.0, agilityFit=0.19786307874950534, criticalFit=0.08399888980420751, attackFit=0.08399888980420751, armorFit=0.050889747957403746, totalFit=0.4167506063153241}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 4    has   8.00 HP.
-Enemy 4      has dealt  27.25, Player       HP: -11.25
-OUTCOME: Player has been defeated, HP: -11.25
+Player     has 112.00 HP.
+Enemy 4    has  56.00 HP.
+Player       has dealt  19.14, Enemy 4      HP:  36.86
+Player       has dealt  18.76, Enemy 4      HP:  18.11
+Enemy 4      has dealt  10.25, Player       HP: 101.75
+Player       has dealt  19.10, Enemy 4      HP:  -1.00
 
-Enemy 4 Fitness Score: 27.25
+OUTCOME: Enemy 4 has been defeated, HP: -0.9973590236062932
+Fitness{staminaFit=0.0, agilityFit=0.04649648951504161, criticalFit=0.09149757367058801, attackFit=0.09149757367058801, armorFit=0.46054765430672284, totalFit=0.6900392911629404}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 5    has  32.00 HP.
-Player       has dealt  17.00, Enemy 5      HP:  15.00
-Enemy 5      has dealt   7.00, Player       HP:   9.00
-Player       has dealt  14.00, Enemy 5      HP:   1.00
-Enemy 5      has dealt  10.00, Player       HP:  -1.00
-OUTCOME: Player has been defeated, HP: -1.0
+Player     has 112.00 HP.
+Enemy 5    has  16.00 HP.
+Player       has dealt  16.71, Enemy 5      HP:  -0.71
 
-Enemy 5 Fitness Score: 17.0
+OUTCOME: Enemy 5 has been defeated, HP: -0.7069836780757193
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.6584072991245635, totalFit=0.6584072991245635}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 6    has   8.00 HP.
-Enemy 6      has dealt  26.25, Player       HP: -10.25
-OUTCOME: Player has been defeated, HP: -10.25
+Player     has 112.00 HP.
+Enemy 6    has  24.00 HP.
+Player       has dealt  25.91, Enemy 6      HP:  -1.91
 
-Enemy 6 Fitness Score: 26.25
+OUTCOME: Enemy 6 has been defeated, HP: -1.910179871006907
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.15437947632605742, totalFit=0.15437947632605742}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 7    has  24.00 HP.
-Enemy 7      has dealt   8.25, Player       HP:   7.75
-Player       has dealt   8.25, Enemy 7      HP:  15.75
-Enemy 7      has dealt   9.25, Player       HP:  -1.50
-OUTCOME: Player has been defeated, HP: -1.5
+Player     has 112.00 HP.
+Enemy 7    has 104.00 HP.
+Enemy 7      has dealt  62.23, Player       HP:  49.77
+Player       has dealt  26.45, Enemy 7      HP:  77.55
+Enemy 7      has dealt  63.64, Player       HP: -13.86
 
-Enemy 7 Fitness Score: 17.5
+OUTCOME: Player has been defeated, HP: -13.86142820236401
+Fitness{staminaFit=0.7456596095787733, agilityFit=0.2708192281651997, criticalFit=0.568173182777793, attackFit=0.5618813759034108, armorFit=0.018902590735706715, totalFit=2.1654359871608837}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 8    has  16.00 HP.
-Player       has dealt  14.25, Enemy 8      HP:   1.75
-Enemy 8      has dealt   4.25, Player       HP:  11.75
-Player       has dealt  10.25, Enemy 8      HP:  -8.50
-OUTCOME: Enemy 8 has been defeated, HP: -8.5
+Player     has 112.00 HP.
+Enemy 8    has 120.00 HP.
+Player       has dealt  25.31, Enemy 8      HP:  94.69
+Player       has dealt  22.56, Enemy 8      HP:  72.13
+Enemy 8      has dealt   9.63, Player       HP: 102.37
+Player       has dealt  24.42, Enemy 8      HP:  47.71
+Player       has dealt  20.91, Enemy 8      HP:  26.80
+Enemy 8      has dealt  12.74, Player       HP:  89.62
+Player       has dealt  22.88, Enemy 8      HP:   3.92
+Player       has dealt  20.78, Enemy 8      HP: -16.87
 
-Enemy 8 Fitness Score: 4.25
+OUTCOME: Enemy 8 has been defeated, HP: -16.86680535048667
+Fitness{staminaFit=0.0, agilityFit=0.0888572951839346, criticalFit=0.11378808125681983, attackFit=0.09989169926014678, armorFit=0.24111032558620804, totalFit=0.5436474012871092}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 9    has   8.00 HP.
-Player       has dealt  10.50, Enemy 9      HP:  -2.50
-OUTCOME: Enemy 9 has been defeated, HP: -2.5
+Player     has 112.00 HP.
+Enemy 9    has  40.00 HP.
+Player       has dealt  26.84, Enemy 9      HP:  13.16
+Enemy 9      has dealt  60.82, Player       HP:  51.18
+Player       has dealt  26.06, Enemy 9      HP: -12.90
 
-Enemy 9 Fitness Score: 0.0
+OUTCOME: Enemy 9 has been defeated, HP: -12.897661821278586
+Fitness{staminaFit=0.0, agilityFit=0.11259993244004053, criticalFit=0.5430187869257934, attackFit=0.5430187869257934, armorFit=0.09452213628823765, totalFit=1.293159642579865}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 10   has   8.00 HP.
-Player       has dealt  15.00, Enemy 10     HP:  -7.00
-OUTCOME: Enemy 10 has been defeated, HP: -7.0
+Player     has 112.00 HP.
+Enemy 10   has  40.00 HP.
+Player       has dealt  24.83, Enemy 10     HP:  15.17
+Enemy 10     has dealt  40.39, Player       HP:  71.61
+Player       has dealt  25.44, Enemy 10     HP: -10.27
 
-Enemy 10 Fitness Score: 0.0
+OUTCOME: Enemy 10 has been defeated, HP: -10.269920214003992
+Fitness{staminaFit=0.0, agilityFit=0.09996001599360256, criticalFit=0.36058347015453507, attackFit=0.36058347015453507, armorFit=0.11935566984107814, totalFit=0.9404826261437508}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 11   has   8.00 HP.
-Player       has dealt  17.00, Enemy 11     HP:  -9.00
-OUTCOME: Enemy 11 has been defeated, HP: -9.0
+Player       has dealt  17.44, Enemy 11     HP:  -9.44
 
-Enemy 11 Fitness Score: 0.0
+OUTCOME: Enemy 11 has been defeated, HP: -9.443587088857754
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.6592680703469372, totalFit=0.6592680703469372}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 12   has   8.00 HP.
-Enemy 12     has dealt   7.25, Player       HP:   8.75
-Player       has dealt  13.25, Enemy 12     HP:  -5.25
-OUTCOME: Enemy 12 has been defeated, HP: -5.25
+Player     has 112.00 HP.
+Enemy 12   has 344.00 HP.
+Enemy 12     has dealt   6.14, Player       HP: 105.86
+Player       has dealt  26.98, Enemy 12     HP: 317.02
+Enemy 12     has dealt   6.51, Player       HP:  99.36
+Enemy 12     has dealt   6.62, Player       HP:  92.73
+Player       has dealt  26.30, Enemy 12     HP: 290.72
+Enemy 12     has dealt   6.99, Player       HP:  85.75
+Player       has dealt  29.86, Enemy 12     HP: 260.86
+Enemy 12     has dealt   6.11, Player       HP:  79.64
+Enemy 12     has dealt   6.39, Player       HP:  73.25
+Player       has dealt  26.69, Enemy 12     HP: 234.17
+Enemy 12     has dealt   6.25, Player       HP:  67.00
+Enemy 12     has dealt   6.27, Player       HP:  60.73
+Player       has dealt  28.45, Enemy 12     HP: 205.72
+Enemy 12     has dealt   6.16, Player       HP:  54.56
+Player       has dealt  26.58, Enemy 12     HP: 179.14
+Enemy 12     has dealt   6.49, Player       HP:  48.07
+Enemy 12     has dealt   6.70, Player       HP:  41.37
+Player       has dealt  26.35, Enemy 12     HP: 152.79
+Enemy 12     has dealt   6.01, Player       HP:  35.36
+Enemy 12     has dealt   6.11, Player       HP:  29.25
+Player       has dealt  28.87, Enemy 12     HP: 123.91
+Enemy 12     has dealt   6.37, Player       HP:  22.88
+Player       has dealt  28.29, Enemy 12     HP:  95.62
+Enemy 12     has dealt   6.95, Player       HP:  15.92
+Enemy 12     has dealt   6.49, Player       HP:   9.44
+Player       has dealt  30.41, Enemy 12     HP:  65.21
+Enemy 12     has dealt   6.02, Player       HP:   3.42
+Enemy 12     has dealt   6.05, Player       HP:  -2.62
 
-Enemy 12 Fitness Score: 7.25
+OUTCOME: Player has been defeated, HP: -2.622982975104545
+Fitness{staminaFit=0.18956571801651498, agilityFit=0.443273327258847, criticalFit=0.062387818011680175, attackFit=0.0568566383805082, armorFit=0.008967342598931683, totalFit=0.7610508442664822}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 13   has  16.00 HP.
-Player       has dealt  10.00, Enemy 13     HP:   6.00
-Enemy 13     has dealt   7.00, Player       HP:   9.00
-Player       has dealt  14.00, Enemy 13     HP:  -8.00
-OUTCOME: Enemy 13 has been defeated, HP: -8.0
-Enemy 13     has dealt   7.00, Player       HP:   9.00
+Player     has 112.00 HP.
+Enemy 13   has   8.00 HP.
+Enemy 13     has dealt   6.56, Player       HP: 105.44
+Enemy 13     has dealt   1.42, Player       HP: 104.02
+Enemy 13     has dealt   3.47, Player       HP: 100.56
+Player       has dealt  26.87, Enemy 13     HP: -18.87
 
-Enemy 13 Fitness Score: 14.0
+OUTCOME: Enemy 13 has been defeated, HP: -18.867087165623815
+Fitness{staminaFit=0.0, agilityFit=0.6098800569221386, criticalFit=0.058554455789111906, attackFit=0.03405721226656243, armorFit=0.009305065281504451, totalFit=0.7117967902593174}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 14   has  64.00 HP.
-Enemy 14     has dealt   3.25, Player       HP:  12.75
-Player       has dealt  11.25, Enemy 14     HP:  52.75
-Enemy 14     has dealt   4.25, Player       HP:   8.50
-Player       has dealt  10.25, Enemy 14     HP:  42.50
-Enemy 14     has dealt   4.25, Player       HP:   4.25
-Player       has dealt  12.25, Enemy 14     HP:  30.25
-Enemy 14     has dealt   4.25, Player       HP:   0.00
-OUTCOME: Player has been defeated, HP: 0.0
+Player     has 112.00 HP.
+Enemy 14   has  24.00 HP.
+Enemy 14     has dealt   8.78, Player       HP: 103.22
+Enemy 14     has dealt   7.09, Player       HP:  96.13
+Player       has dealt  28.97, Enemy 14     HP:  -4.97
 
-Enemy 14 Fitness Score: 16.0
+OUTCOME: Enemy 14 has been defeated, HP: -4.974541407850214
+Fitness{staminaFit=0.0, agilityFit=0.5263157894736842, criticalFit=0.07840169172627699, attackFit=0.07084500117231214, armorFit=0.008628264257265044, totalFit=0.6841907466295384}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 15   has  16.00 HP.
-Player       has dealt  17.00, Enemy 15     HP:  -1.00
-OUTCOME: Enemy 15 has been defeated, HP: -1.0
+Enemy 15     has dealt  14.05, Player       HP:  97.95
+Enemy 15     has dealt  10.31, Player       HP:  87.64
+Player       has dealt  27.12, Enemy 15     HP: -11.12
 
-Enemy 15 Fitness Score: 0.0
+OUTCOME: Enemy 15 has been defeated, HP: -11.117978502943654
+Fitness{staminaFit=0.0, agilityFit=0.5062009617818274, criticalFit=0.1254313516674536, attackFit=0.10875793967620921, armorFit=0.009218976258605063, totalFit=0.7496092293840951}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 16   has   8.00 HP.
-Enemy 16     has dealt  27.25, Player       HP: -11.25
-OUTCOME: Player has been defeated, HP: -11.25
+Player     has 112.00 HP.
+Enemy 16   has  24.00 HP.
+Enemy 16     has dealt  47.43, Player       HP:  64.57
+Player       has dealt  30.69, Enemy 16     HP:  -6.69
 
-Enemy 16 Fitness Score: 27.25
+OUTCOME: Enemy 16 has been defeated, HP: -6.690382780929511
+Fitness{staminaFit=0.0, agilityFit=0.2249212775528565, criticalFit=0.42349058124675765, attackFit=0.42349058124675765, armorFit=0.008145874288519653, totalFit=1.0800483143348916}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 17   has   8.00 HP.
-Player       has dealt  16.50, Enemy 17     HP:  -8.50
-OUTCOME: Enemy 17 has been defeated, HP: -8.5
+Enemy 17     has dealt   6.07, Player       HP: 105.93
+Enemy 17     has dealt   8.08, Player       HP:  97.85
+Player       has dealt  26.29, Enemy 17     HP: -18.29
 
-Enemy 17 Fitness Score: 0.0
+OUTCOME: Enemy 17 has been defeated, HP: -18.29464163065359
+Fitness{staminaFit=0.0, agilityFit=0.5376344086021505, criticalFit=0.07217045092178309, attackFit=0.06317776641024041, armorFit=0.009507640511386802, totalFit=0.6824902664455608}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 18   has   8.00 HP.
-Enemy 18     has dealt   4.25, Player       HP:  11.75
-Player       has dealt  13.25, Enemy 18     HP:  -5.25
-OUTCOME: Enemy 18 has been defeated, HP: -5.25
+Player     has 112.00 HP.
+Enemy 18   has  32.00 HP.
+Enemy 18     has dealt  64.40, Player       HP:  47.60
+Player       has dealt  27.02, Enemy 18     HP:   4.98
+Enemy 18     has dealt  65.76, Player       HP: -18.16
 
-Enemy 18 Fitness Score: 4.25
+OUTCOME: Player has been defeated, HP: -18.159547458447875
+Fitness{staminaFit=0.15558150306380947, agilityFit=0.27074590496818735, criticalFit=0.5871675737125955, attackFit=0.5810694082966423, armorFit=0.009251929023755576, totalFit=1.6038163190649903}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 19   has   8.00 HP.
-Enemy 19     has dealt  17.25, Player       HP:  -1.25
-OUTCOME: Player has been defeated, HP: -1.25
+Player     has 112.00 HP.
+Enemy 19   has  32.00 HP.
+Player       has dealt  21.38, Enemy 19     HP:  10.62
+Enemy 19     has dealt   1.99, Player       HP: 110.01
+Player       has dealt  23.21, Enemy 19     HP: -12.59
 
-Enemy 19 Fitness Score: 17.25
+OUTCOME: Enemy 19 has been defeated, HP: -12.591722406575702
+Fitness{staminaFit=0.0, agilityFit=0.07309941520467836, criticalFit=0.017807954806979574, attackFit=0.017807954806979574, armorFit=0.24668255466126354, totalFit=0.35539787947990104}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 20   has  48.00 HP.
-Enemy 20     has dealt   2.00, Player       HP:  14.00
-Player       has dealt  14.00, Enemy 20     HP:  34.00
-Player       has dealt  18.00, Enemy 20     HP:  16.00
-Enemy 20     has dealt   5.00, Player       HP:   9.00
-Enemy 20     has dealt   3.00, Player       HP:   6.00
-Player       has dealt  14.00, Enemy 20     HP:   2.00
-Enemy 20     has dealt   5.00, Player       HP:   1.00
-Player       has dealt  19.00, Enemy 20     HP: -17.00
-OUTCOME: Enemy 20 has been defeated, HP: -17.0
+Player     has 112.00 HP.
+Enemy 20   has 304.00 HP.
+Enemy 20     has dealt   6.31, Player       HP: 105.69
+Player       has dealt  28.06, Enemy 20     HP: 275.94
+Enemy 20     has dealt   7.29, Player       HP:  98.40
+Player       has dealt  27.13, Enemy 20     HP: 248.81
+Enemy 20     has dealt   8.76, Player       HP:  89.64
+Enemy 20     has dealt   7.08, Player       HP:  82.55
+Player       has dealt  27.33, Enemy 20     HP: 221.48
+Enemy 20     has dealt   7.13, Player       HP:  75.42
+Player       has dealt  27.26, Enemy 20     HP: 194.22
+Enemy 20     has dealt   6.78, Player       HP:  68.64
+Player       has dealt  27.62, Enemy 20     HP: 166.60
+Enemy 20     has dealt   6.94, Player       HP:  61.70
+Enemy 20     has dealt   6.64, Player       HP:  55.06
+Player       has dealt  26.90, Enemy 20     HP: 139.70
+Enemy 20     has dealt   8.88, Player       HP:  46.18
+Player       has dealt  29.11, Enemy 20     HP: 110.59
+Enemy 20     has dealt   8.88, Player       HP:  37.31
+Player       has dealt  27.29, Enemy 20     HP:  83.31
+Enemy 20     has dealt   6.52, Player       HP:  30.79
+Enemy 20     has dealt   6.54, Player       HP:  24.25
+Player       has dealt  26.11, Enemy 20     HP:  57.19
+Enemy 20     has dealt   7.79, Player       HP:  16.47
+Player       has dealt  26.20, Enemy 20     HP:  30.99
+Enemy 20     has dealt   8.07, Player       HP:   8.39
+Player       has dealt  29.18, Enemy 20     HP:   1.81
+Enemy 20     has dealt   8.22, Player       HP:   0.18
+Enemy 20     has dealt   7.68, Player       HP:  -7.50
 
-Enemy 20 Fitness Score: 15.0
+OUTCOME: Player has been defeated, HP: -7.497690029243758
+Fitness{staminaFit=0.0059475638877352485, agilityFit=0.36122273897141827, criticalFit=0.07927858352199692, attackFit=0.06668397881096191, armorFit=0.027300529538335092, totalFit=0.5404333947304475}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 21   has  32.00 HP.
-Enemy 21     has dealt   4.00, Player       HP:  12.00
-Player       has dealt  19.00, Enemy 21     HP:  13.00
-Enemy 21     has dealt   2.00, Player       HP:  10.00
-Player       has dealt   9.00, Enemy 21     HP:   4.00
-Enemy 21     has dealt   2.00, Player       HP:   8.00
-Player       has dealt   8.00, Enemy 21     HP:  -4.00
-OUTCOME: Enemy 21 has been defeated, HP: -4.0
+Player     has 112.00 HP.
+Enemy 21   has 128.00 HP.
+Enemy 21     has dealt  42.59, Player       HP:  69.41
+Player       has dealt  28.51, Enemy 21     HP:  99.49
+Enemy 21     has dealt  42.17, Player       HP:  27.24
+Player       has dealt  27.23, Enemy 21     HP:  72.26
+Enemy 21     has dealt  42.24, Player       HP: -15.00
 
-Enemy 21 Fitness Score: 8.0
+OUTCOME: Player has been defeated, HP: -15.000498627140004
+Fitness{staminaFit=0.5645572019746441, agilityFit=0.27078256160303277, criticalFit=0.3802585056733262, attackFit=0.3779776744855357, armorFit=0.03588301395925293, totalFit=1.6294589576957916}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 22   has   8.00 HP.
-Player       has dealt  15.75, Enemy 22     HP:  -7.75
-OUTCOME: Enemy 22 has been defeated, HP: -7.75
+Enemy 22     has dealt  66.00, Player       HP:  46.00
+Player       has dealt  25.76, Enemy 22     HP: -17.76
 
-Enemy 22 Fitness Score: 0.0
+OUTCOME: Enemy 22 has been defeated, HP: -17.762298861856234
+Fitness{staminaFit=0.0, agilityFit=0.14275517487508924, criticalFit=0.5892663584724597, attackFit=0.5892663584724597, armorFit=0.05822461761053887, totalFit=1.3795125094305476}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 23   has   8.00 HP.
-Enemy 23     has dealt  10.25, Player       HP:   5.75
-Player       has dealt  16.25, Enemy 23     HP:  -8.25
-OUTCOME: Enemy 23 has been defeated, HP: -8.25
+Player     has 112.00 HP.
+Enemy 23   has  64.00 HP.
+Player       has dealt  24.60, Enemy 23     HP:  39.40
+Enemy 23     has dealt   0.38, Player       HP: 111.62
+Player       has dealt  23.93, Enemy 23     HP:  15.47
+Player       has dealt  23.43, Enemy 23     HP:  -7.96
 
-Enemy 23 Fitness Score: 10.25
+OUTCOME: Enemy 23 has been defeated, HP: -7.9629879959133305
+Fitness{staminaFit=0.0, agilityFit=0.07242702976750923, criticalFit=0.0033749003586827997, attackFit=0.0033749003586827997, armorFit=0.2292845316669871, totalFit=0.30846136215186193}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 24   has   8.00 HP.
-Player       has dealt   8.00, Enemy 24     HP:   0.00
-OUTCOME: Enemy 24 has been defeated, HP: 0.0
+Player     has 112.00 HP.
+Enemy 24   has 152.00 HP.
+Enemy 24     has dealt  43.47, Player       HP:  68.53
+Player       has dealt  26.57, Enemy 24     HP: 125.43
+Enemy 24     has dealt  43.35, Player       HP:  25.18
+Player       has dealt  26.96, Enemy 24     HP:  98.46
+Enemy 24     has dealt  44.05, Player       HP: -18.87
 
-Enemy 24 Fitness Score: 0.0
+OUTCOME: Player has been defeated, HP: -18.869663119865407
+Fitness{staminaFit=0.6477928043790178, agilityFit=0.270929287455974, criticalFit=0.39334482100751306, attackFit=0.3894930449995994, armorFit=0.03735839273142392, totalFit=1.7389183505735282}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 25   has   8.00 HP.
-Player       has dealt  15.25, Enemy 25     HP:  -7.25
-OUTCOME: Enemy 25 has been defeated, HP: -7.25
+Player     has 112.00 HP.
+Enemy 25   has  72.00 HP.
+Enemy 25     has dealt  26.87, Player       HP:  85.13
+Player       has dealt  30.64, Enemy 25     HP:  41.36
+Enemy 25     has dealt  19.93, Player       HP:  65.20
+Enemy 25     has dealt   8.69, Player       HP:  56.51
+Player       has dealt  29.97, Enemy 25     HP:  11.39
+Enemy 25     has dealt   5.81, Player       HP:  50.69
+Enemy 25     has dealt  16.54, Player       HP:  34.15
+Player       has dealt  30.58, Enemy 25     HP: -19.19
 
-Enemy 25 Fitness Score: 0.0
+OUTCOME: Enemy 25 has been defeated, HP: -19.187688396229788
+Fitness{staminaFit=0.0, agilityFit=0.4211590296495957, criticalFit=0.2399084404719328, attackFit=0.13901623538957922, armorFit=0.008224794522053146, totalFit=0.8083085000331608}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 26   has   8.00 HP.
-Enemy 26     has dealt  10.25, Player       HP:   5.75
-Player       has dealt  10.25, Enemy 26     HP:  -2.25
-OUTCOME: Enemy 26 has been defeated, HP: -2.25
+Enemy 26     has dealt   0.84, Player       HP: 111.16
+Enemy 26     has dealt   1.93, Player       HP: 109.23
+Player       has dealt  27.20, Enemy 26     HP: -19.20
 
-Enemy 26 Fitness Score: 10.25
+OUTCOME: Enemy 26 has been defeated, HP: -19.202547090737745
+Fitness{staminaFit=0.0, agilityFit=0.4579803068468056, criticalFit=0.017196549454261245, attackFit=0.012348667068658873, armorFit=0.0183806317229112, totalFit=0.5059061550926369}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 27   has  16.00 HP.
-Player       has dealt  15.50, Enemy 27     HP:   0.50
-Enemy 27     has dealt   5.50, Player       HP:  10.50
-Player       has dealt  13.50, Enemy 27     HP: -13.00
-OUTCOME: Enemy 27 has been defeated, HP: -13.0
+Player     has 112.00 HP.
+Enemy 27   has  32.00 HP.
+Enemy 27     has dealt  22.71, Player       HP:  89.29
+Player       has dealt  24.92, Enemy 27     HP:   7.08
+Enemy 27     has dealt  24.81, Player       HP:  64.48
+Enemy 27     has dealt  23.55, Player       HP:  40.93
+Player       has dealt  25.46, Enemy 27     HP: -18.38
 
-Enemy 27 Fitness Score: 5.5
+OUTCOME: Enemy 27 has been defeated, HP: -18.381481966762106
+Fitness{staminaFit=0.0, agilityFit=0.3060599877576005, criticalFit=0.2214893289699764, attackFit=0.21151813957362356, armorFit=0.04962140656460465, totalFit=0.7886888628658051}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 28   has  24.00 HP.
-Player       has dealt   9.50, Enemy 28     HP:  14.50
-Enemy 28     has dealt   6.50, Player       HP:   9.50
-Player       has dealt  13.50, Enemy 28     HP:   1.00
-Enemy 28     has dealt   7.50, Player       HP:   2.00
-Player       has dealt  12.50, Enemy 28     HP: -11.50
-OUTCOME: Enemy 28 has been defeated, HP: -11.5
+Player     has 112.00 HP.
+Enemy 28   has  40.00 HP.
+Enemy 28     has dealt   6.18, Player       HP: 105.82
+Enemy 28     has dealt   6.93, Player       HP:  98.89
+Player       has dealt  29.62, Enemy 28     HP:  10.38
+Enemy 28     has dealt   6.04, Player       HP:  92.85
+Enemy 28     has dealt   7.87, Player       HP:  84.97
+Enemy 28     has dealt   6.08, Player       HP:  78.89
+Player       has dealt  27.83, Enemy 28     HP: -17.45
 
-Enemy 28 Fitness Score: 14.0
+OUTCOME: Enemy 28 has been defeated, HP: -17.445177303998648
+Fitness{staminaFit=0.0, agilityFit=0.6687174000267486, criticalFit=0.07030978022276095, attackFit=0.059122281543727416, armorFit=0.008703950853071803, totalFit=0.8068534126463088}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 29   has  24.00 HP.
-Enemy 29     has dealt  10.00, Player       HP:   6.00
-Player       has dealt  17.00, Enemy 29     HP:   7.00
-Enemy 29     has dealt   9.00, Player       HP:  -3.00
-OUTCOME: Player has been defeated, HP: -3.0
+Player     has 112.00 HP.
+Enemy 29   has   8.00 HP.
+Enemy 29     has dealt   2.07, Player       HP: 109.93
+Enemy 29     has dealt   2.07, Player       HP: 107.87
+Player       has dealt  28.04, Enemy 29     HP: -20.04
 
-Enemy 29 Fitness Score: 19.0
+OUTCOME: Enemy 29 has been defeated, HP: -20.041999928072343
+Fitness{staminaFit=0.0, agilityFit=0.45454545454545453, criticalFit=0.0184539436183794, attackFit=0.01844860405365337, armorFit=0.017830397306985903, totalFit=0.5092783995244732}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 30   has   8.00 HP.
-Enemy 30     has dealt   4.25, Player       HP:  11.75
-Player       has dealt  14.25, Enemy 30     HP:  -6.25
-OUTCOME: Enemy 30 has been defeated, HP: -6.25
+Player     has 112.00 HP.
+Enemy 30   has  24.00 HP.
+Enemy 30     has dealt  64.04, Player       HP:  47.96
+Player       has dealt  27.39, Enemy 30     HP:  -3.39
 
-Enemy 30 Fitness Score: 4.25
+OUTCOME: Enemy 30 has been defeated, HP: -3.3896302227006387
+Fitness{staminaFit=0.0, agilityFit=0.20475020475020472, criticalFit=0.5717783844329316, attackFit=0.5717783844329316, armorFit=0.02738262597566567, totalFit=1.3756895995917335}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 31   has  24.00 HP.
-Enemy 31     has dealt   8.25, Player       HP:   7.75
-Player       has dealt  16.25, Enemy 31     HP:   7.75
-Enemy 31     has dealt  13.25, Player       HP:  -5.50
-OUTCOME: Player has been defeated, HP: -5.5
+Player     has 112.00 HP.
+Enemy 31   has   8.00 HP.
+Player       has dealt  20.92, Enemy 31     HP: -12.92
 
-Enemy 31 Fitness Score: 21.5
+OUTCOME: Enemy 31 has been defeated, HP: -12.92090409663269
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.41824196313812034, totalFit=0.41824196313812034}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 32   has   8.00 HP.
-Player       has dealt  14.25, Enemy 32     HP:  -6.25
-OUTCOME: Enemy 32 has been defeated, HP: -6.25
+Player     has 112.00 HP.
+Enemy 32   has  88.00 HP.
+Enemy 32     has dealt  19.66, Player       HP:  92.34
+Player       has dealt  26.84, Enemy 32     HP:  61.16
+Enemy 32     has dealt  18.79, Player       HP:  73.55
+Enemy 32     has dealt  19.05, Player       HP:  54.50
+Player       has dealt  29.12, Enemy 32     HP:  32.04
+Enemy 32     has dealt  19.05, Player       HP:  35.46
+Player       has dealt  26.24, Enemy 32     HP:   5.80
+Enemy 32     has dealt  18.36, Player       HP:  17.10
+Enemy 32     has dealt  19.58, Player       HP:  -2.48
 
-Enemy 32 Fitness Score: 0.0
+OUTCOME: Player has been defeated, HP: -2.4799509132535356
+Fitness{staminaFit=0.06596286739881546, agilityFit=0.4062288422477996, criticalFit=0.17552506971695175, attackFit=0.17035706981138918, armorFit=0.03649845161505505, totalFit=0.854572300790011}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 33   has   8.00 HP.
-Player       has dealt  10.75, Enemy 33     HP:  -2.75
-OUTCOME: Enemy 33 has been defeated, HP: -2.75
+Player       has dealt  20.26, Enemy 33     HP: -12.26
 
-Enemy 33 Fitness Score: 0.0
+OUTCOME: Enemy 33 has been defeated, HP: -12.261657313256126
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.3824958580722608, totalFit=0.3824958580722608}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 34   has  56.00 HP.
-Player       has dealt  17.00, Enemy 34     HP:  39.00
-Enemy 34     has dealt   3.00, Player       HP:  13.00
-Player       has dealt  16.00, Enemy 34     HP:  23.00
-Enemy 34     has dealt   3.00, Player       HP:  10.00
-Player       has dealt  10.00, Enemy 34     HP:  13.00
-Enemy 34     has dealt   4.00, Player       HP:   6.00
-Player       has dealt  18.00, Enemy 34     HP:  -5.00
-OUTCOME: Enemy 34 has been defeated, HP: -5.0
+Player     has 112.00 HP.
+Enemy 34   has  48.00 HP.
+Player       has dealt  20.59, Enemy 34     HP:  27.41
+Player       has dealt  18.34, Enemy 34     HP:   9.07
+Enemy 34     has dealt   0.98, Player       HP: 111.02
+Player       has dealt  18.84, Enemy 34     HP:  -9.78
 
-Enemy 34 Fitness Score: 10.0
+OUTCOME: Enemy 34 has been defeated, HP: -9.776747176927906
+Fitness{staminaFit=0.0, agilityFit=0.049982506122857, criticalFit=0.008745066130135556, attackFit=0.008745066130135556, armorFit=0.415392024866086, totalFit=0.4828646632492141}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 35   has   8.00 HP.
-Enemy 35     has dealt   8.00, Player       HP:   8.00
-Player       has dealt  12.00, Enemy 35     HP:  -4.00
-OUTCOME: Enemy 35 has been defeated, HP: -4.0
+Player     has 112.00 HP.
+Enemy 35   has  64.00 HP.
+Enemy 35     has dealt  14.39, Player       HP:  97.61
+Player       has dealt  26.92, Enemy 35     HP:  37.08
+Enemy 35     has dealt  26.43, Player       HP:  71.18
+Enemy 35     has dealt  10.48, Player       HP:  60.71
+Player       has dealt  29.36, Enemy 35     HP:   7.72
+Enemy 35     has dealt  14.36, Player       HP:  46.35
+Player       has dealt  28.09, Enemy 35     HP: -20.37
 
-Enemy 35 Fitness Score: 8.0
+OUTCOME: Enemy 35 has been defeated, HP: -20.37143465880841
+Fitness{staminaFit=0.0, agilityFit=0.34737299174989145, criticalFit=0.23599514675891403, attackFit=0.14653981912823827, armorFit=0.01777852902544427, totalFit=0.7476864866624879}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 36   has  16.00 HP.
-Enemy 36     has dealt  10.25, Player       HP:   5.75
-Player       has dealt  18.25, Enemy 36     HP:  -2.25
-OUTCOME: Enemy 36 has been defeated, HP: -2.25
+Player     has 112.00 HP.
+Enemy 36   has 104.00 HP.
+Enemy 36     has dealt   0.73, Player       HP: 111.27
+Player       has dealt  24.57, Enemy 36     HP:  79.43
+Enemy 36     has dealt   2.52, Player       HP: 108.76
+Player       has dealt  25.90, Enemy 36     HP:  53.52
+Enemy 36     has dealt   2.52, Player       HP: 106.24
+Player       has dealt  25.39, Enemy 36     HP:  28.14
+Enemy 36     has dealt   1.54, Player       HP: 104.70
+Player       has dealt  26.12, Enemy 36     HP:   2.02
+Enemy 36     has dealt   2.17, Player       HP: 102.53
+Player       has dealt  25.39, Enemy 36     HP: -23.37
 
-Enemy 36 Fitness Score: 10.25
+OUTCOME: Enemy 36 has been defeated, HP: -23.370067062734822
+Fitness{staminaFit=0.0, agilityFit=0.25846471956577927, criticalFit=0.022489530453570987, attackFit=0.01690899245511673, armorFit=0.07851138207436605, totalFit=0.376374624548833}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 37   has  24.00 HP.
-Enemy 37     has dealt   6.25, Player       HP:   9.75
-Player       has dealt  16.25, Enemy 37     HP:   7.75
-Enemy 37     has dealt   9.25, Player       HP:   0.50
-Player       has dealt  12.25, Enemy 37     HP:  -4.50
-OUTCOME: Enemy 37 has been defeated, HP: -4.5
+Player     has 112.00 HP.
+Enemy 37   has  56.00 HP.
+Enemy 37     has dealt  17.69, Player       HP:  94.31
+Player       has dealt  28.80, Enemy 37     HP:  27.20
+Enemy 37     has dealt  17.76, Player       HP:  76.54
+Player       has dealt  27.57, Enemy 37     HP:  -0.37
 
-Enemy 37 Fitness Score: 15.5
+OUTCOME: Enemy 37 has been defeated, HP: -0.3730869024311829
+Fitness{staminaFit=0.0, agilityFit=0.2240645305848084, criticalFit=0.15857882729164574, attackFit=0.15828381650172998, armorFit=0.06208636412012869, totalFit=0.6030135384983129}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 38   has   8.00 HP.
-Enemy 38     has dealt   8.00, Player       HP:   8.00
-Player       has dealt  12.00, Enemy 38     HP:  -4.00
-OUTCOME: Enemy 38 has been defeated, HP: -4.0
+Player       has dealt  18.65, Enemy 38     HP: -10.65
 
-Enemy 38 Fitness Score: 8.0
+OUTCOME: Enemy 38 has been defeated, HP: -10.646686840741694
+Fitness{staminaFit=0.0, agilityFit=0.0, criticalFit=0.0, attackFit=0.0, armorFit=0.616731545835441, totalFit=0.616731545835441}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 39   has  16.00 HP.
-Player       has dealt  16.75, Enemy 39     HP:  -0.75
-OUTCOME: Enemy 39 has been defeated, HP: -0.75
+Player     has 112.00 HP.
+Enemy 39   has 208.00 HP.
+Player       has dealt  25.49, Enemy 39     HP: 182.51
+Enemy 39     has dealt   0.76, Player       HP: 111.24
+Player       has dealt  26.93, Enemy 39     HP: 155.58
+Enemy 39     has dealt   0.94, Player       HP: 110.30
+Player       has dealt  25.35, Enemy 39     HP: 130.23
+Player       has dealt  23.95, Enemy 39     HP: 106.29
+Enemy 39     has dealt   0.40, Player       HP: 109.90
+Player       has dealt  25.55, Enemy 39     HP:  80.74
+Enemy 39     has dealt   0.29, Player       HP: 109.61
+Player       has dealt  24.08, Enemy 39     HP:  56.66
+Player       has dealt  25.40, Enemy 39     HP:  31.25
+Enemy 39     has dealt   0.81, Player       HP: 108.80
+Player       has dealt  23.25, Enemy 39     HP:   8.00
+Enemy 39     has dealt   0.28, Player       HP: 108.52
+Player       has dealt  25.17, Enemy 39     HP: -17.17
 
-Enemy 39 Fitness Score: 0.0
+OUTCOME: Enemy 39 has been defeated, HP: -17.169898663593777
+Fitness{staminaFit=0.0, agilityFit=0.16279132864856066, criticalFit=0.00842374678577888, attackFit=0.005175561386775057, armorFit=0.13989436504148955, totalFit=0.31628500186260416}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 40   has  32.00 HP.
-Player       has dealt  16.75, Enemy 40     HP:  15.25
-Enemy 40     has dealt   7.75, Player       HP:   8.25
-Player       has dealt  17.75, Enemy 40     HP:  -2.50
-OUTCOME: Enemy 40 has been defeated, HP: -2.5
+Player     has 112.00 HP.
+Enemy 40   has  16.00 HP.
+Enemy 40     has dealt  82.89, Player       HP:  29.11
+Player       has dealt  29.84, Enemy 40     HP: -13.84
 
-Enemy 40 Fitness Score: 7.75
+OUTCOME: Enemy 40 has been defeated, HP: -13.842895256779023
+Fitness{staminaFit=0.0, agilityFit=0.18175209014903673, criticalFit=0.7400753446572621, attackFit=0.7400753446572621, armorFit=0.025131609837005752, totalFit=1.6870343893005666}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 41   has  32.00 HP.
-Player       has dealt  12.00, Enemy 41     HP:  20.00
-Enemy 41     has dealt  14.00, Player       HP:   2.00
-Player       has dealt  10.00, Enemy 41     HP:  10.00
-Enemy 41     has dealt  13.00, Player       HP: -11.00
-OUTCOME: Player has been defeated, HP: -11.0
+Player     has 112.00 HP.
+Enemy 41   has   8.00 HP.
+Enemy 41     has dealt  84.63, Player       HP:  27.37
+Player       has dealt  30.37, Enemy 41     HP: -22.37
 
-Enemy 41 Fitness Score: 27.0
+OUTCOME: Enemy 41 has been defeated, HP: -22.373242069886103
+Fitness{staminaFit=0.0, agilityFit=0.1997602876548142, criticalFit=0.7556602351045075, attackFit=0.7556602351045075, armorFit=0.016461858067358923, totalFit=1.7275426159311882}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 42   has  40.00 HP.
-Enemy 42     has dealt  10.25, Player       HP:   5.75
-Player       has dealt   8.25, Enemy 42     HP:  31.75
-Enemy 42     has dealt  16.25, Player       HP: -10.50
-OUTCOME: Player has been defeated, HP: -10.5
+Player     has 112.00 HP.
+Enemy 42   has 136.00 HP.
+Enemy 42     has dealt  28.88, Player       HP:  83.12
+Player       has dealt  29.86, Enemy 42     HP: 106.14
+Enemy 42     has dealt  10.52, Player       HP:  72.59
+Enemy 42     has dealt   8.58, Player       HP:  64.01
+Player       has dealt  27.08, Enemy 42     HP:  79.06
+Enemy 42     has dealt  24.21, Player       HP:  39.80
+Enemy 42     has dealt  20.20, Player       HP:  19.61
+Player       has dealt  26.19, Enemy 42     HP:  52.87
+Enemy 42     has dealt   6.09, Player       HP:  13.52
+Player       has dealt  29.22, Enemy 42     HP:  23.64
+Enemy 42     has dealt  10.58, Player       HP:   2.94
+Enemy 42     has dealt  20.25, Player       HP: -17.31
 
-Enemy 42 Fitness Score: 26.5
+OUTCOME: Player has been defeated, HP: -17.305796318175926
+Fitness{staminaFit=0.17383582899373132, agilityFit=0.43334597259086727, criticalFit=0.25789430278363473, attackFit=0.14431450481939276, armorFit=0.008900096899039691, totalFit=1.0182907060866657}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 43   has   8.00 HP.
-Player       has dealt   8.75, Enemy 43     HP:  -0.75
-OUTCOME: Enemy 43 has been defeated, HP: -0.75
+Player     has 112.00 HP.
+Enemy 43   has  72.00 HP.
+Player       has dealt  25.88, Enemy 43     HP:  46.12
+Enemy 43     has dealt   4.27, Player       HP: 107.73
+Player       has dealt  25.69, Enemy 43     HP:  20.43
+Enemy 43     has dealt   4.14, Player       HP: 103.59
+Player       has dealt  27.26, Enemy 43     HP:  -6.83
 
-Enemy 43 Fitness Score: 0.0
+OUTCOME: Enemy 43 has been defeated, HP: -6.829085041224033
+Fitness{staminaFit=0.0, agilityFit=0.15869237483138934, criticalFit=0.03815885650413352, attackFit=0.037541055389234565, armorFit=0.11417105748840556, totalFit=0.348563344213163}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 44   has  64.00 HP.
-Enemy 44     has dealt   3.25, Player       HP:  12.75
-Player       has dealt  17.25, Enemy 44     HP:  46.75
-Enemy 44     has dealt   4.25, Player       HP:   8.50
-Player       has dealt   9.25, Enemy 44     HP:  37.50
-Enemy 44     has dealt   3.25, Player       HP:   5.25
-Player       has dealt  13.25, Enemy 44     HP:  24.25
-Enemy 44     has dealt   3.25, Player       HP:   2.00
-Player       has dealt  16.25, Enemy 44     HP:   8.00
-Enemy 44     has dealt   3.25, Player       HP:  -1.25
-OUTCOME: Player has been defeated, HP: -1.25
+Player     has 112.00 HP.
+Enemy 44   has 192.00 HP.
+Enemy 44     has dealt  22.31, Player       HP:  89.69
+Player       has dealt  27.61, Enemy 44     HP: 164.39
+Enemy 44     has dealt  22.25, Player       HP:  67.44
+Enemy 44     has dealt  27.05, Player       HP:  40.39
+Player       has dealt  29.91, Enemy 44     HP: 134.48
+Enemy 44     has dealt  24.07, Player       HP:  16.32
+Player       has dealt  26.03, Enemy 44     HP: 108.46
+Enemy 44     has dealt  22.33, Player       HP:  -6.00
 
-Enemy 44 Fitness Score: 17.25
+OUTCOME: Player has been defeated, HP: -6.004202667982316
+Fitness{staminaFit=0.5648818085504481, agilityFit=0.33852403520649965, criticalFit=0.24151188618818026, attackFit=0.21072179047853987, armorFit=0.017954891690401296, totalFit=1.373594412114069}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 45   has   8.00 HP.
-Enemy 45     has dealt   4.25, Player       HP:  11.75
-Player       has dealt  17.25, Enemy 45     HP:  -9.25
-OUTCOME: Enemy 45 has been defeated, HP: -9.25
+Player     has 112.00 HP.
+Enemy 45   has 120.00 HP.
+Player       has dealt  28.30, Enemy 45     HP:  91.70
+Enemy 45     has dealt  23.93, Player       HP:  88.07
+Player       has dealt  28.20, Enemy 45     HP:  63.50
+Enemy 45     has dealt  23.39, Player       HP:  64.68
+Player       has dealt  27.77, Enemy 45     HP:  35.73
+Enemy 45     has dealt  23.19, Player       HP:  41.49
+Player       has dealt  27.33, Enemy 45     HP:   8.40
+Enemy 45     has dealt  22.71, Player       HP:  18.78
+Player       has dealt  25.86, Enemy 45     HP: -17.46
 
-Enemy 45 Fitness Score: 4.25
+OUTCOME: Enemy 45 has been defeated, HP: -17.461190267518095
+Fitness{staminaFit=0.0, agilityFit=0.19256691700365877, criticalFit=0.21365824596121713, attackFit=0.20808362453874737, armorFit=0.09093475748080826, totalFit=0.7052435449844315}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 46   has  16.00 HP.
-Player       has dealt  11.75, Enemy 46     HP:   4.25
-Enemy 46     has dealt   2.75, Player       HP:  13.25
-Player       has dealt  16.75, Enemy 46     HP: -12.50
-OUTCOME: Enemy 46 has been defeated, HP: -12.5
+Player     has 112.00 HP.
+Enemy 46   has  96.00 HP.
+Enemy 46     has dealt  28.46, Player       HP:  83.54
+Player       has dealt  30.12, Enemy 46     HP:  65.88
+Enemy 46     has dealt  16.70, Player       HP:  66.84
+Player       has dealt  26.99, Enemy 46     HP:  38.89
+Enemy 46     has dealt  18.36, Player       HP:  48.48
+Enemy 46     has dealt  23.48, Player       HP:  25.00
+Player       has dealt  28.11, Enemy 46     HP:  10.78
+Enemy 46     has dealt  31.45, Player       HP:  -6.44
 
-Enemy 46 Fitness Score: 2.75
+OUTCOME: Player has been defeated, HP: -6.444900329793143
+Fitness{staminaFit=0.11232803891311356, agilityFit=0.33852403520649965, criticalFit=0.2807794334299855, attackFit=0.21150875058891636, armorFit=0.017602223214157154, totalFit=0.9607424813526723}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 47   has   8.00 HP.
-Enemy 47     has dealt   8.25, Player       HP:   7.75
-Player       has dealt  13.25, Enemy 47     HP:  -5.25
-OUTCOME: Enemy 47 has been defeated, HP: -5.25
+Player     has 112.00 HP.
+Enemy 47   has 112.00 HP.
+Player       has dealt  23.57, Enemy 47     HP:  88.43
+Enemy 47     has dealt   8.37, Player       HP: 103.63
+Player       has dealt  23.73, Enemy 47     HP:  64.70
+Player       has dealt  25.48, Enemy 47     HP:  39.22
+Enemy 47     has dealt  11.37, Player       HP:  92.26
+Player       has dealt  21.67, Enemy 47     HP:  17.55
+Player       has dealt  22.59, Enemy 47     HP:  -5.04
 
-Enemy 47 Fitness Score: 8.25
+OUTCOME: Enemy 47 has been defeated, HP: -5.04432858060018
+Fitness{staminaFit=0.0, agilityFit=0.10064412238325282, criticalFit=0.10155965726365883, attackFit=0.08814629722081103, armorFit=0.20291457337589022, totalFit=0.4932646502436129}
 Fighting is done
 
-Player     has  16.00 HP.
+Player     has 112.00 HP.
 Enemy 48   has   8.00 HP.
-Player       has dealt  16.50, Enemy 48     HP:  -8.50
-OUTCOME: Enemy 48 has been defeated, HP: -8.5
+Enemy 48     has dealt  23.20, Player       HP:  88.80
+Player       has dealt  26.65, Enemy 48     HP: -18.65
 
-Enemy 48 Fitness Score: 0.0
+OUTCOME: Enemy 48 has been defeated, HP: -18.652690585609335
+Fitness{staminaFit=0.0, agilityFit=0.1977066034005536, criticalFit=0.20714208825116046, attackFit=0.20714208825116046, armorFit=0.046899580212547705, totalFit=0.6588903601154222}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 49   has   8.00 HP.
-Enemy 49     has dealt  18.25, Player       HP:  -2.25
-OUTCOME: Player has been defeated, HP: -2.25
+Player     has 112.00 HP.
+Enemy 49   has  32.00 HP.
+Player       has dealt  24.98, Enemy 49     HP:   7.02
+Enemy 49     has dealt  20.40, Player       HP:  91.60
+Player       has dealt  24.15, Enemy 49     HP: -17.13
 
-Enemy 49 Fitness Score: 18.25
+OUTCOME: Enemy 49 has been defeated, HP: -17.128311327070502
+Fitness{staminaFit=0.0, agilityFit=0.12903225806451613, criticalFit=0.1821477417782627, attackFit=0.1821477417782627, armorFit=0.0814194482153091, totalFit=0.5747471898363506}
 Fighting is done
 
-Player     has  16.00 HP.
-Enemy 50   has   8.00 HP.
-Enemy 50     has dealt   5.25, Player       HP:  10.75
-Player       has dealt  17.25, Enemy 50     HP:  -9.25
-OUTCOME: Enemy 50 has been defeated, HP: -9.25
-
-Enemy 50 Fitness Score: 5.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 51   has   8.00 HP.
-Enemy 51     has dealt  13.25, Player       HP:   2.75
-Player       has dealt  13.25, Enemy 51     HP:  -5.25
-OUTCOME: Enemy 51 has been defeated, HP: -5.25
-
-Enemy 51 Fitness Score: 13.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 52   has  16.00 HP.
-Player       has dealt  12.75, Enemy 52     HP:   3.25
-Enemy 52     has dealt   0.75, Player       HP:  15.25
-Player       has dealt  16.75, Enemy 52     HP: -13.50
-OUTCOME: Enemy 52 has been defeated, HP: -13.5
-
-Enemy 52 Fitness Score: 0.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 53   has  32.00 HP.
-Player       has dealt  16.75, Enemy 53     HP:  15.25
-Enemy 53     has dealt   7.75, Player       HP:   8.25
-Player       has dealt   9.75, Enemy 53     HP:   5.50
-Enemy 53     has dealt  12.75, Player       HP:  -4.50
-OUTCOME: Player has been defeated, HP: -4.5
-
-Enemy 53 Fitness Score: 20.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 54   has   8.00 HP.
-Player       has dealt   8.75, Enemy 54     HP:  -0.75
-OUTCOME: Enemy 54 has been defeated, HP: -0.75
-
-Enemy 54 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 55   has  16.00 HP.
-Enemy 55     has dealt  11.25, Player       HP:   4.75
-Player       has dealt  12.25, Enemy 55     HP:   3.75
-Enemy 55     has dealt  11.25, Player       HP:  -6.50
-OUTCOME: Player has been defeated, HP: -6.5
-
-Enemy 55 Fitness Score: 22.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 56   has  56.00 HP.
-Enemy 56     has dealt   4.25, Player       HP:  11.75
-Player       has dealt   8.25, Enemy 56     HP:  47.75
-Enemy 56     has dealt   5.25, Player       HP:   6.50
-Player       has dealt  15.25, Enemy 56     HP:  32.50
-Enemy 56     has dealt   5.25, Player       HP:   1.25
-Player       has dealt   8.25, Enemy 56     HP:  24.25
-Enemy 56     has dealt   5.25, Player       HP:  -4.00
-OUTCOME: Player has been defeated, HP: -4.0
-
-Enemy 56 Fitness Score: 20.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 57   has   8.00 HP.
-Player       has dealt   8.50, Enemy 57     HP:  -0.50
-OUTCOME: Enemy 57 has been defeated, HP: -0.5
-
-Enemy 57 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 58   has  16.00 HP.
-Enemy 58     has dealt   3.00, Player       HP:  13.00
-Player       has dealt  15.00, Enemy 58     HP:   1.00
-Enemy 58     has dealt   3.00, Player       HP:  10.00
-Player       has dealt  11.00, Enemy 58     HP: -10.00
-OUTCOME: Enemy 58 has been defeated, HP: -10.0
-
-Enemy 58 Fitness Score: 6.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 59   has   8.00 HP.
-Player       has dealt   8.25, Enemy 59     HP:  -0.25
-OUTCOME: Enemy 59 has been defeated, HP: -0.25
-
-Enemy 59 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 60   has  48.00 HP.
-Enemy 60     has dealt   8.25, Player       HP:   7.75
-Player       has dealt  12.25, Enemy 60     HP:  35.75
-Enemy 60     has dealt   4.25, Player       HP:   3.50
-Player       has dealt  14.25, Enemy 60     HP:  21.50
-Enemy 60     has dealt   8.25, Player       HP:  -4.75
-OUTCOME: Player has been defeated, HP: -4.75
-
-Enemy 60 Fitness Score: 20.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 61   has  16.00 HP.
-Player       has dealt  19.00, Enemy 61     HP:  -3.00
-OUTCOME: Enemy 61 has been defeated, HP: -3.0
-
-Enemy 61 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 62   has  24.00 HP.
-Player       has dealt  11.25, Enemy 62     HP:  12.75
-Enemy 62     has dealt   3.25, Player       HP:  12.75
-Player       has dealt  17.25, Enemy 62     HP:  -4.50
-OUTCOME: Enemy 62 has been defeated, HP: -4.5
-
-Enemy 62 Fitness Score: 3.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 63   has   8.00 HP.
-Enemy 63     has dealt   2.25, Player       HP:  13.75
-Player       has dealt   8.25, Enemy 63     HP:  -0.25
-OUTCOME: Enemy 63 has been defeated, HP: -0.25
-
-Enemy 63 Fitness Score: 2.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 64   has   8.00 HP.
-Player       has dealt  14.00, Enemy 64     HP:  -6.00
-OUTCOME: Enemy 64 has been defeated, HP: -6.0
-
-Enemy 64 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 65   has   8.00 HP.
-Player       has dealt   7.75, Enemy 65     HP:   0.25
-Enemy 65     has dealt  12.75, Player       HP:   3.25
-Player       has dealt  12.75, Enemy 65     HP: -12.50
-OUTCOME: Enemy 65 has been defeated, HP: -12.5
-
-Enemy 65 Fitness Score: 12.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 66   has   8.00 HP.
-Enemy 66     has dealt  13.25, Player       HP:   2.75
-Player       has dealt  14.25, Enemy 66     HP:  -6.25
-OUTCOME: Enemy 66 has been defeated, HP: -6.25
-
-Enemy 66 Fitness Score: 13.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 67   has  24.00 HP.
-Enemy 67     has dealt  16.25, Player       HP:  -0.25
-OUTCOME: Player has been defeated, HP: -0.25
-
-Enemy 67 Fitness Score: 16.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 68   has   8.00 HP.
-Enemy 68     has dealt   4.25, Player       HP:  11.75
-Player       has dealt   9.25, Enemy 68     HP:  -1.25
-OUTCOME: Enemy 68 has been defeated, HP: -1.25
-
-Enemy 68 Fitness Score: 4.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 69   has   8.00 HP.
-Enemy 69     has dealt   9.25, Player       HP:   6.75
-Player       has dealt  17.25, Enemy 69     HP:  -9.25
-OUTCOME: Enemy 69 has been defeated, HP: -9.25
-
-Enemy 69 Fitness Score: 9.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 70   has  16.00 HP.
-Enemy 70     has dealt  10.25, Player       HP:   5.75
-Player       has dealt  10.25, Enemy 70     HP:   5.75
-Enemy 70     has dealt   7.25, Player       HP:  -1.50
-OUTCOME: Player has been defeated, HP: -1.5
-
-Enemy 70 Fitness Score: 17.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 71   has  32.00 HP.
-Enemy 71     has dealt   6.25, Player       HP:   9.75
-Player       has dealt  16.25, Enemy 71     HP:  15.75
-Enemy 71     has dealt   8.25, Player       HP:   1.50
-Player       has dealt  13.25, Enemy 71     HP:   2.50
-Enemy 71     has dealt  10.25, Player       HP:  -8.75
-OUTCOME: Player has been defeated, HP: -8.75
-
-Enemy 71 Fitness Score: 24.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 72   has   8.00 HP.
-Enemy 72     has dealt   8.25, Player       HP:   7.75
-Player       has dealt   8.25, Enemy 72     HP:  -0.25
-OUTCOME: Enemy 72 has been defeated, HP: -0.25
-
-Enemy 72 Fitness Score: 8.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 73   has  16.00 HP.
-Enemy 73     has dealt  11.25, Player       HP:   4.75
-Player       has dealt  14.25, Enemy 73     HP:   1.75
-Enemy 73     has dealt   5.25, Player       HP:  -0.50
-OUTCOME: Player has been defeated, HP: -0.5
-
-Enemy 73 Fitness Score: 16.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 74   has  16.00 HP.
-Player       has dealt  13.50, Enemy 74     HP:   2.50
-Enemy 74     has dealt   9.50, Player       HP:   6.50
-Player       has dealt  10.50, Enemy 74     HP:  -8.00
-OUTCOME: Enemy 74 has been defeated, HP: -8.0
-
-Enemy 74 Fitness Score: 9.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 75   has   8.00 HP.
-Enemy 75     has dealt   9.00, Player       HP:   7.00
-Player       has dealt  12.00, Enemy 75     HP:  -4.00
-OUTCOME: Enemy 75 has been defeated, HP: -4.0
-
-Enemy 75 Fitness Score: 9.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 76   has  24.00 HP.
-Player       has dealt  14.25, Enemy 76     HP:   9.75
-Enemy 76     has dealt   4.25, Player       HP:  11.75
-Player       has dealt  11.25, Enemy 76     HP:  -1.50
-OUTCOME: Enemy 76 has been defeated, HP: -1.5
-
-Enemy 76 Fitness Score: 4.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 77   has  64.00 HP.
-Enemy 77     has dealt   3.25, Player       HP:  12.75
-Player       has dealt  18.25, Enemy 77     HP:  45.75
-Enemy 77     has dealt   2.25, Player       HP:  10.50
-Player       has dealt  16.25, Enemy 77     HP:  29.50
-Enemy 77     has dealt   2.25, Player       HP:   8.25
-Player       has dealt   8.25, Enemy 77     HP:  21.25
-Enemy 77     has dealt   4.25, Player       HP:   4.00
-Player       has dealt  19.25, Enemy 77     HP:   2.00
-Enemy 77     has dealt   3.25, Player       HP:   0.75
-Player       has dealt   9.25, Enemy 77     HP:  -7.25
-OUTCOME: Enemy 77 has been defeated, HP: -7.25
-
-Enemy 77 Fitness Score: 15.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 78   has   8.00 HP.
-Enemy 78     has dealt  11.25, Player       HP:   4.75
-Player       has dealt  17.25, Enemy 78     HP:  -9.25
-OUTCOME: Enemy 78 has been defeated, HP: -9.25
-
-Enemy 78 Fitness Score: 11.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 79   has   8.00 HP.
-Enemy 79     has dealt  11.00, Player       HP:   5.00
-Player       has dealt  17.00, Enemy 79     HP:  -9.00
-OUTCOME: Enemy 79 has been defeated, HP: -9.0
-
-Enemy 79 Fitness Score: 11.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 80   has  16.00 HP.
-Enemy 80     has dealt   8.25, Player       HP:   7.75
-Player       has dealt   9.25, Enemy 80     HP:   6.75
-Enemy 80     has dealt   3.25, Player       HP:   4.50
-Player       has dealt  16.25, Enemy 80     HP:  -9.50
-OUTCOME: Enemy 80 has been defeated, HP: -9.5
-
-Enemy 80 Fitness Score: 11.5
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 81   has   8.00 HP.
-Player       has dealt   9.00, Enemy 81     HP:  -1.00
-OUTCOME: Enemy 81 has been defeated, HP: -1.0
-
-Enemy 81 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 82   has  16.00 HP.
-Enemy 82     has dealt  13.00, Player       HP:   3.00
-Player       has dealt  15.00, Enemy 82     HP:   1.00
-Enemy 82     has dealt  11.00, Player       HP:  -8.00
-OUTCOME: Player has been defeated, HP: -8.0
-
-Enemy 82 Fitness Score: 24.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 83   has  64.00 HP.
-Enemy 83     has dealt   2.25, Player       HP:  13.75
-Player       has dealt  18.25, Enemy 83     HP:  45.75
-Enemy 83     has dealt   2.25, Player       HP:  11.50
-Player       has dealt  10.25, Enemy 83     HP:  35.50
-Enemy 83     has dealt   2.25, Player       HP:   9.25
-Player       has dealt  14.25, Enemy 83     HP:  21.25
-Enemy 83     has dealt   4.25, Player       HP:   5.00
-Player       has dealt  15.25, Enemy 83     HP:   6.00
-Enemy 83     has dealt   4.25, Player       HP:   0.75
-Player       has dealt  11.25, Enemy 83     HP:  -5.25
-OUTCOME: Enemy 83 has been defeated, HP: -5.25
-
-Enemy 83 Fitness Score: 15.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 84   has  16.00 HP.
-Player       has dealt  13.00, Enemy 84     HP:   3.00
-Enemy 84     has dealt   7.00, Player       HP:   9.00
-Player       has dealt  12.00, Enemy 84     HP:  -9.00
-OUTCOME: Enemy 84 has been defeated, HP: -9.0
-
-Enemy 84 Fitness Score: 7.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 85   has  48.00 HP.
-Enemy 85     has dealt   4.25, Player       HP:  11.75
-Player       has dealt  13.25, Enemy 85     HP:  34.75
-Enemy 85     has dealt   6.25, Player       HP:   5.50
-Player       has dealt  16.25, Enemy 85     HP:  18.50
-Enemy 85     has dealt   3.25, Player       HP:   2.25
-Player       has dealt  15.25, Enemy 85     HP:   3.25
-Enemy 85     has dealt   4.25, Player       HP:  -2.00
-OUTCOME: Player has been defeated, HP: -2.0
-
-Enemy 85 Fitness Score: 18.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 86   has  32.00 HP.
-Enemy 86     has dealt   3.25, Player       HP:  12.75
-Player       has dealt  10.25, Enemy 86     HP:  21.75
-Enemy 86     has dealt   8.25, Player       HP:   4.50
-Player       has dealt  11.25, Enemy 86     HP:  10.50
-Enemy 86     has dealt   2.25, Player       HP:   2.25
-Player       has dealt  14.25, Enemy 86     HP:  -3.75
-OUTCOME: Enemy 86 has been defeated, HP: -3.75
-
-Enemy 86 Fitness Score: 13.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 87   has  16.00 HP.
-Player       has dealt  11.75, Enemy 87     HP:   4.25
-Enemy 87     has dealt   1.75, Player       HP:  14.25
-Player       has dealt  16.75, Enemy 87     HP: -12.50
-OUTCOME: Enemy 87 has been defeated, HP: -12.5
-
-Enemy 87 Fitness Score: 1.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 88   has  16.00 HP.
-Player       has dealt  16.25, Enemy 88     HP:  -0.25
-OUTCOME: Enemy 88 has been defeated, HP: -0.25
-
-Enemy 88 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 89   has   8.00 HP.
-Enemy 89     has dealt  19.25, Player       HP:  -3.25
-OUTCOME: Player has been defeated, HP: -3.25
-
-Enemy 89 Fitness Score: 19.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 90   has   8.00 HP.
-Player       has dealt  14.50, Enemy 90     HP:  -6.50
-OUTCOME: Enemy 90 has been defeated, HP: -6.5
-
-Enemy 90 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 91   has  32.00 HP.
-Player       has dealt  15.00, Enemy 91     HP:  17.00
-Enemy 91     has dealt   5.00, Player       HP:  11.00
-Player       has dealt  12.00, Enemy 91     HP:   5.00
-Enemy 91     has dealt   6.00, Player       HP:   5.00
-Player       has dealt  12.00, Enemy 91     HP:  -7.00
-OUTCOME: Enemy 91 has been defeated, HP: -7.0
-
-Enemy 91 Fitness Score: 11.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 92   has   8.00 HP.
-Enemy 92     has dealt   7.25, Player       HP:   8.75
-Player       has dealt  10.25, Enemy 92     HP:  -2.25
-OUTCOME: Enemy 92 has been defeated, HP: -2.25
-
-Enemy 92 Fitness Score: 7.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 93   has  16.00 HP.
-Player       has dealt  10.75, Enemy 93     HP:   5.25
-Enemy 93     has dealt   1.75, Player       HP:  14.25
-Player       has dealt  13.75, Enemy 93     HP:  -8.50
-OUTCOME: Enemy 93 has been defeated, HP: -8.5
-
-Enemy 93 Fitness Score: 1.75
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 94   has   8.00 HP.
-Enemy 94     has dealt   9.25, Player       HP:   6.75
-Player       has dealt   9.25, Enemy 94     HP:  -1.25
-OUTCOME: Enemy 94 has been defeated, HP: -1.25
-
-Enemy 94 Fitness Score: 9.25
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 95   has  48.00 HP.
-Enemy 95     has dealt   6.25, Player       HP:   9.75
-Player       has dealt  15.25, Enemy 95     HP:  32.75
-Enemy 95     has dealt   2.25, Player       HP:   7.50
-Player       has dealt  13.25, Enemy 95     HP:  19.50
-Enemy 95     has dealt   5.25, Player       HP:   2.25
-Player       has dealt   9.25, Enemy 95     HP:  10.25
-Enemy 95     has dealt   7.25, Player       HP:  -5.00
-OUTCOME: Player has been defeated, HP: -5.0
-
-Enemy 95 Fitness Score: 21.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 96   has   8.00 HP.
-Player       has dealt  13.50, Enemy 96     HP:  -5.50
-OUTCOME: Enemy 96 has been defeated, HP: -5.5
-
-Enemy 96 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 97   has   8.00 HP.
-Player       has dealt  12.00, Enemy 97     HP:  -4.00
-OUTCOME: Enemy 97 has been defeated, HP: -4.0
-
-Enemy 97 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 98   has   8.00 HP.
-Player       has dealt  12.25, Enemy 98     HP:  -4.25
-OUTCOME: Enemy 98 has been defeated, HP: -4.25
-
-Enemy 98 Fitness Score: 0.0
-Fighting is done
-
-Player     has  16.00 HP.
-Enemy 99   has  16.00 HP.
-Player       has dealt  10.00, Enemy 99     HP:   6.00
-Enemy 99     has dealt   2.00, Player       HP:  14.00
-Player       has dealt  17.00, Enemy 99     HP: -11.00
-OUTCOME: Enemy 99 has been defeated, HP: -11.0
-
-Enemy 99 Fitness Score: 2.0
-Fighting is done
-
-Enemy 0,   Fitness Score:   7.50
-Enemy 1,   Fitness Score:   4.25
-Enemy 2,   Fitness Score:  16.50
-Enemy 3,   Fitness Score:   0.00
-Enemy 4,   Fitness Score:  27.25
-Enemy 5,   Fitness Score:  17.00
-Enemy 6,   Fitness Score:  26.25
-Enemy 7,   Fitness Score:  17.50
-Enemy 8,   Fitness Score:   4.25
-Enemy 9,   Fitness Score:   0.00
-Enemy 10,  Fitness Score:   0.00
-Enemy 11,  Fitness Score:   0.00
-Enemy 12,  Fitness Score:   7.25
-Enemy 13,  Fitness Score:  14.00
-Enemy 14,  Fitness Score:  16.00
-Enemy 15,  Fitness Score:   0.00
-Enemy 16,  Fitness Score:  27.25
-Enemy 17,  Fitness Score:   0.00
-Enemy 18,  Fitness Score:   4.25
-Enemy 19,  Fitness Score:  17.25
-Enemy 20,  Fitness Score:  15.00
-Enemy 21,  Fitness Score:   8.00
-Enemy 22,  Fitness Score:   0.00
-Enemy 23,  Fitness Score:  10.25
-Enemy 24,  Fitness Score:   0.00
-Enemy 25,  Fitness Score:   0.00
-Enemy 26,  Fitness Score:  10.25
-Enemy 27,  Fitness Score:   5.50
-Enemy 28,  Fitness Score:  14.00
-Enemy 29,  Fitness Score:  19.00
-Enemy 30,  Fitness Score:   4.25
-Enemy 31,  Fitness Score:  21.50
-Enemy 32,  Fitness Score:   0.00
-Enemy 33,  Fitness Score:   0.00
-Enemy 34,  Fitness Score:  10.00
-Enemy 35,  Fitness Score:   8.00
-Enemy 36,  Fitness Score:  10.25
-Enemy 37,  Fitness Score:  15.50
-Enemy 38,  Fitness Score:   8.00
-Enemy 39,  Fitness Score:   0.00
-Enemy 40,  Fitness Score:   7.75
-Enemy 41,  Fitness Score:  27.00
-Enemy 42,  Fitness Score:  26.50
-Enemy 43,  Fitness Score:   0.00
-Enemy 44,  Fitness Score:  17.25
-Enemy 45,  Fitness Score:   4.25
-Enemy 46,  Fitness Score:   2.75
-Enemy 47,  Fitness Score:   8.25
-Enemy 48,  Fitness Score:   0.00
-Enemy 49,  Fitness Score:  18.25
-Enemy 50,  Fitness Score:   5.25
-Enemy 51,  Fitness Score:  13.25
-Enemy 52,  Fitness Score:   0.75
-Enemy 53,  Fitness Score:  20.50
-Enemy 54,  Fitness Score:   0.00
-Enemy 55,  Fitness Score:  22.50
-Enemy 56,  Fitness Score:  20.00
-Enemy 57,  Fitness Score:   0.00
-Enemy 58,  Fitness Score:   6.00
-Enemy 59,  Fitness Score:   0.00
-Enemy 60,  Fitness Score:  20.75
-Enemy 61,  Fitness Score:   0.00
-Enemy 62,  Fitness Score:   3.25
-Enemy 63,  Fitness Score:   2.25
-Enemy 64,  Fitness Score:   0.00
-Enemy 65,  Fitness Score:  12.75
-Enemy 66,  Fitness Score:  13.25
-Enemy 67,  Fitness Score:  16.25
-Enemy 68,  Fitness Score:   4.25
-Enemy 69,  Fitness Score:   9.25
-Enemy 70,  Fitness Score:  17.50
-Enemy 71,  Fitness Score:  24.75
-Enemy 72,  Fitness Score:   8.25
-Enemy 73,  Fitness Score:  16.50
-Enemy 74,  Fitness Score:   9.50
-Enemy 75,  Fitness Score:   9.00
-Enemy 76,  Fitness Score:   4.25
-Enemy 77,  Fitness Score:  15.25
-Enemy 78,  Fitness Score:  11.25
-Enemy 79,  Fitness Score:  11.00
-Enemy 80,  Fitness Score:  11.50
-Enemy 81,  Fitness Score:   0.00
-Enemy 82,  Fitness Score:  24.00
-Enemy 83,  Fitness Score:  15.25
-Enemy 84,  Fitness Score:   7.00
-Enemy 85,  Fitness Score:  18.00
-Enemy 86,  Fitness Score:  13.75
-Enemy 87,  Fitness Score:   1.75
-Enemy 88,  Fitness Score:   0.00
-Enemy 89,  Fitness Score:  19.25
-Enemy 90,  Fitness Score:   0.00
-Enemy 91,  Fitness Score:  11.00
-Enemy 92,  Fitness Score:   7.25
-Enemy 93,  Fitness Score:   1.75
-Enemy 94,  Fitness Score:   9.25
-Enemy 95,  Fitness Score:  21.00
-Enemy 96,  Fitness Score:   0.00
-Enemy 97,  Fitness Score:   0.00
-Enemy 98,  Fitness Score:   0.00
-Enemy 99,  Fitness Score:   2.00
-Running Fitness: 938.25
-
-ParentA: Enemy 74   | ParentB: Enemy 6
-ParentA: Enemy 51   | ParentB: Enemy 71
-ParentA: Enemy 60   | ParentB: Enemy 20
-ParentA: Enemy 56   | ParentB: Enemy 85
-ParentA: Enemy 71   | ParentB: Enemy 19
-ParentA: Enemy 6    | ParentB: Enemy 70
-ParentA: Enemy 73   | ParentB: Enemy 2
-ParentA: Enemy 83   | ParentB: Enemy 72
-ParentA: Enemy 79   | ParentB: Enemy 0
-ParentA: Enemy 82   | ParentB: Enemy 78
-ParentA: Enemy 92   | ParentB: Enemy 41
-ParentA: Enemy 83   | ParentB: Enemy 47
-ParentA: Enemy 67   | ParentB: Enemy 62
-ParentA: Enemy 55   | ParentB: Enemy 53
-ParentA: Enemy 60   | ParentB: Enemy 89
-ParentA: Enemy 16   | ParentB: Enemy 58
-ParentA: Enemy 29   | ParentB: Enemy 55
-ParentA: Enemy 44   | ParentB: Enemy 79
-ParentA: Enemy 72   | ParentB: Enemy 42
-ParentA: Enemy 82   | ParentB: Enemy 29
-ParentA: Enemy 69   | ParentB: Enemy 35
-ParentA: Enemy 28   | ParentB: Enemy 4
-ParentA: Enemy 5    | ParentB: Enemy 73
-ParentA: Enemy 71   | ParentB: Enemy 49
-ParentA: Enemy 7    | ParentB: Enemy 37
-ParentA: Enemy 35   | ParentB: Enemy 89
-ParentA: Enemy 47   | ParentB: Enemy 71
-ParentA: Enemy 37   | ParentB: Enemy 34
-ParentA: Enemy 65   | ParentB: Enemy 37
-ParentA: Enemy 41   | ParentB: Enemy 82
-ParentA: Enemy 26   | ParentB: Enemy 73
-ParentA: Enemy 73   | ParentB: Enemy 14
-ParentA: Enemy 78   | ParentB: Enemy 67
-ParentA: Enemy 38   | ParentB: Enemy 19
-ParentA: Enemy 71   | ParentB: Enemy 45
-ParentA: Enemy 8    | ParentB: Enemy 51
-ParentA: Enemy 55   | ParentB: Enemy 19
-ParentA: Enemy 67   | ParentB: Enemy 86
-ParentA: Enemy 82   | ParentB: Enemy 35
-ParentA: Enemy 28   | ParentB: Enemy 71
-ParentA: Enemy 86   | ParentB: Enemy 4
-ParentA: Enemy 51   | ParentB: Enemy 26
-ParentA: Enemy 8    | ParentB: Enemy 20
-ParentA: Enemy 67   | ParentB: Enemy 85
-ParentA: Enemy 84   | ParentB: Enemy 50
-ParentA: Enemy 67   | ParentB: Enemy 55
-ParentA: Enemy 55   | ParentB: Enemy 20
-ParentA: Enemy 71   | ParentB: Enemy 41
-ParentA: Enemy 69   | ParentB: Enemy 65
-ParentA: Enemy 16   | ParentB: Enemy 36
-ParentA: Enemy 82   | ParentB: Enemy 35
-ParentA: Enemy 34   | ParentB: Enemy 37
-ParentA: Enemy 31   | ParentB: Enemy 28
-ParentA: Enemy 5    | ParentB: Enemy 31
-ParentA: Enemy 89   | ParentB: Enemy 74
-ParentA: Enemy 71   | ParentB: Enemy 56
-ParentA: Enemy 82   | ParentB: Enemy 2
-ParentA: Enemy 53   | ParentB: Enemy 69
-ParentA: Enemy 41   | ParentB: Enemy 79
-ParentA: Enemy 55   | ParentB: Enemy 82
-ParentA: Enemy 14   | ParentB: Enemy 5
-ParentA: Enemy 55   | ParentB: Enemy 23
-ParentA: Enemy 82   | ParentB: Enemy 86
-ParentA: Enemy 60   | ParentB: Enemy 83
-ParentA: Enemy 89   | ParentB: Enemy 31
-ParentA: Enemy 6    | ParentB: Enemy 16
-ParentA: Enemy 56   | ParentB: Enemy 0
-ParentA: Enemy 6    | ParentB: Enemy 83
-ParentA: Enemy 7    | ParentB: Enemy 70
-ParentA: Enemy 55   | ParentB: Enemy 89
-ParentA: Enemy 70   | ParentB: Enemy 37
-ParentA: Enemy 14   | ParentB: Enemy 72
-ParentA: Enemy 31   | ParentB: Enemy 12
-ParentA: Enemy 92   | ParentB: Enemy 41
-ParentA: Enemy 26   | ParentB: Enemy 74
-ParentA: Enemy 78   | ParentB: Enemy 65
-ParentA: Enemy 51   | ParentB: Enemy 95
-ParentA: Enemy 85   | ParentB: Enemy 82
-ParentA: Enemy 16   | ParentB: Enemy 29
-ParentA: Enemy 76   | ParentB: Enemy 82
-ParentA: Enemy 20   | ParentB: Enemy 70
-ParentA: Enemy 51   | ParentB: Enemy 14
-ParentA: Enemy 91   | ParentB: Enemy 45
-ParentA: Enemy 19   | ParentB: Enemy 60
-ParentA: Enemy 21   | ParentB: Enemy 1
-ParentA: Enemy 95   | ParentB: Enemy 70
-ParentA: Enemy 42   | ParentB: Enemy 29
-ParentA: Enemy 14   | ParentB: Enemy 16
-ParentA: Enemy 89   | ParentB: Enemy 91
-ParentA: Enemy 84   | ParentB: Enemy 28
-ParentA: Enemy 44   | ParentB: Enemy 47
-ParentA: Enemy 41   | ParentB: Enemy 77
-ParentA: Enemy 42   | ParentB: Enemy 21
-ParentA: Enemy 77   | ParentB: Enemy 38
-ParentA: Enemy 85   | ParentB: Enemy 36
-ParentA: Enemy 69   | ParentB: Enemy 41
-ParentA: Enemy 56   | ParentB: Enemy 83
-ParentA: Enemy 87   | ParentB: Enemy 36
-ParentA: Enemy 27   | ParentB: Enemy 53
-ParentA: Enemy 37   | ParentB: Enemy 28
-
-Process finished with exit code 0
+Player     has 112.00 HP.
+Enemy 50   has 272.00 HP.
+Enemy 50     has dealt  20.51, Player       HP:  91.49
+Player       has dealt  25.63, Enemy 50     HP: 246.37
+Enemy 50     has dealt  20.54, Player       HP:  70.95

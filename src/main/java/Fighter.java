@@ -11,6 +11,7 @@ public class Fighter {
     private Double maxExp = level * 100.0;
     private Stats stats;
     private String name = "";
+    private Writer writer = new Writer();
 
     public Fighter(Stats stats) {
         this.stats = stats;
@@ -42,6 +43,9 @@ public class Fighter {
         Double targetArmour = target.stats.getArmour();
         Double targetHealth = target.stats.getHealth();
         Double currentDamage = this.stats.calculateDamage() - (targetArmour * .25);
+        if(currentDamage < 0){
+            currentDamage = 0.0;
+        }
         this.stats.setDamage(currentDamage);
         if(isAlive()) {
             target.getStats().setHealth(targetHealth - currentDamage);
@@ -78,9 +82,11 @@ public class Fighter {
                     target.getStats().getFitnessOBJ().increaseArmourFitness(target.getStats().getArmour() * .25);
                 }
                 System.out.printf("%-12s has dealt %6.2f, %-12s HP: %6.2f\n", fighter.getName(), fighter.getStats().getDamage(), target.name, target.getStats().getHealth());
+                writer.write(String.format("%-12s has dealt %6.2f, %-12s HP: %6.2f\n", fighter.getName(), fighter.getStats().getDamage(), target.name, target.getStats().getHealth()));
             }
             if(!target.isAlive()){
                 System.out.println("OUTCOME: " + target.getName() + " has been defeated, HP: " + target.getStats().getHealth());
+                writer.write("\nOUTCOME: " + target.getName() + " has been defeated, HP: " + target.getStats().getHealth() + "\n");
                 task.cancel();
                 timer.cancel();
                 latch.countDown();
@@ -108,6 +114,7 @@ public class Fighter {
      */
     public void printStartHP(Fighter fighter){
         System.out.printf("%-10s has %6.2f HP.\n", fighter.getName(), fighter.getStats().getHealth());
+        writer.write(String.format("%-10s has %6.2f HP.\n", fighter.getName(), fighter.getStats().getHealth()));
     }
 
     /**

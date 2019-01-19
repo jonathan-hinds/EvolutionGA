@@ -1,11 +1,11 @@
-import java.sql.Timestamp;
 import java.time.LocalTime;
 import java.util.concurrent.CountDownLatch;
 
 import static java.time.temporal.ChronoUnit.MILLIS;
-import static java.time.temporal.ChronoUnit.SECONDS;
 
 public class Battle {
+
+    Writer writer = new Writer();
 
     public Battle() {
     }
@@ -43,8 +43,10 @@ public class Battle {
 
             //print fitness
             System.out.println(target.getStats().getFitnessOBJ().toString());
+            writer.write(target.getStats().getFitnessOBJ().toString() + "\n");
 
             System.out.println("Fighting is done\n");
+            writer.write("Fighting is done\n\n");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

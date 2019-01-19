@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Stats {
 
@@ -35,25 +36,17 @@ public class Stats {
         this.maxHealth = this.health;
     }
 
-    public Stats(Double stamina, Double agility, Double crit, Double armour, Double attack) {
-        this.stamina = stamina;
-        this.agility = agility;
-        this.crit = crit;
-        this.attack = attack;
-        this.armour = armour;
-        this.damage = calculateDamage();
-        this.speed = calculateSpeed();
-        this.health = calculateHealth();
-        this.maxHealth = this.health;
+    public Stats() {
     }
 
     /**
      * @return calculates a random damage based on the minimum damage and the maximum damage.
      */
     public Double calculateDamage(){
-        double minDamage = (this.attack * 2) - (this.armour * .25);
-        double maxDamage = (this.attack * 2) - (this.armour * .25) + (this.crit * 2);
-        return Math.ceil(Math.random() * maxDamage) + minDamage;
+        double minDamage = this.attack * 2.0;
+        double maxDamage = (this.attack * 2.0) + this.crit;
+        Random random = new Random();
+        return minDamage + (maxDamage - minDamage) * random.nextDouble();
     }
 
     /**
@@ -70,23 +63,6 @@ public class Stats {
         return this.stamina * 8;
     }
 
-    /**
-     * @param amount amount to be added to the fitness score for these stats.
-     * @return the newly calculated total fitness.
-     */
-    public Double increaseFitness(Double amount){
-        this.fitness += amount;
-        return this.fitness;
-    }
-
-    public Double getStamina() {
-        return stamina;
-    }
-
-    public void setStamina(Double stamina) {
-        this.stamina = stamina;
-    }
-
     public Double getHealth() {
         return health;
     }
@@ -95,44 +71,12 @@ public class Stats {
         this.health = health;
     }
 
-    public Double getAgility() {
-        return agility;
-    }
-
-    public void setAgility(Double agility) {
-        this.agility = agility;
-    }
-
-    public Double getCrit() {
-        return crit;
-    }
-
-    public void setCrit(Double crit) {
-        this.crit = crit;
-    }
-
     public Double getArmour() {
         return armour;
     }
 
-    public void setArmour(Double armour) {
-        this.armour = armour;
-    }
-
     public Double getSpeed() {
         return speed;
-    }
-
-    public void setSpeed(Double speed) {
-        this.speed = speed;
-    }
-
-    public Double getAttack() {
-        return attack;
-    }
-
-    public void setAttack(Double attack) {
-        this.attack = attack;
     }
 
     public Double getDamage() {
@@ -151,36 +95,16 @@ public class Stats {
         this.fitness = fitness;
     }
 
-    public Double getBaseSpeed() {
-        return baseSpeed;
-    }
-
-    public void setBaseSpeed(Double baseSpeed) {
-        this.baseSpeed = baseSpeed;
-    }
-
     public Double getMaxHealth() {
         return maxHealth;
-    }
-
-    public void setMaxHealth(Double maxHealth) {
-        this.maxHealth = maxHealth;
     }
 
     public List<Double> getChromosome() {
         return chromosome;
     }
 
-    public void setChromosome(List<Double> chromosome) {
-        this.chromosome = chromosome;
-    }
-
     public Fitness getFitnessOBJ() {
         return fitnessOBJ;
-    }
-
-    public void setFitnessOBJ(Fitness fitnessOBJ) {
-        this.fitnessOBJ = fitnessOBJ;
     }
 
     @Override

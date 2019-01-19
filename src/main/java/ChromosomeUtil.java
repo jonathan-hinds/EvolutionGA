@@ -4,6 +4,7 @@ import java.util.List;
 
 public class ChromosomeUtil {
 
+    private static Writer writer = new Writer();
     private static Population population = new Population();
     private static List<List<Double>> chromosomes = new ArrayList<>();
     private static Double totalAttributePoints = 12.0;
@@ -67,6 +68,7 @@ public class ChromosomeUtil {
     public static void printPopulationFitness(){
         for(Fighter fighter : population.getPopulation()){
             System.out.printf("%-10s Fitness Score: %6.2f\n", fighter.getName() + ",", fighter.getStats().getFitness());
+            writer.write(String.format("%-10s Fitness Score: %6.2f\n", fighter.getName() + ",", fighter.getStats().getFitness()));
         }
     }
 
@@ -77,6 +79,7 @@ public class ChromosomeUtil {
         int counter = 0;
         for(List<Double> chomo : chromosomes){
             System.out.println(counter + ": " + chomo.toString());
+            writer.write(counter + ": " + chomo.toString() + "\n");
             counter ++;
         }
         System.out.println("");

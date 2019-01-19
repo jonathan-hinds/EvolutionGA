@@ -2,6 +2,8 @@ import java.util.*;
 
 public class Simulator {
 
+    private static Writer writer = new Writer();
+
     /**
      * CHROMOSOME ORDER:
      * stamina, agility, crit, attack, armour
@@ -17,7 +19,6 @@ public class Simulator {
      * todo - Mutation
      * todo - Eliminate Duplicates
      * todo - Windowing -  measure an individuals fitness score, based on how much it has surpassed the fitness of the lowest in the population.
-     * todo - create a curve that increases damage as attack goes up and decreases damage as armor goes up. This should never be allowed below 0.
      *
      * -    Methods Completed:
      * DONE: - calculateRunningFitness
@@ -25,6 +26,7 @@ public class Simulator {
      * DONE: - Crossover
      * DONE: - 12:30AM 1/10/2019 - New Fitness Evaluation. See PDF
      * DONE: - Reproduction
+     * DONE: - SOUT's printed to file.
      *
      * After the above is done, and parents can be found:
      *
@@ -57,31 +59,17 @@ public class Simulator {
      * Consider eliminating duplicates from a population.
      * (elitsm)
      *
-     * CHANGE:
-     *
-     *  todo - change SOUT's to print output to a text
-     *      document, this way larger populations can run for
-     *      more generations.
-     *
-     * REFACTOR:
-     *  todo - refactor fighter into a fightable interface implemented on enemy
-     *      player. Q: Should this be the case if they both implement the methods the same way?
-     *
-     *  todo - refactor Fitness into a scoreable interface which is implemented on the fitness class.
-     *
-     *  todo - refactor timedAttack into multiple methods. (follow single responsibility)
      */
 
     public static void main(String[] args) {
         Population population = new Population();
         // create the population.
-        ChromosomeUtil.setTotalAttributePoints(16.0);
-        ChromosomeUtil.initiatePopulation(10);
-        ChromosomeUtil.printChromosomes();
+        ChromosomeUtil.setTotalAttributePoints(50.0);
+        ChromosomeUtil.initiatePopulation(100);
         // create the player.
         Fighter player = createPlayer();
         // run the simulation.
-        run(1, 10 , player);
+        run(1, 40 , player);
     }
 
     public static void run(int generation, int endgeneration, Fighter environment){
@@ -89,6 +77,15 @@ public class Simulator {
         //for each generation, until all generations are scored
         for(int i = generation; i <= endgeneration; i ++) {
             System.out.println("GENERATION: " + i + "\n");
+            writer.write("GENERATION: " + i + "\n\n");
+            // print the chromosomes for each member of the population.
+            int counter = 0;
+            for (Fighter fighter : ChromosomeUtil.getPopulationList()) {
+                System.out.println(counter + ": " + fighter.getStats().getChromosome().toString());
+                writer.write(counter + ": " + fighter.getStats().getChromosome().toString() + "\n");
+                counter ++;
+            }
+            writer.write("\n");
             //battle to create fitness scores
             simulte(environment);
             //print population fitness
@@ -96,21 +93,17 @@ public class Simulator {
             ChromosomeUtil.getPopulation().calculateRunningFitness();
             //print population running fitness
             System.out.println("Running Fitness: " + ChromosomeUtil.getPopulation().getRunningFitness() + "\n");
+            writer.write("\nRunning Fitness: " + ChromosomeUtil.getPopulation().getRunningFitness() + "\n\n");
             //print parents selected
             List<Fighter[]> parentList = printParents();
             System.out.println("");
+            writer.write("\n");
             //create the children and store them in a list [childrenList].
             List<Fighter> childrenList = new ArrayList<>();
             for (Fighter[] parents : parentList) {
                 Fighter[] childrenArray = population.crossOver(parents[0], parents[1]);
                 childrenList.add(childrenArray[0]);
                 childrenList.add(childrenArray[1]);
-            }
-            //print the chromosomes for each child in the new population.
-            int counter = 0;
-            for (Fighter fighter : childrenList) {
-                System.out.println(counter + ": " + fighter.getStats().getChromosome().toString());
-                counter ++;
             }
             //set the new population to be the children of the initial population.
             ChromosomeUtil.setPopulationList(childrenList);
@@ -128,7 +121,7 @@ public class Simulator {
     }
 
     public static Fighter createPlayer() {
-        Double[] playerSchema = {2.0, 3.0, 2.0, 7.0, 2.0};
+        Double[] playerSchema = {14.0, 10.0, 5.0, 13.0, 8.0};
         List<Double> playerChromo = new ArrayList<>(Arrays.asList(playerSchema));
         Fighter player = new Player(playerChromo);
         player.setName("Player");
@@ -142,6 +135,7 @@ public class Simulator {
             parentList.add(parents);
             try {
                 System.out.printf("Parent A: %-10s | Parent B: %-10s\n", parents[0].getName(), parents[1].getName());
+                writer.write(String.format("Parent A: %-10s | Parent B: %-10s\n", parents[0].getName(), parents[1].getName()));
             } catch (Exception e) {
                 System.out.println(Arrays.toString(parents));
             }
