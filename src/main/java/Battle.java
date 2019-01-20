@@ -34,6 +34,7 @@ public class Battle {
             target.getStats().getFitnessOBJ().setCriticalFit(target.getStats().getFitnessOBJ().getMaxDamage() / fighter.getStats().getMaxHealth());
             target.getStats().getFitnessOBJ().setArmorFitness(target.getStats().getMaxHealth() - target.getStats().getHealth());
             target.getStats().getFitnessOBJ().setAgilityFit(target.getStats().getFitnessOBJ().getAgilityFit() / timeSpent);
+            target.getStats().getFitnessOBJ().setEnduranceFit(target.getStats().getFitnessOBJ().getEnduranceFit() / timeSpent);
             target.getStats().getFitnessOBJ().getTotalFit();
             target.getStats().getFitnessOBJ().setTotalFit();
             target.getStats().setFitness(target.getStats().getFitnessOBJ().returnTotalFit());

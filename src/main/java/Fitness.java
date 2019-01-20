@@ -11,18 +11,20 @@ public class Fitness {
     private Double attackFit = 0.0;
     //damage resisted during battle.
     private Double armorFit = 0.0;
+    //attacks taken throughout a battle
+    private Double enduranceFit = 0.0;
     private Double totalFit = 0.0;
 
     //variables to help calculate fitness scores
     private Double maxDamage = 0.0;
 
-    public Fitness(Double staminaFit, Double agilityFit, Double criticalFit, Double attackFit, Double armorFit, Double totalFit) {
+    public Fitness(Double staminaFit, Double agilityFit, Double criticalFit, Double attackFit, Double armorFit, Double enduranceFit) {
         this.staminaFit = staminaFit;
         this.agilityFit = agilityFit;
         this.criticalFit = criticalFit;
         this.attackFit = attackFit;
         this.armorFit = armorFit;
-        this.totalFit = totalFit;
+        this.enduranceFit = enduranceFit;
     }
 
     public Fitness() {
@@ -95,7 +97,7 @@ public class Fitness {
     }
 
     public Double getTotalFit() {
-        return this.staminaFit + this.criticalFit + this.agilityFit + this.armorFit + this.attackFit;
+        return this.staminaFit + this.criticalFit + this.agilityFit + this.armorFit + this.attackFit + this.enduranceFit;
     }
 
     public void setTotalFit() {
@@ -110,14 +112,22 @@ public class Fitness {
         return maxDamage;
     }
 
-    public void setMaxDamage(Double maxDamage) {
-        this.maxDamage = maxDamage;
-    }
-
     public void increaseMaxDamage(Double damageDealt){
         if(damageDealt > maxDamage){
             maxDamage = damageDealt;
         }
+    }
+
+    public void increaseEndureFitness(){
+        this.enduranceFit ++;
+    }
+
+    public Double getEnduranceFit() {
+        return enduranceFit;
+    }
+
+    public void setEnduranceFit(Double enduranceFit) {
+        this.enduranceFit = enduranceFit;
     }
 
     @Override
@@ -128,6 +138,7 @@ public class Fitness {
                 ", criticalFit=" + criticalFit +
                 ", attackFit=" + attackFit +
                 ", armorFit=" + armorFit +
+                ", enduranceFit=" + enduranceFit +
                 ", totalFit=" + totalFit +
                 '}';
     }

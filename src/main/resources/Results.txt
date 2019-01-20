@@ -43002,3 +43002,219 @@ Fighting is done
 Player     has  72.00 HP.
 Enemy 57   has  85.72 HP.
 Enemy 57     has dealt  15.46, Player       HP:  56.54
+GENERATION: 1
+
+0: [30.0, 10.0, 3.0, 5.0, 2.0]
+1: [44.0, 2.0, 2.0, 1.0, 1.0]
+2: [1.0, 31.0, 16.0, 1.0, 1.0]
+3: [1.0, 4.0, 1.0, 1.0, 43.0]
+4: [9.0, 2.0, 2.0, 1.0, 36.0]
+5: [1.0, 17.0, 25.0, 3.0, 4.0]
+6: [7.0, 9.0, 1.0, 32.0, 1.0]
+7: [6.0, 5.0, 4.0, 25.0, 10.0]
+8: [1.0, 6.0, 1.0, 24.0, 18.0]
+9: [3.0, 12.0, 32.0, 2.0, 1.0]
+10: [9.0, 28.0, 1.0, 3.0, 9.0]
+11: [2.0, 31.0, 1.0, 14.0, 2.0]
+12: [14.0, 7.0, 4.0, 13.0, 12.0]
+13: [26.0, 3.0, 6.0, 11.0, 4.0]
+14: [4.0, 21.0, 1.0, 1.0, 23.0]
+15: [5.0, 2.0, 11.0, 5.0, 27.0]
+16: [6.0, 1.0, 39.0, 1.0, 3.0]
+17: [44.0, 2.0, 1.0, 2.0, 1.0]
+18: [2.0, 31.0, 1.0, 15.0, 1.0]
+19: [2.0, 3.0, 2.0, 41.0, 2.0]
+20: [14.0, 17.0, 7.0, 11.0, 1.0]
+21: [5.0, 4.0, 1.0, 39.0, 1.0]
+22: [10.0, 9.0, 18.0, 8.0, 5.0]
+23: [2.0, 1.0, 7.0, 27.0, 13.0]
+24: [4.0, 1.0, 2.0, 42.0, 1.0]
+25: [17.0, 13.0, 9.0, 7.0, 4.0]
+26: [23.0, 8.0, 3.0, 9.0, 7.0]
+27: [23.0, 3.0, 22.0, 1.0, 1.0]
+28: [1.0, 16.0, 1.0, 16.0, 16.0]
+29: [9.0, 24.0, 1.0, 13.0, 3.0]
+30: [2.0, 28.0, 9.0, 8.0, 3.0]
+31: [2.0, 39.0, 1.0, 2.0, 6.0]
+32: [5.0, 13.0, 1.0, 7.0, 24.0]
+33: [6.0, 19.0, 17.0, 6.0, 2.0]
+34: [2.0, 1.0, 11.0, 2.0, 34.0]
+35: [6.0, 1.0, 1.0, 40.0, 2.0]
+36: [1.0, 4.0, 3.0, 40.0, 2.0]
+37: [7.0, 2.0, 19.0, 11.0, 11.0]
+38: [1.0, 2.0, 1.0, 1.0, 45.0]
+39: [1.0, 41.0, 2.0, 2.0, 4.0]
+40: [10.0, 35.0, 1.0, 1.0, 3.0]
+41: [39.0, 2.0, 3.0, 1.0, 5.0]
+42: [28.0, 2.0, 14.0, 2.0, 4.0]
+43: [29.0, 2.0, 1.0, 15.0, 3.0]
+44: [1.0, 1.0, 2.0, 1.0, 45.0]
+45: [19.0, 7.0, 2.0, 6.0, 16.0]
+46: [4.0, 3.0, 8.0, 33.0, 2.0]
+47: [31.0, 3.0, 1.0, 11.0, 4.0]
+48: [6.0, 6.0, 3.0, 27.0, 8.0]
+49: [27.0, 13.0, 7.0, 2.0, 1.0]
+50: [18.0, 3.0, 24.0, 1.0, 4.0]
+51: [10.0, 3.0, 1.0, 34.0, 2.0]
+52: [5.0, 23.0, 3.0, 18.0, 1.0]
+53: [1.0, 5.0, 2.0, 41.0, 1.0]
+54: [1.0, 1.0, 1.0, 4.0, 43.0]
+55: [10.0, 4.0, 12.0, 23.0, 1.0]
+56: [27.0, 1.0, 1.0, 2.0, 19.0]
+57: [3.0, 25.0, 18.0, 3.0, 1.0]
+58: [1.0, 1.0, 1.0, 15.0, 32.0]
+59: [6.0, 1.0, 3.0, 6.0, 34.0]
+60: [1.0, 34.0, 2.0, 7.0, 6.0]
+61: [32.0, 1.0, 6.0, 7.0, 4.0]
+62: [7.0, 1.0, 1.0, 39.0, 2.0]
+63: [1.0, 30.0, 3.0, 1.0, 15.0]
+64: [7.0, 17.0, 6.0, 1.0, 19.0]
+65: [39.0, 3.0, 1.0, 6.0, 1.0]
+66: [18.0, 3.0, 27.0, 1.0, 1.0]
+67: [30.0, 2.0, 4.0, 3.0, 11.0]
+68: [1.0, 27.0, 2.0, 15.0, 5.0]
+69: [4.0, 5.0, 28.0, 10.0, 3.0]
+70: [9.0, 4.0, 10.0, 26.0, 1.0]
+71: [9.0, 2.0, 4.0, 2.0, 33.0]
+72: [2.0, 3.0, 33.0, 11.0, 1.0]
+73: [1.0, 2.0, 1.0, 45.0, 1.0]
+74: [1.0, 2.0, 23.0, 23.0, 1.0]
+75: [16.0, 15.0, 2.0, 1.0, 16.0]
+76: [1.0, 5.0, 1.0, 1.0, 42.0]
+77: [4.0, 6.0, 7.0, 2.0, 31.0]
+78: [1.0, 2.0, 16.0, 27.0, 4.0]
+79: [4.0, 3.0, 3.0, 19.0, 21.0]
+80: [1.0, 3.0, 8.0, 1.0, 37.0]
+81: [5.0, 20.0, 2.0, 14.0, 9.0]
+82: [38.0, 1.0, 5.0, 5.0, 1.0]
+83: [11.0, 1.0, 17.0, 4.0, 17.0]
+84: [5.0, 24.0, 14.0, 5.0, 2.0]
+85: [1.0, 1.0, 45.0, 1.0, 2.0]
+86: [18.0, 10.0, 3.0, 14.0, 5.0]
+87: [12.0, 26.0, 1.0, 9.0, 2.0]
+88: [8.0, 1.0, 13.0, 19.0, 9.0]
+89: [35.0, 7.0, 2.0, 2.0, 4.0]
+90: [1.0, 4.0, 27.0, 17.0, 1.0]
+91: [8.0, 17.0, 3.0, 16.0, 6.0]
+92: [1.0, 1.0, 1.0, 1.0, 46.0]
+93: [1.0, 36.0, 1.0, 11.0, 1.0]
+94: [6.0, 29.0, 7.0, 3.0, 5.0]
+95: [1.0, 3.0, 1.0, 2.0, 43.0]
+96: [3.0, 14.0, 30.0, 2.0, 1.0]
+97: [17.0, 2.0, 7.0, 23.0, 1.0]
+98: [14.0, 6.0, 26.0, 1.0, 3.0]
+99: [42.0, 4.0, 1.0, 1.0, 2.0]
+
+Player     has  72.00 HP.
+Enemy 0    has 240.00 HP.
+Enemy 0      has dealt   1.00, Player       HP:  71.00
+Enemy 0      has dealt   1.00, Player       HP:  70.00
+Player       has dealt  28.45, Enemy 0      HP: 211.55
+Enemy 0      has dealt   1.00, Player       HP:  69.00
+Enemy 0      has dealt   1.00, Player       HP:  68.00
+Player       has dealt  25.14, Enemy 0      HP: 186.41
+Enemy 0      has dealt   1.00, Player       HP:  67.00
+Enemy 0      has dealt   1.00, Player       HP:  66.00
+Player       has dealt  26.89, Enemy 0      HP: 159.52
+Enemy 0      has dealt   1.00, Player       HP:  65.00
+Enemy 0      has dealt   1.00, Player       HP:  64.00
+Player       has dealt  27.51, Enemy 0      HP: 132.01
+Enemy 0      has dealt   1.00, Player       HP:  63.00
+Enemy 0      has dealt   1.00, Player       HP:  62.00
+Player       has dealt  26.61, Enemy 0      HP: 105.40
+Enemy 0      has dealt   1.00, Player       HP:  61.00
+Enemy 0      has dealt   1.00, Player       HP:  60.00
+Enemy 0      has dealt   1.00, Player       HP:  59.00
+Player       has dealt  29.24, Enemy 0      HP:  76.15
+Enemy 0      has dealt   1.00, Player       HP:  58.00
+Enemy 0      has dealt   1.00, Player       HP:  57.00
+Player       has dealt  29.30, Enemy 0      HP:  46.86
+Enemy 0      has dealt   1.00, Player       HP:  56.00
+Enemy 0      has dealt   1.00, Player       HP:  55.00
+Player       has dealt  27.30, Enemy 0      HP:  19.56
+Enemy 0      has dealt   1.00, Player       HP:  54.00
+Enemy 0      has dealt   1.00, Player       HP:  53.00
+Player       has dealt  29.14, Enemy 0      HP:  -9.59
+
+OUTCOME: Enemy 0 has been defeated, HP: -9.586771981278044
+Fitness{staminaFit=0.0, agilityFit=0.4136009403979276, criticalFit=0.013888888888888888, attackFit=0.013888888888888888, armorFit=0.01802980167689958, enduranceFit=0.19591623492533414, totalFit=0.6553247547779392}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 1    has 352.00 HP.
+Enemy 1      has dealt   1.00, Player       HP:  71.00
+Enemy 1      has dealt   1.00, Player       HP:  70.00
+Player       has dealt  30.05, Enemy 1      HP: 321.95
+Enemy 1      has dealt   1.00, Player       HP:  69.00
+Enemy 1      has dealt   1.00, Player       HP:  68.00
+Player       has dealt  27.83, Enemy 1      HP: 294.12
+Enemy 1      has dealt   1.00, Player       HP:  67.00
+Enemy 1      has dealt   1.00, Player       HP:  66.00
+Enemy 1      has dealt   1.00, Player       HP:  65.00
+Player       has dealt  29.33, Enemy 1      HP: 264.79
+Enemy 1      has dealt   1.00, Player       HP:  64.00
+Enemy 1      has dealt   1.00, Player       HP:  63.00
+Player       has dealt  27.95, Enemy 1      HP: 236.84
+Enemy 1      has dealt   1.00, Player       HP:  62.00
+Enemy 1      has dealt   1.00, Player       HP:  61.00
+Player       has dealt  27.27, Enemy 1      HP: 209.57
+Enemy 1      has dealt   1.00, Player       HP:  60.00
+Enemy 1      has dealt   1.00, Player       HP:  59.00
+Enemy 1      has dealt   1.00, Player       HP:  58.00
+Player       has dealt  29.38, Enemy 1      HP: 180.20
+Enemy 1      has dealt   1.00, Player       HP:  57.00
+Enemy 1      has dealt   1.00, Player       HP:  56.00
+Player       has dealt  26.31, Enemy 1      HP: 153.88
+Enemy 1      has dealt   1.00, Player       HP:  55.00
+Enemy 1      has dealt   1.00, Player       HP:  54.00
+Player       has dealt  29.35, Enemy 1      HP: 124.53
+Enemy 1      has dealt   1.00, Player       HP:  53.00
+Enemy 1      has dealt   1.00, Player       HP:  52.00
+Enemy 1      has dealt   1.00, Player       HP:  51.00
+Player       has dealt  26.84, Enemy 1      HP:  97.69
+Enemy 1      has dealt   1.00, Player       HP:  50.00
+Enemy 1      has dealt   1.00, Player       HP:  49.00
+Player       has dealt  27.77, Enemy 1      HP:  69.92
+Enemy 1      has dealt   1.00, Player       HP:  48.00
+Enemy 1      has dealt   1.00, Player       HP:  47.00
+Player       has dealt  30.38, Enemy 1      HP:  39.55
+Enemy 1      has dealt   1.00, Player       HP:  46.00
+Enemy 1      has dealt   1.00, Player       HP:  45.00
+Enemy 1      has dealt   1.00, Player       HP:  44.00
+Player       has dealt  26.97, Enemy 1      HP:  12.57
+Enemy 1      has dealt   1.00, Player       HP:  43.00
+Enemy 1      has dealt   1.00, Player       HP:  42.00
+Player       has dealt  29.18, Enemy 1      HP: -16.60
+
+OUTCOME: Enemy 1 has been defeated, HP: -16.602153219111678
+Fitness{staminaFit=0.0, agilityFit=0.4564403736725193, criticalFit=0.013888888888888888, attackFit=0.013888888888888888, armorFit=0.008817094451610736, enduranceFit=0.19779082859142502, totalFit=0.6908260744933328}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 2    has   8.00 HP.
+Enemy 2      has dealt   1.00, Player       HP:  71.00
+Enemy 2      has dealt   1.00, Player       HP:  70.00
+Enemy 2      has dealt   1.00, Player       HP:  69.00
+Enemy 2      has dealt   1.00, Player       HP:  68.00
+Player       has dealt  29.55, Enemy 2      HP: -21.55
+
+OUTCOME: Enemy 2 has been defeated, HP: -21.546702485158605
+Fitness{staminaFit=0.0, agilityFit=0.6499837504062399, criticalFit=0.013888888888888888, attackFit=0.013888888888888888, armorFit=0.008461181078517161, enduranceFit=0.16249593760155998, totalFit=0.8487186468640947}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 3    has   8.00 HP.
+Enemy 3      has dealt   1.00, Player       HP:  71.00
+Player       has dealt   7.38, Enemy 3      HP:   0.62
+Enemy 3      has dealt   1.00, Player       HP:  70.00
+Player       has dealt   8.30, Enemy 3      HP:  -7.68
+
+OUTCOME: Enemy 3 has been defeated, HP: -7.678946034243069
+Fitness{staminaFit=0.0, agilityFit=0.16032064128256512, criticalFit=0.013888888888888888, attackFit=0.013888888888888888, armorFit=1.3712656420299971, enduranceFit=0.16032064128256512, totalFit=1.719684702372905}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 4    has  72.00 HP.
+Enemy 4      has dealt   1.00, Player       HP:  71.00
+Player       has dealt  12.73, Enemy 4      HP:  59.27
+Enemy 4      has dealt   1.00, Player       HP:  70.00

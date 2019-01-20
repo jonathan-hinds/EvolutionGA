@@ -72,13 +72,15 @@ public class Fighter {
             } else {
                 Double damageDealt = attack(target);
                 if(this instanceof Enemy){
-                    //set target fitness scores once the battle is over.
+                    //set target fitness scores per attack
                     this.getStats().getFitnessOBJ().increaseAttackFittness(damageDealt);
                     this.getStats().getFitnessOBJ().increaseAgilityFitness();
                     this.getStats().getFitnessOBJ().increaseMaxDamage(damageDealt);
                 } else if(this instanceof Player) {
                     //set fitness score regarding damage resistance.
                     target.getStats().getFitnessOBJ().increaseArmourFitness(target.getStats().getArmour() * .25);
+                    target.getStats().getFitnessOBJ().increaseEndureFitness();
+
                 }
                 System.out.printf("%-12s has dealt %6.2f, %-12s HP: %6.2f\n", fighter.getName(), fighter.getStats().getDamage(), target.name, target.getStats().getHealth());
                 writer.write(String.format("%-12s has dealt %6.2f, %-12s HP: %6.2f\n", fighter.getName(), fighter.getStats().getDamage(), target.name, target.getStats().getHealth()));
