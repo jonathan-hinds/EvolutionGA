@@ -19,7 +19,6 @@ public class Simulator {
      * todo - Mutation
      * todo - Eliminate Duplicates
      * todo - Windowing -  measure an individuals fitness score, based on how much it has surpassed the fitness of the lowest in the population.
-     *
      * -    Methods Completed:
      * DONE: - calculateRunningFitness
      * DONE: - findParents
@@ -121,7 +120,7 @@ public class Simulator {
     }
 
     public static Fighter createPlayer() {
-        Double[] playerSchema = {14.0, 10.0, 5.0, 13.0, 8.0};
+        Double[] playerSchema = {9.0, 4.0, 5.0, 30.0, 2.0};
         List<Double> playerChromo = new ArrayList<>(Arrays.asList(playerSchema));
         Fighter player = new Player(playerChromo);
         player.setName("Player");

@@ -43,17 +43,21 @@ public class Stats {
      * @return calculates a random damage based on the minimum damage and the maximum damage.
      */
     public Double calculateDamage(){
-        double minDamage = this.attack * 2.0;
-        double maxDamage = (this.attack * 2.0) + this.crit;
+        double minDamage = this.attack - this.agility;
+        double maxDamage = ((this.attack) + (this.crit * 2)) - this.agility;
         Random random = new Random();
-        return minDamage + (maxDamage - minDamage) * random.nextDouble();
+        double damage =  minDamage + (maxDamage - minDamage) * random.nextDouble();
+        if(damage <= 0){
+            damage = 1;
+        }
+        return damage;
     }
 
     /**
      * @return calculate the speed based on the agility and the armouy. Base speed defaults to 2.0
      */
     public Double calculateSpeed(){
-        return (-(1.5/(1+ Math.exp(.01 * (-10 * (this.agility) + 111)))) + 2.4) + (this.armour * .25);
+        return (-(1.5/(1+ Math.exp(.01 * (-10 * (this.agility) + 111)))) + 2.4) + ((this.attack * .10) + (this.armour * .05));
     }
 
     /**
