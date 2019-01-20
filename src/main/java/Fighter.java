@@ -42,9 +42,9 @@ public class Fighter {
     public Double attack(Fighter target){
         Double targetArmour = target.stats.getArmour();
         Double targetHealth = target.stats.getHealth();
-        Double currentDamage = this.stats.calculateDamage() - (targetArmour * .25);
-        if(currentDamage < 0){
-            currentDamage = 0.0;
+        Double currentDamage = this.stats.calculateDamage() - (targetArmour * .5);
+        if(currentDamage <= 0){
+            currentDamage = 1.0;
         }
         this.stats.setDamage(currentDamage);
         if(isAlive()) {
@@ -63,7 +63,6 @@ public class Fighter {
      * @param fighter - the fighter that will be executing the attacks in timed intervals.
      * @param target - the target that will be attacked by the fighter whom is attacking.
      */
-    @SuppressWarnings("Duplicates")
     public void attackInTime(TimerTask task, Timer timer, Fighter fighter, Fighter target, CountDownLatch latch){
         if(target.isAlive()) {
             if(!fighter.isAlive()){

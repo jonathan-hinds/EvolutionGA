@@ -41,10 +41,11 @@ public class Stats {
 
     /**
      * @return calculates a random damage based on the minimum damage and the maximum damage.
+     * higher agility decreases attack damage.
      */
     public Double calculateDamage(){
         double minDamage = this.attack - this.agility;
-        double maxDamage = ((this.attack) + (this.crit * 2)) - this.agility;
+        double maxDamage = (this.attack + this.crit) - this.agility;
         Random random = new Random();
         double damage =  minDamage + (maxDamage - minDamage) * random.nextDouble();
         if(damage <= 0){
@@ -55,6 +56,7 @@ public class Stats {
 
     /**
      * @return calculate the speed based on the agility and the armouy. Base speed defaults to 2.0
+     * higher attack increases attack time.
      */
     public Double calculateSpeed(){
         return (-(1.5/(1+ Math.exp(.01 * (-10 * (this.agility) + 111)))) + 2.4) + ((this.attack * .10) + (this.armour * .05));
@@ -109,6 +111,14 @@ public class Stats {
 
     public Fitness getFitnessOBJ() {
         return fitnessOBJ;
+    }
+
+    public Double getAgility() {
+        return agility;
+    }
+
+    public Double getAttack() {
+        return attack;
     }
 
     @Override
