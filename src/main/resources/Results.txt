@@ -42897,3 +42897,108 @@ Fighting is done
 Player     has  72.00 HP.
 Enemy 48   has  79.75 HP.
 Enemy 48     has dealt  19.76, Player       HP:  52.24
+Enemy 48     has dealt  14.18, Player       HP:  38.07
+Player       has dealt  29.18, Enemy 48     HP:  50.57
+Enemy 48     has dealt  30.29, Player       HP:   7.78
+Enemy 48     has dealt   3.14, Player       HP:   4.63
+Player       has dealt  28.44, Enemy 48     HP:  22.13
+Enemy 48     has dealt   8.09, Player       HP:  -3.45
+
+OUTCOME: Player has been defeated, HP: -3.4519324480530598
+Fitness{staminaFit=0.2775129534826776, agilityFit=0.33286731908661205, criticalFit=0.42066401192153857, attackFit=0.20958870124459184, armorFit=0.0388091793083869, totalFit=1.279442165043807}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 49   has  88.16 HP.
+Enemy 49     has dealt  49.20, Player       HP:  22.80
+Enemy 49     has dealt  22.21, Player       HP:   0.59
+Player       has dealt  25.21, Enemy 49     HP:  62.95
+Enemy 49     has dealt  52.41, Player       HP: -51.82
+
+OUTCOME: Player has been defeated, HP: -51.8217185718684
+Fitness{staminaFit=0.7140404408146698, agilityFit=0.2994310809462022, criticalFit=0.7279612447195292, attackFit=0.5732486970919833, armorFit=0.03405168605703966, totalFit=2.348733149629424}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 50   has  77.92 HP.
+Enemy 50     has dealt  32.32, Player       HP:  39.68
+Enemy 50     has dealt  39.89, Player       HP:  -0.21
+
+OUTCOME: Player has been defeated, HP: -0.21218314789635428
+Fitness{staminaFit=1.0, agilityFit=0.39912193175014965, criticalFit=0.554032386067273, attackFit=0.5014734940826135, armorFit=0.0, totalFit=2.4546278119000364}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 51   has  85.00 HP.
+Enemy 51     has dealt  44.24, Player       HP:  27.76
+Enemy 51     has dealt  46.69, Player       HP: -18.93
+
+OUTCOME: Player has been defeated, HP: -18.926792333079923
+Fitness{staminaFit=1.0, agilityFit=0.3992015968063872, criticalFit=0.6484705831416108, attackFit=0.6314360578686107, armorFit=0.0, totalFit=2.6791082378166085}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 52   has  86.73 HP.
+Enemy 52     has dealt   7.26, Player       HP:  64.74
+Enemy 52     has dealt   1.00, Player       HP:  63.74
+Player       has dealt  26.64, Enemy 52     HP:  60.09
+Enemy 52     has dealt  35.10, Player       HP:  28.64
+Enemy 52     has dealt  37.77, Player       HP:  -9.13
+
+OUTCOME: Player has been defeated, HP: -9.129032135081601
+Fitness{staminaFit=0.692859502309111, agilityFit=0.39924144126160294, criticalFit=0.5245871226797219, attackFit=0.28169802824681117, armorFit=0.03769942875115169, totalFit=1.9360855232483987}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 53   has  62.93 HP.
+Enemy 53     has dealt  14.63, Player       HP:  57.37
+Player       has dealt  34.10, Enemy 53     HP:  28.83
+Enemy 53     has dealt  40.06, Player       HP:  17.31
+Enemy 53     has dealt  10.92, Player       HP:   6.39
+Player       has dealt  34.29, Enemy 53     HP:  -5.46
+
+OUTCOME: Enemy 53 has been defeated, HP: -5.463457429732152
+Fitness{staminaFit=0.0, agilityFit=0.29886431560071725, criticalFit=0.5563465496738227, attackFit=0.30376724802603605, armorFit=0.020345259079748993, totalFit=1.179323372380325}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 54   has  81.64 HP.
+Enemy 54     has dealt   0.49, Player       HP:  71.51
+Enemy 54     has dealt   5.83, Player       HP:  65.68
+Player       has dealt  26.25, Enemy 54     HP:  55.39
+Enemy 54     has dealt   2.76, Player       HP:  62.92
+Enemy 54     has dealt  52.95, Player       HP:   9.96
+Player       has dealt  33.58, Enemy 54     HP:  21.82
+Enemy 54     has dealt  26.85, Player       HP: -16.89
+
+OUTCOME: Player has been defeated, HP: -16.88609140301423
+Fitness{staminaFit=0.2672179724915122, agilityFit=0.33280085197018106, criticalFit=0.735449254213684, attackFit=0.2469058094528173, armorFit=0.030601936663169647, totalFit=1.6129758247913641}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 55   has  70.02 HP.
+Enemy 55     has dealt  12.92, Player       HP:  59.08
+Player       has dealt  26.06, Enemy 55     HP:  43.97
+Enemy 55     has dealt  42.64, Player       HP:  16.43
+Enemy 55     has dealt   2.62, Player       HP:  13.81
+Player       has dealt  29.86, Enemy 55     HP:  14.11
+Enemy 55     has dealt  37.86, Player       HP: -24.04
+
+OUTCOME: Player has been defeated, HP: -24.04295911305414
+Fitness{staminaFit=0.20149405768897166, agilityFit=0.26625840378086935, criticalFit=0.5922694578440997, attackFit=0.3334824969203269, armorFit=0.03499460771330593, totalFit=1.4284990239475734}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 56   has  82.28 HP.
+Enemy 56     has dealt   1.91, Player       HP:  70.09
+Enemy 56     has dealt  51.51, Player       HP:  18.58
+Player       has dealt  29.27, Enemy 56     HP:  53.02
+Enemy 56     has dealt  39.28, Player       HP: -20.70
+
+OUTCOME: Player has been defeated, HP: -20.698628567833445
+Fitness{staminaFit=0.6443405015492293, agilityFit=0.2995805871779509, criticalFit=0.7154733828215104, attackFit=0.42916031744367333, armorFit=0.031075364037591646, totalFit=2.1196301530299557}
+Fighting is done
+
+Player     has  72.00 HP.
+Enemy 57   has  85.72 HP.
+Enemy 57     has dealt  15.46, Player       HP:  56.54
