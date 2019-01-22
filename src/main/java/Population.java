@@ -19,15 +19,25 @@ public class Population {
      * @return the two children produce from corssing over the chromsomes from both parents.
      */
     public Fighter[] crossOver(Fighter parent1, Fighter paren2){
+        //create new array to hold children
         Fighter[] children = new Fighter[2];
+        //get parents ones chromosome
         List<Double> chromosome1 = parent1.getStats().getChromosome();
+        //get parent twos chromosomes
         List<Double> chromosome2 = paren2.getStats().getChromosome();
+        //generate a random number for the crossover point.
         int crosspoint = (int)((Math.random() * 4));
+        //get a list of the two chromosomes sections split at the crossover point. P1
         List<List<Double>> parent1sec = getSectionsOfChromosome(chromosome1, crosspoint);
+        //get a list of the two chromosomes sections split at the crossover point. P2
         List<List<Double>> parent2sec = getSectionsOfChromosome(chromosome2, crosspoint);
+        //get the two children based on the sections derived from the chromosomes being split at
+        //the crossover point.
         List<List<Double>> childrenChromosomes = getChildrenChromosomes(parent1sec, parent2sec);
+        //add the children to the array
         children[0] = new Enemy(childrenChromosomes.get(0));
         children[1] = new Enemy(childrenChromosomes.get(1));
+        //return the children array.
         return children;
     }
 
@@ -79,12 +89,18 @@ public class Population {
      * @return the chromosome after it has been adjusted.
      */
     public List<Double> adjustChromosome(List<Double> chromosome){
+        System.out.println(chromosome.toString());
         List<Double> adjustedChromsome = new ArrayList<>();
         if(ChromosomeUtil.sum(chromosome) < ChromosomeUtil.getTotalAttributePoints()){
+            System.out.println("Chromosomes is under sum:");
             adjustedChromsome = adjustChromsomeSmall(chromosome);
+            System.out.println("new Chromosomes is: " + adjustedChromsome.toString() + " " + ChromosomeUtil.sum(adjustedChromsome));
         } else if (ChromosomeUtil.sum(chromosome) > ChromosomeUtil.getTotalAttributePoints()){
+            System.out.println("Chromosomes is over sum:");
             adjustedChromsome = adjustChromsomeLarge(chromosome);
+            System.out.println("new Chromosomes is: " + adjustedChromsome.toString() + " " + ChromosomeUtil.sum(adjustedChromsome));
         } else {
+            System.out.println("Chromsome has not beed adjusted: " + chromosome.toString());
             return chromosome;
         }
         return adjustedChromsome;
@@ -101,9 +117,12 @@ public class Population {
         if(ChromosomeUtil.sum(chromosome) > ChromosomeUtil.getTotalAttributePoints()){
             Double chromoSum = ChromosomeUtil.sum(chromosome);
             Double difference = chromoSum - ChromosomeUtil.getTotalAttributePoints();
-            Double adjustment = difference / findCountGreaterThan(difference, chromosome);
+            Double adjustment = difference / /*findCountGreaterThan(difference, chromosome);*/ 5.0;
+            System.out.println("Difference: " + difference);
+            System.out.println("Divided by: " + findCountGreaterThan(5.0, chromosome));
+            System.out.println(adjustment);
             for(Double doub : chromosome){
-                if (doub > 1.0 && doub > difference){
+                if (doub > 1.0 && doub > adjustment){
                     doub -= adjustment;
                     adjustedChromo.add(doub);
                 } else {

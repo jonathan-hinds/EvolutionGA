@@ -21,6 +21,9 @@ public class Simulator {
      *      but ultaimtly todo - the amount of attacks taken need to be considered in regards to
      *                     the fitness score of stamina.
      *
+ *                     todo endurance = number of attacks taken / number of attacks required to kill
+     *                     based on average damage taken.
+     *
      *           -   An enemy was able to defeat the player, who had a larger attack range, it did so
      *           by withstanding more attack due to a higher stamina. It's fitness score reflected
      *           0.88 when it deserved much higher for doing this.
@@ -164,7 +167,7 @@ public class Simulator {
     }
 
     public static Fighter createPlayer() {
-        Double[] playerSchema = {9.0, 4.0, 5.0, 30.0, 2.0};
+        Double[] playerSchema = {9.0, 24.0, 11.0, 2.0, 4.0};
         List<Double> playerChromo = new ArrayList<>(Arrays.asList(playerSchema));
         Fighter player = new Player(playerChromo);
         player.setName("Player");

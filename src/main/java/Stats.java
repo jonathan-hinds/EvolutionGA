@@ -44,11 +44,14 @@ public class Stats {
      * higher agility decreases attack damage.
      */
     public Double calculateDamage(){
-        double minDamage = this.attack - this.agility;
-        double maxDamage = (this.attack + this.crit) - this.agility;
+        double min = Math.min(this.attack, this.agility);
+        double max = Math.max(this.attack, this.agility);
+
+        double minDamage = max - min;
+        double maxDamage = minDamage + this.crit;
         Random random = new Random();
         double damage =  minDamage + (maxDamage - minDamage) * random.nextDouble();
-        if(damage <= 0){
+        if(damage <= 1){
             damage = 1;
         }
         return damage;
